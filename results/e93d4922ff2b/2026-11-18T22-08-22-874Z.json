@@ -1,0 +1,446 @@
+{
+  "url": "https://www.award-winning-books.com/",
+  "name": "www.award-winning-books.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795039702874,
+  "date": "2026-11-18T22:08:22.874Z",
+  "runId": "2026-11-18T21-59-02-428Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29920,
+  "error": null,
+  "variance": {
+    "min": 74,
+    "max": 90,
+    "spread": 16,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.award-winning-books.com/",
+    "finalUrl": "https://www.award-winning-books.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 88,
+      "accessibility": 86,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1736,
+      "lcp": 3732,
+      "si": 1736,
+      "tbt": 31,
+      "tti": 4321,
+      "cls": 0,
+      "ttfb": 649,
+      "maxPotentialFid": 86,
+      "serverResponseTime": 21,
+      "networkRtt": 0.2,
+      "networkServerLatency": 140.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22.7,
+      "resourceLoadDelay": 44.9,
+      "resourceLoadDuration": 48.5,
+      "elementRenderDelay": 109.5
+    },
+    "weight": {
+      "total": 800689,
+      "requests": 67,
+      "mainDocument": 17394,
+      "byType": {
+        "total": {
+          "bytes": 799738,
+          "requests": 66
+        },
+        "image": {
+          "bytes": 458758,
+          "requests": 44
+        },
+        "script": {
+          "bytes": 273034,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 35252,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 17394,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 14248,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 1052,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 723774,
+          "requests": 29
+        }
+      },
+      "scripts": 13,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 723712,
+      "mainThreadMs": 48.4,
+      "top": [
+        {
+          "entity": "supabase.co",
+          "bytes": 421028,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 421028
+          },
+          "typedBytes": 421028
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 198548,
+          "mainThreadMs": 42.8,
+          "byType": {
+            "script": 198548
+          },
+          "typedBytes": 198548
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 56943,
+          "mainThreadMs": 4,
+          "byType": {
+            "script": 56943
+          },
+          "typedBytes": 56943
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 36362,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1110,
+            "font": 35252
+          },
+          "typedBytes": 36362
+        },
+        {
+          "entity": "ESM>CDN",
+          "bytes": 6948,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "script": 6948
+          },
+          "typedBytes": 6948
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 915.5,
+      "byGroup": {
+        "other": 394,
+        "scriptEvaluation": 240.7,
+        "styleLayout": 100.6,
+        "paintCompositeRender": 89.9,
+        "scriptParseCompile": 46.2,
+        "parseHTML": 34.4,
+        "garbageCollection": 9.7
+      },
+      "bootupMs": 239.1,
+      "longTasks": 2,
+      "longestTaskMs": 86
+    },
+    "dom": {
+      "elements": 1138,
+      "depth": 12,
+      "maxChildren": 24
+    },
+    "waste": {
+      "unusedJsBytes": 130342,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2680,
+      "renderBlockingMs": 787,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 1429.0833333333333,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 27,
+      "failingNodes": 110,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 92
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 10
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4332,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T22:08:35.125Z",
+      "runtimeMs": 8239.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.5",
+      "source": "meta",
+      "raw": "Eleventy v3.1.5"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.5"
+      ],
+      "marks": [
+        "preact"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "sfo1::n4cnb-1795039730916-4a76399c4902"
+    },
+    "violations": 191,
+    "passes": 1815,
+    "incomplete": 33,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 92,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "section:nth-child(2) > .carousel > .bookListItem:nth-child(1) > .bookInfoWrapper > .prizeTagWrapper > .prizeTagContentWrapper > .prizeTagMetadata",
+            "snippet": "<div class=\"prizeTagMetadata\"> 2026 · <a class=\"prizeTagLink\" href=\"/awards/amazon-best-books-of-the-year/categories/top-10/\">Top 10 nº1</a> </div>"
+          },
+          {
+            "selector": "section:nth-child(2) > .carousel > .bookListItem:nth-child(1) > .bookInfoWrapper > .prizeTagWrapper > .prizeTagContentWrapper > .prizeTagMetadata > .prizeTagLink",
+            "snippet": "<a class=\"prizeTagLink\" href=\"/awards/amazon-best-books-of-the-year/categories/top-10/\">Top 10 nº1</a>"
+          },
+          {
+            "selector": "section:nth-child(2) > .carousel > .bookListItem:nth-child(2) > .bookInfoWrapper > .prizeTagWrapper > .prizeTagContentWrapper > .prizeTagMetadata",
+            "snippet": "<div class=\"prizeTagMetadata\"> 2026 · <a class=\"prizeTagLink\" href=\"/awards/amazon-best-books-of-the-year/categories/top-10/\">Top 10 nº4</a> </div>"
+          },
+          {
+            "selector": "section:nth-child(2) > .carousel > .bookListItem:nth-child(2) > .bookInfoWrapper > .prizeTagWrapper > .prizeTagContentWrapper > .prizeTagMetadata > .prizeTagLink",
+            "snippet": "<a class=\"prizeTagLink\" href=\"/awards/amazon-best-books-of-the-year/categories/top-10/\">Top 10 nº4</a>"
+          },
+          {
+            "selector": "section:nth-child(3) > .carousel > .bookListItem:nth-child(1) > .bookInfoWrapper > .prizeTagWrapper:nth-child(1) > .prizeTagContentWrapper > .prizeTagMetadata",
+            "snippet": "<div class=\"prizeTagMetadata\"> 2009 · <a class=\"prizeTagLink\" href=\"/awards/newbery-medal/categories/winner/\">Winner </a> </div>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 91,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pageTitle",
+            "snippet": "<div class=\"pageTitle\"> <h1 class=\"headline\"> Find your next great read </h1> <h2 class=\"subheadline\"> Curated award-winning titles to help you experience the best of literature. </h2> </div>"
+          },
+          {
+            "selector": "#mobileCategoryCarousel",
+            "snippet": "<div id=\"mobileCategoryCarousel\">"
+          },
+          {
+            "selector": "section:nth-child(2) > .sectionHeader > h2",
+            "snippet": "<h2>New arrivals</h2>"
+          },
+          {
+            "selector": "section:nth-child(2) > .carousel",
+            "snippet": "<ul class=\"carousel\">"
+          },
+          {
+            "selector": "section:nth-child(3) > .sectionHeader > h2",
+            "snippet": "<h2>Most awarded books</h2>"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#mobileCategoryCarousel > .carousel",
+            "snippet": "<ul class=\"carousel\">"
+          },
+          {
+            "selector": "section:nth-child(2) > .carousel",
+            "snippet": "<ul class=\"carousel\">"
+          },
+          {
+            "selector": "section:nth-child(3) > .carousel",
+            "snippet": "<ul class=\"carousel\">"
+          },
+          {
+            "selector": "section:nth-child(5) > .carousel",
+            "snippet": "<ul class=\"carousel\">"
+          },
+          {
+            "selector": "section:nth-child(6) > .carousel",
+            "snippet": "<ul class=\"carousel\">"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"categories//\"]",
+            "snippet": "<a href=\"/categories//\"></a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "cf4262361142",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "62646",
+          "etag": "W/\"a3b6914d50d4b2f68752c32c095a4fbf\"",
+          "last-modified": "Wed, 18 Nov 2026 04:44:17 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "cf4262361142",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "62657",
+          "etag": "W/\"a3b6914d50d4b2f68752c32c095a4fbf\"",
+          "last-modified": "Wed, 18 Nov 2026 04:44:17 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "cf4262361142",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "62666",
+          "etag": "W/\"a3b6914d50d4b2f68752c32c095a4fbf\"",
+          "last-modified": "Wed, 18 Nov 2026 04:44:17 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "cf4262361142",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"a3b6914d50d4b2f68752c32c095a4fbf\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

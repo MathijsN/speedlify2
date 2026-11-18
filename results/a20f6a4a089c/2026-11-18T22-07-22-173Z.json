@@ -1,0 +1,314 @@
+{
+  "url": "https://www.allotmentbook.co.uk/",
+  "name": "www.allotmentbook.co.uk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795039642173,
+  "date": "2026-11-18T22:07:22.173Z",
+  "runId": "2026-11-18T21-59-02-428Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 30333,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.allotmentbook.co.uk/",
+    "finalUrl": "https://www.allotmentbook.co.uk/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 92,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 786,
+      "lcp": 1965,
+      "si": 786,
+      "tbt": 0,
+      "tti": 1965,
+      "cls": 0,
+      "ttfb": 604,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 4,
+      "networkRtt": 0.3,
+      "networkServerLatency": 1483.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 5.2,
+      "resourceLoadDelay": 16,
+      "resourceLoadDuration": 19.8,
+      "elementRenderDelay": 25
+    },
+    "weight": {
+      "total": 304689,
+      "requests": 28,
+      "mainDocument": 7223,
+      "byType": {
+        "total": {
+          "bytes": 304689,
+          "requests": 28
+        },
+        "image": {
+          "bytes": 280665,
+          "requests": 23
+        },
+        "other": {
+          "bytes": 13219,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 7223,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 3582,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 291449,
+          "requests": 23
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 291449,
+      "mainThreadMs": 1.4,
+      "top": [
+        {
+          "entity": "Firebase",
+          "bytes": 179390,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 179390
+          },
+          "typedBytes": 179390
+        },
+        {
+          "entity": "Cloudinary",
+          "bytes": 108867,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 95648,
+            "other": 13219
+          },
+          "typedBytes": 108867
+        },
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3192,
+          "mainThreadMs": 1.4,
+          "byType": {
+            "script": 2757,
+            "image": 435
+          },
+          "typedBytes": 3192
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 246.1,
+      "byGroup": {
+        "other": 139.2,
+        "styleLayout": 36.7,
+        "paintCompositeRender": 35.1,
+        "scriptEvaluation": 18,
+        "parseHTML": 14.3,
+        "scriptParseCompile": 2.8
+      },
+      "bootupMs": 11.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 265,
+      "depth": 12,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4813.6,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 14,
+      "failingNodes": 7,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 7
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": null,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 5
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4190,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T22:07:33.348Z",
+      "runtimeMs": 7919.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": null,
+    "headers": {
+      "x-served-by": "cache-phx1710113-PHX"
+    },
+    "violations": 6,
+    "passes": 452,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 6,
+        "help": "Alternative text of images should not be repeated as text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[alt=\"Latest Photos\"]",
+            "snippet": "<img style=\"width:140px;height:140px\" src=\"https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1675420099/Savill%20Garden/2023%2002/Hydrangea_Flower_Head_2_mj91cg.jpg\" a…"
+          },
+          {
+            "selector": "img[alt=\"allotment vegetables\"]",
+            "snippet": "<img style=\"width:140px;height:140px\" src=\"https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1642419095/vegetables/harvested-asparagus_bgy1q8.jpg\" alt=\"allotment veget…"
+          },
+          {
+            "selector": "img[alt=\"allotment fruit\"]",
+            "snippet": "<img style=\"width:140px;height:140px\" src=\"https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1643011327/fruit/apples-above-nasturtiums_utsbas.jpg\" alt=\"allotment fruit…"
+          },
+          {
+            "selector": "img[alt=\"herbs\"]",
+            "snippet": "<img style=\"width:140px;height:140px\" src=\"https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1639392601/herbs/basil-leaves_k2nxns.jpg\" alt=\"herbs\">"
+          },
+          {
+            "selector": "img[alt=\"allotment flowers\"]",
+            "snippet": "<img style=\"width:140px;height:140px\" src=\"https://res.cloudinary.com/allotment-book/image/upload/w_140,h_140,q_auto,f_auto/v1644225398/flowers/calendula_mtyzpc.jpg\" alt=\"allotment flowers\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "2d747ce5677d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"f7cc831f4611bdc6c34dc2b147fb178e91557e1ddce8a6c60519b7558c8d616b-br\"",
+          "last-modified": "Mon, 15 Sep 2025 14:35:59 GMT",
+          "x-cache": "MISS"
+        }
+      },
+      {
+        "hash": "2d747ce5677d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"f7cc831f4611bdc6c34dc2b147fb178e91557e1ddce8a6c60519b7558c8d616b-br\"",
+          "last-modified": "Mon, 15 Sep 2025 14:35:59 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "2d747ce5677d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"f7cc831f4611bdc6c34dc2b147fb178e91557e1ddce8a6c60519b7558c8d616b-br\"",
+          "last-modified": "Mon, 15 Sep 2025 14:35:59 GMT",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "2d747ce5677d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"f7cc831f4611bdc6c34dc2b147fb178e91557e1ddce8a6c60519b7558c8d616b-br\"",
+          "last-modified": "Mon, 15 Sep 2025 14:35:59 GMT",
+          "x-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
