@@ -1,0 +1,404 @@
+{
+  "url": "https://wrapmate.com/",
+  "name": "wrapmate.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795039819521,
+  "date": "2026-11-18T22:10:19.521Z",
+  "runId": "2026-11-18T21-59-04-540Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 46852,
+  "error": null,
+  "variance": {
+    "min": 42,
+    "max": 69,
+    "spread": 27,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://wrapmate.com/",
+    "finalUrl": "https://wrapmate.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 69,
+      "accessibility": 93,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1873,
+      "lcp": 1873,
+      "si": 2771,
+      "tbt": 2282,
+      "tti": 22722,
+      "cls": 0.009,
+      "ttfb": 635,
+      "maxPotentialFid": 461,
+      "serverResponseTime": 35,
+      "networkRtt": 27.7,
+      "networkServerLatency": 133.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 37,
+      "elementRenderDelay": 117.5
+    },
+    "weight": {
+      "total": 6805119,
+      "requests": 157,
+      "mainDocument": 44984,
+      "byType": {
+        "total": {
+          "bytes": 6805120,
+          "requests": 154
+        },
+        "image": {
+          "bytes": 2283391,
+          "requests": 63
+        },
+        "script": {
+          "bytes": 2203546,
+          "requests": 43
+        },
+        "media": {
+          "bytes": 2196466,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 48464,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 47537,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 24713,
+          "requests": 41
+        },
+        "stylesheet": {
+          "bytes": 1003,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 2272914,
+          "requests": 99
+        }
+      },
+      "scripts": 45,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 26,
+      "bytes": 2270546,
+      "mainThreadMs": 1041.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 1120575,
+          "mainThreadMs": 434.4,
+          "byType": {
+            "script": 1120564,
+            "image": 11
+          },
+          "typedBytes": 1120575
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 321128,
+          "mainThreadMs": 153.6,
+          "byType": {
+            "script": 321077,
+            "image": 51
+          },
+          "typedBytes": 321128
+        },
+        {
+          "entity": "TikTok",
+          "bytes": 163249,
+          "mainThreadMs": 46,
+          "byType": {
+            "script": 161503,
+            "other": 1746
+          },
+          "typedBytes": 163249
+        },
+        {
+          "entity": "Mixpanel",
+          "bytes": 144032,
+          "mainThreadMs": 31,
+          "byType": {
+            "script": 144032
+          },
+          "typedBytes": 144032
+        },
+        {
+          "entity": "Hubspot",
+          "bytes": 136467,
+          "mainThreadMs": 82.4,
+          "byType": {
+            "script": 131485,
+            "other": 3467,
+            "image": 1515
+          },
+          "typedBytes": 136467
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 7104.1,
+      "byGroup": {
+        "scriptEvaluation": 4526.2,
+        "other": 1139.4,
+        "scriptParseCompile": 550.8,
+        "styleLayout": 308.9,
+        "paintCompositeRender": 274.3,
+        "garbageCollection": 228,
+        "parseHTML": 76.5
+      },
+      "bootupMs": 4762.6,
+      "longTasks": 20,
+      "longestTaskMs": 461
+    },
+    "dom": {
+      "elements": 1722,
+      "depth": 12,
+      "maxChildren": 52
+    },
+    "waste": {
+      "unusedJsBytes": 769994,
+      "unusedCssBytes": 12387,
+      "legacyJsBytes": 44063,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 788,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 5120794.14278864,
+      "poorlyCachedCount": 77
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 26,
+      "failingNodes": 19,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 16
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 20
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 56
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3099.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T22:10:37.005Z",
+      "runtimeMs": 13201.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 30bbfcdf78cc7b2a6b83bda24860f64a.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "juJ67iaM8P8XxbhPJGW-QEQXGSP5-IbXec2jEMjiHBJ9qCEJD0H3gw=="
+    },
+    "violations": 20,
+    "passes": 1492,
+    "incomplete": 21,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 16,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".v4-ba-active > .v4-ba-quote-card.v4-card-muted > .v4-ba-quote",
+            "snippet": "<p class=\"v4-ba-quote\">\"The process of getting my wrap done with Wrapmate was excellent. They knew exactly what I wanted and made it happen. It was very seamless and overall just a great experience.\"…"
+          },
+          {
+            "selector": ".v4-hiw-card-wrap:nth-child(1) > .v4-hiw-mobile-head > .v4-hiw-day-pill-sm.v4-hiw-day-pill",
+            "snippet": "<span class=\"v4-hiw-day-pill v4-hiw-day-pill-sm\">Day 1</span>"
+          },
+          {
+            "selector": "article[data-testid=\"step-1\"] > .v4-hiw-card-body > .v4-hiw-card-eyebrow",
+            "snippet": "<div class=\"v4-hiw-card-eyebrow\">Step one</div>"
+          },
+          {
+            "selector": ".v4-hiw-card-cta[href$=\"new/\"]",
+            "snippet": "<a href=\"/concepts/new/\" class=\"v4-hiw-card-cta\">Create a design concept →</a>"
+          },
+          {
+            "selector": ".v4-hiw-card-wrap:nth-child(2) > .v4-hiw-mobile-head > .v4-hiw-day-pill-sm.v4-hiw-day-pill",
+            "snippet": "<span class=\"v4-hiw-day-pill v4-hiw-day-pill-sm\">Day 5</span>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[data-carousel=\"process-steps\"] > .v4-drag-carousel-track",
+            "snippet": "<div class=\"v4-drag-carousel-track\">"
+          },
+          {
+            "selector": ".v4-waw-mobile-track",
+            "snippet": "<div class=\"v4-waw-mobile-track\" data-waw-track=\"\">"
+          },
+          {
+            "selector": "#v4-reviews-scroll",
+            "snippet": "<div class=\"v4-reviews-scroll\" id=\"v4-reviews-scroll\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".v4-bab-cta",
+            "snippet": "<a href=\"/get-started\" class=\"v4-btn v4-bab-cta\">Get started</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "11f19f5f1782",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1989",
+          "etag": "W/\"b9dfcd0eaef936d670a5b3e8297bb859\"",
+          "last-modified": "Mon, 16 Nov 2026 18:18:26 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "11f19f5f1782",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2006",
+          "etag": "W/\"b9dfcd0eaef936d670a5b3e8297bb859\"",
+          "last-modified": "Mon, 16 Nov 2026 18:18:26 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "11f19f5f1782",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2019",
+          "etag": "W/\"b9dfcd0eaef936d670a5b3e8297bb859\"",
+          "last-modified": "Mon, 16 Nov 2026 18:18:26 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "11f19f5f1782",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2028",
+          "etag": "W/\"b9dfcd0eaef936d670a5b3e8297bb859\"",
+          "last-modified": "Mon, 16 Nov 2026 18:18:26 GMT",
+          "x-cache": "Hit from cloudfront"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

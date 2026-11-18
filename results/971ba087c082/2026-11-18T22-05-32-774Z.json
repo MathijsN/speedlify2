@@ -1,0 +1,323 @@
+{
+  "url": "https://vitraggroup.com/",
+  "name": "vitraggroup.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795039532774,
+  "date": "2026-11-18T22:05:32.774Z",
+  "runId": "2026-11-18T21-59-04-540Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26966,
+  "error": null,
+  "variance": {
+    "min": 67,
+    "max": 92,
+    "spread": 25,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vitraggroup.com/",
+    "finalUrl": "https://vitraggroup.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 89,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 935,
+      "lcp": 3055,
+      "si": 1557,
+      "tbt": 272,
+      "tti": 8097,
+      "cls": 0,
+      "ttfb": 635,
+      "maxPotentialFid": 259,
+      "serverResponseTime": 35,
+      "networkRtt": 0.1,
+      "networkServerLatency": 90.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 36.6,
+      "resourceLoadDelay": 7.6,
+      "resourceLoadDuration": 70.5,
+      "elementRenderDelay": 54
+    },
+    "weight": {
+      "total": 1196941,
+      "requests": 46,
+      "mainDocument": 12583,
+      "byType": {
+        "total": {
+          "bytes": 1196350,
+          "requests": 45
+        },
+        "script": {
+          "bytes": 624702,
+          "requests": 19
+        },
+        "image": {
+          "bytes": 497958,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 28956,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 22776,
+          "requests": 10
+        },
+        "document": {
+          "bytes": 12583,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 9375,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 736862,
+          "requests": 19
+        }
+      },
+      "scripts": 19,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 736862,
+      "mainThreadMs": 108.2,
+      "top": [
+        {
+          "entity": "sanity.io",
+          "bytes": 365963,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 365963
+          },
+          "typedBytes": 365963
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 336753,
+          "mainThreadMs": 87.3,
+          "byType": {
+            "script": 336753
+          },
+          "typedBytes": 336753
+        },
+        {
+          "entity": "Clarity",
+          "bytes": 26928,
+          "mainThreadMs": 20.2,
+          "byType": {
+            "script": 26649,
+            "other": 279
+          },
+          "typedBytes": 26928
+        },
+        {
+          "entity": "gaconnector.com",
+          "bytes": 7105,
+          "mainThreadMs": 0.7,
+          "byType": {
+            "script": 6782,
+            "other": 323
+          },
+          "typedBytes": 7105
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 57,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 57
+          },
+          "typedBytes": 57
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1590.7,
+      "byGroup": {
+        "scriptEvaluation": 943.6,
+        "other": 335.5,
+        "scriptParseCompile": 165.9,
+        "styleLayout": 77.3,
+        "paintCompositeRender": 30.5,
+        "parseHTML": 19.9,
+        "garbageCollection": 18
+      },
+      "bootupMs": 1044,
+      "longTasks": 5,
+      "longestTaskMs": 259
+    },
+    "dom": {
+      "elements": 314,
+      "depth": 11,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 192418,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 13513,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 14908.560000000001,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 5
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 52
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3049.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T22:05:51.591Z",
+      "runtimeMs": 7524.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7RB3YG1E4TJAWEQXBG92C56"
+    },
+    "violations": 0,
+    "passes": 521,
+    "incomplete": 45,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0919a1214e73",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"9594267f33034eae88f2033dae4c861a-ssl\""
+        }
+      },
+      {
+        "hash": "0919a1214e73",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"9594267f33034eae88f2033dae4c861a-ssl\""
+        }
+      },
+      {
+        "hash": "0919a1214e73",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"9594267f33034eae88f2033dae4c861a-ssl\""
+        }
+      },
+      {
+        "hash": "0919a1214e73",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535976",
+          "etag": "W/\"9594267f33034eae88f2033dae4c861a-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
