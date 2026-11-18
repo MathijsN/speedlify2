@@ -1,0 +1,364 @@
+{
+  "url": "https://www.embl.org/",
+  "name": "www.embl.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795039697479,
+  "date": "2026-11-18T22:08:17.479Z",
+  "runId": "2026-11-18T21-59-06-481Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27034,
+  "error": null,
+  "variance": {
+    "min": 48,
+    "max": 68,
+    "spread": 20,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.embl.org/",
+    "finalUrl": "https://www.embl.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 54,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 53
+    },
+    "timings": {
+      "fcp": 2251,
+      "lcp": 5165,
+      "si": 2251,
+      "tbt": 82,
+      "tti": 5203,
+      "cls": 0.803,
+      "ttfb": 727,
+      "maxPotentialFid": 136,
+      "serverResponseTime": 130,
+      "networkRtt": 0.1,
+      "networkServerLatency": 126.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 131.5,
+      "resourceLoadDelay": 168.5,
+      "resourceLoadDuration": 10.4,
+      "elementRenderDelay": 43.2
+    },
+    "weight": {
+      "total": 1687708,
+      "requests": 32,
+      "mainDocument": 28929,
+      "byType": {
+        "total": {
+          "bytes": 1672217,
+          "requests": 31
+        },
+        "image": {
+          "bytes": 786370,
+          "requests": 13
+        },
+        "script": {
+          "bytes": 319230,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 316823,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 158732,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 62133,
+          "requests": 9
+        },
+        "document": {
+          "bytes": 28929,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 615470,
+          "requests": 10
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 630961,
+      "mainThreadMs": 74.4,
+      "top": [
+        {
+          "entity": "cloudimg.io",
+          "bytes": 393797,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 393797
+          },
+          "typedBytes": 393797
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 201388,
+          "mainThreadMs": 68.1,
+          "byType": {
+            "script": 201388
+          },
+          "typedBytes": 201388
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 19099,
+          "mainThreadMs": 6.2,
+          "byType": {
+            "script": 19099
+          },
+          "typedBytes": 19099
+        },
+        {
+          "entity": "emblstatic.net",
+          "bytes": 16262,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 16262
+          },
+          "typedBytes": 16262
+        },
+        {
+          "entity": "GitHub",
+          "bytes": 415,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 415
+          },
+          "typedBytes": 415
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 787.1,
+      "byGroup": {
+        "scriptEvaluation": 293,
+        "other": 224.9,
+        "styleLayout": 132.7,
+        "scriptParseCompile": 76.1,
+        "paintCompositeRender": 27.5,
+        "parseHTML": 22.7,
+        "garbageCollection": 10.2
+      },
+      "bootupMs": 353.7,
+      "longTasks": 3,
+      "longestTaskMs": 136
+    },
+    "dom": {
+      "elements": 336,
+      "depth": 9,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 123475,
+      "unusedCssBytes": 132624,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 53604,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1200,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 1275954.9229513889,
+      "poorlyCachedCount": 19
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2685.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T22:08:36.295Z",
+      "runtimeMs": 7713.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.10.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "nginx",
+      "detailIcon": "Nginx",
+      "source": "server"
+    },
+    "headers": {
+      "server": "nginx"
+    },
+    "violations": 45,
+    "passes": 528,
+    "incomplete": 49,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 43,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".vf-text-body--2",
+            "snippet": "<p class=\"vf-text vf-text-body--2\"> This website uses cookies, and the limited&nbsp;processing of your personal data to function. By using the site you are agreeing to this as outlined in our&nbsp;<a…"
+          },
+          {
+            "selector": ".vf-hero",
+            "snippet": "<section class=\"vf-hero vf-hero--1200 | vf-u-fullbleed\" style=\"--vf-hero--bg-image: url(https://acxngcvroo.cloudimg.io/v7/https://www.embl.org/files/wp-content/uploads/20201202_hero_emblorg_homepage-…"
+          },
+          {
+            "selector": "section[data-vf-google-analytics-region=\"news\"] > .vf-section-header",
+            "snippet": "<div class=\"vf-section-header\">"
+          },
+          {
+            "selector": "article[data-embl-js-conditional-edit=\"2879855\"] > .vf-summary__date",
+            "snippet": "<span class=\"vf-summary__date\">12 Nov 2026</span>"
+          },
+          {
+            "selector": "article[data-embl-js-conditional-edit=\"2879855\"] > .vf-summary__image[alt=\"News image\"]",
+            "snippet": "<img src=\"https://acxngcvroo.cloudimg.io/v7/https://www.embl.org/news/wp-content/uploads/2026/11/MOLIT_DSS_EMBL_AI_project.jpg?w=600&amp;h=400&amp;force_format=jpeg&amp;q=30\" alt=\"News image\" class=\"…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"vf-js\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".vf-navigation--global",
+            "snippet": "<nav class=\"vf-navigation vf-navigation--global | vf-cluster\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9ce85bd43ec3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6afe0c57-7055\"",
+          "last-modified": "Wed, 18 Nov 2026 20:36:39 GMT"
+        }
+      },
+      {
+        "hash": "9ce85bd43ec3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6afe0c57-7055\"",
+          "last-modified": "Wed, 18 Nov 2026 20:36:39 GMT"
+        }
+      },
+      {
+        "hash": "9ce85bd43ec3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"6afe0c57-7055\"",
+          "last-modified": "Wed, 18 Nov 2026 20:36:39 GMT"
+        }
+      },
+      {
+        "hash": "9ce85bd43ec3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"6afe0c57-7055\"",
+          "last-modified": "Wed, 18 Nov 2026 20:36:39 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,306 @@
+{
+  "url": "https://www.adamdjbrett.com/",
+  "name": "www.adamdjbrett.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795039474136,
+  "date": "2026-11-18T22:04:34.136Z",
+  "runId": "2026-11-18T21-59-06-481Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25472,
+  "error": null,
+  "variance": {
+    "min": 90,
+    "max": 100,
+    "spread": 10,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.adamdjbrett.com/",
+    "finalUrl": "https://www.adamdjbrett.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 969,
+      "lcp": 969,
+      "si": 969,
+      "tbt": 0,
+      "tti": 969,
+      "cls": 0,
+      "ttfb": 639,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 60,
+      "networkRtt": 0,
+      "networkServerLatency": 39
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 62,
+      "elementRenderDelay": 82.8
+    },
+    "weight": {
+      "total": 230541,
+      "requests": 14,
+      "mainDocument": 15400,
+      "byType": {
+        "total": {
+          "bytes": 226367,
+          "requests": 13
+        },
+        "image": {
+          "bytes": 138669,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 42424,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 15400,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 11431,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 10584,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 7859,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 52775,
+          "requests": 3
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 52775,
+      "mainThreadMs": 8.6,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 42424,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 42424
+          },
+          "typedBytes": 42424
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 8.6,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 300.6,
+      "byGroup": {
+        "other": 129.8,
+        "styleLayout": 70.1,
+        "scriptEvaluation": 62.2,
+        "parseHTML": 20,
+        "paintCompositeRender": 14.9,
+        "scriptParseCompile": 3.5
+      },
+      "bootupMs": 31.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 278,
+      "depth": 12,
+      "maxChildren": 19
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 4464.40375,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2645,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T22:04:51.176Z",
+      "runtimeMs": 6492.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5ca46166b6523ba-LAX",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7RB22G43RH86XCP4AAYMB2F"
+    },
+    "violations": 2,
+    "passes": 324,
+    "incomplete": 55,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-banner-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Banner landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-banner-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "header",
+            "snippet": "<header class=\"container-fluid\" role=\"banner\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-contentinfo-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Contentinfo landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-contentinfo-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "footer",
+            "snippet": "<footer class=\"container-fluid mts printer\" role=\"contentinfo\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "23dd0d1598a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "23dd0d1598a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "23dd0d1598a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "23dd0d1598a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535988",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,263 @@
+{
+  "url": "https://wipdeveloper.com/",
+  "name": "wipdeveloper.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795039372296,
+  "date": "2026-11-18T22:02:52.296Z",
+  "runId": "2026-11-18T21-59-06-481Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37506,
+  "error": null,
+  "variance": {
+    "min": 87,
+    "max": 90,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://wipdeveloper.com/",
+    "finalUrl": "https://wipdeveloper.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 88,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 42
+    },
+    "timings": {
+      "fcp": 1573,
+      "lcp": 2597,
+      "si": 1573,
+      "tbt": 0,
+      "tti": 2597,
+      "cls": 0.178,
+      "ttfb": 1397,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 126,
+      "networkRtt": 9.1,
+      "networkServerLatency": 797
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 196.9,
+      "resourceLoadDelay": 9.7,
+      "resourceLoadDuration": 797.9,
+      "elementRenderDelay": 8.2
+    },
+    "weight": {
+      "total": 1824557,
+      "requests": 19,
+      "mainDocument": 6034,
+      "byType": {
+        "total": {
+          "bytes": 1824557,
+          "requests": 19
+        },
+        "image": {
+          "bytes": 1788573,
+          "requests": 13
+        },
+        "other": {
+          "bytes": 19472,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 10478,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 6034,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10478,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10478,
+      "mainThreadMs": 7.9,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 7.9,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 424.4,
+      "byGroup": {
+        "other": 259.6,
+        "paintCompositeRender": 78.4,
+        "scriptEvaluation": 45.9,
+        "styleLayout": 29.5,
+        "parseHTML": 9.8,
+        "scriptParseCompile": 1.1
+      },
+      "bootupMs": 20.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 175,
+      "depth": 6,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4191.2,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 12,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 18
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2618,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T22:02:53.563Z",
+      "runtimeMs": 21999.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5ca43ef0b9b2b56-LAX",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7RAZCBPDQ40Q6K2E7S43BDE"
+    },
+    "violations": 0,
+    "passes": 315,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "48e984542936",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6462",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31529538",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "48e984542936",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6484",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31529516",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "48e984542936",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6491",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31529509",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "48e984542936",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "35905",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31500095",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
