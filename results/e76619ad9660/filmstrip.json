@@ -1,0 +1,43 @@
+{
+  "timestamp": 1794927771508,
+  "height": 498,
+  "width": 250,
+  "settledAt": 3370,
+  "throttlingMethod": "simulate",
+  "markers": null,
+  "frames": [
+    {
+      "timing": 421,
+      "file": "05280545a0a5.jpg"
+    },
+    {
+      "timing": 843,
+      "file": "05280545a0a5.jpg"
+    },
+    {
+      "timing": 1264,
+      "file": "05280545a0a5.jpg"
+    },
+    {
+      "timing": 1685,
+      "file": "05280545a0a5.jpg"
+    },
+    {
+      "timing": 2106,
+      "file": "05280545a0a5.jpg"
+    },
+    {
+      "timing": 2528,
+      "file": "035bec8a9cd7.jpg"
+    },
+    {
+      "timing": 2949,
+      "file": "28450fc2077c.jpg"
+    },
+    {
+      "timing": 3370,
+      "file": "bebeda2a59a3.jpg"
+    }
+  ],
+  "final": "bebeda2a59a3.jpg"
+}
