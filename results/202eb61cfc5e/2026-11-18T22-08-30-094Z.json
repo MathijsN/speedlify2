@@ -1,0 +1,272 @@
+{
+  "url": "https://www.davidway.ie/",
+  "name": "www.davidway.ie",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795039710094,
+  "date": "2026-11-18T22:08:30.094Z",
+  "runId": "2026-11-18T21-59-04-794Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22119,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 100,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.davidway.ie/",
+    "finalUrl": "https://www.davidway.ie/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 925,
+      "lcp": 925,
+      "si": 925,
+      "tbt": 0,
+      "tti": 925,
+      "cls": 0,
+      "ttfb": 603,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 3,
+      "networkRtt": 0,
+      "networkServerLatency": 19.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.6,
+      "elementRenderDelay": 27.9
+    },
+    "weight": {
+      "total": 18868,
+      "requests": 2,
+      "mainDocument": 18020,
+      "byType": {
+        "total": {
+          "bytes": 18868,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 18020,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 848,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 848,
+          "requests": 1
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 848,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 848,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 848
+          },
+          "typedBytes": 848
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 128.6,
+      "byGroup": {
+        "other": 64.2,
+        "styleLayout": 34.6,
+        "parseHTML": 14.1,
+        "scriptEvaluation": 9,
+        "paintCompositeRender": 6.3,
+        "scriptParseCompile": 0.5
+      },
+      "bootupMs": 7.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 92,
+      "depth": 8,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2930,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-18T22:08:46.104Z",
+      "runtimeMs": 5415.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "222ddaba88ca6a59229a14fe359d99ce5ef0ebdd",
+      "x-github-request-id": "5404:13F6F3:3F1D44:45BA58:6AFE21E2",
+      "x-served-by": "cache-iad-khef600094-IAD"
+    },
+    "violations": 0,
+    "passes": 211,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e4a72afe0174",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6afe210f-16641\"",
+          "last-modified": "Wed, 18 Nov 2026 22:05:03 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "e4a72afe0174",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "etag": "W/\"6afe210f-16641\"",
+          "last-modified": "Wed, 18 Nov 2026 22:05:03 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "e4a72afe0174",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "etag": "W/\"6afe210f-16641\"",
+          "last-modified": "Wed, 18 Nov 2026 22:05:03 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "e4a72afe0174",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "etag": "W/\"6afe210f-16641\"",
+          "last-modified": "Wed, 18 Nov 2026 22:05:03 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
