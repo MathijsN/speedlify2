@@ -1,0 +1,22 @@
+{
+  "url": "https://playheadapp.com/",
+  "name": "playheadapp.com",
+  "group": "astro-showcase",
+  "groupName": "Astro Showcase",
+  "timestamp": 1795059915973,
+  "date": "2026-11-19T03:45:15.973Z",
+  "runId": "2026-11-19T03-32-27-409Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 96446,
+  "error": "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+  "errors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 29
+}

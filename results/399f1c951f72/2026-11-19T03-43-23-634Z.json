@@ -1,0 +1,429 @@
+{
+  "url": "https://www.digitalocean.com/",
+  "name": "DigitalOcean",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795059803634,
+  "date": "2026-11-19T03:43:23.634Z",
+  "runId": "2026-11-19T03-32-27-409Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 109338,
+  "error": null,
+  "variance": {
+    "min": 49,
+    "max": 70,
+    "spread": 21,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.digitalocean.com/",
+    "finalUrl": "https://www.digitalocean.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 68,
+      "accessibility": 93,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1385,
+      "lcp": 2436,
+      "si": 1685,
+      "tbt": 2880,
+      "tti": 18276,
+      "cls": 0,
+      "ttfb": 635,
+      "maxPotentialFid": 625,
+      "serverResponseTime": 31,
+      "networkRtt": 3.2,
+      "networkServerLatency": 293.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 32.5,
+      "resourceLoadDelay": 21.9,
+      "resourceLoadDuration": 236.1,
+      "elementRenderDelay": 52.2
+    },
+    "weight": {
+      "total": 2654740,
+      "requests": 167,
+      "mainDocument": 47776,
+      "byType": {
+        "total": {
+          "bytes": 2654741,
+          "requests": 166
+        },
+        "script": {
+          "bytes": 2197761,
+          "requests": 68
+        },
+        "image": {
+          "bytes": 205902,
+          "requests": 20
+        },
+        "font": {
+          "bytes": 99711,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 69282,
+          "requests": 37
+        },
+        "document": {
+          "bytes": 48597,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 33488,
+          "requests": 36
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1118648,
+          "requests": 46
+        }
+      },
+      "scripts": 69,
+      "stylesheets": 37,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 11,
+      "bytes": 1116946,
+      "mainThreadMs": 409.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 573091,
+          "mainThreadMs": 181.7,
+          "byType": {
+            "script": 573091
+          },
+          "typedBytes": 573091
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 209836,
+          "mainThreadMs": 89.7,
+          "byType": {
+            "script": 209708,
+            "image": 128
+          },
+          "typedBytes": 209836
+        },
+        {
+          "entity": "Amplitude Mobile Analytics",
+          "bytes": 114586,
+          "mainThreadMs": 44.7,
+          "byType": {
+            "script": 112032,
+            "other": 2554
+          },
+          "typedBytes": 114586
+        },
+        {
+          "entity": "vector.co",
+          "bytes": 75581,
+          "mainThreadMs": 28.9,
+          "byType": {
+            "script": 73713,
+            "other": 1868
+          },
+          "typedBytes": 75581
+        },
+        {
+          "entity": "TrustArc",
+          "bytes": 57225,
+          "mainThreadMs": 15.7,
+          "byType": {
+            "script": 56296,
+            "other": 929
+          },
+          "typedBytes": 57225
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 7532,
+      "byGroup": {
+        "scriptEvaluation": 4883.2,
+        "other": 1142.2,
+        "scriptParseCompile": 751,
+        "styleLayout": 453.2,
+        "garbageCollection": 132.3,
+        "parseHTML": 107.9,
+        "paintCompositeRender": 62.2
+      },
+      "bootupMs": 5091.2,
+      "longTasks": 20,
+      "longestTaskMs": 625
+    },
+    "dom": {
+      "elements": 1599,
+      "depth": 18,
+      "maxChildren": 26
+    },
+    "waste": {
+      "unusedJsBytes": 715833,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 76720,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 36,
+      "poorlyCachedBytes": 360726.45666666655,
+      "poorlyCachedCount": 28
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 32,
+      "failingNodes": 19,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 17
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 7
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 59
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2624.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:43:44.227Z",
+      "runtimeMs": 18788.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 682.7,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1585.9,
+    "elementRenderDelay": 59.1
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc3865be543eb7-DFW",
+      "server": "cloudflare",
+      "x-powered-by": "Next.js"
+    },
+    "violations": 19,
+    "passes": 1251,
+    "incomplete": 14,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 17,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".ResourceCarousel-module_slide_TA2mT:nth-child(2) > .SlotBasedCard-module_borderLight_cgURt.SlotBasedCard-module_densityCompact_kiOfJ > .SlotBasedCard-module_content_0pPXz > .SlotBasedCard-module_main_L1yJ9 > .SlotBasedCard-module_mainHeader_ajfU6 > .SlotBasedCard-module_eyebrow_4v4YS > .ResourceCarousel-module_type_4d-AY > .Typography-module_colorPrimary_pz2sZ.Typography-module_weight400_k9IKs.Typography-module_sizeBase_4Mp7S",
+            "snippet": "<span class=\"Typography-module_root_HVx58 Typography-module_familyBody_-ty25 Typography-module_sizeBase_4Mp7S Typography-module_weight400_k9IKs Typography-module_colorPrimary_pz2sZ\">Blog</span>"
+          },
+          {
+            "selector": "a[href$=\"different-by-design\"]",
+            "snippet": "<a class=\"TextLink-module_root_Bk82w TextLink-module_variantDefault_oqvjh\" href=\"/blog/different-by-design\">"
+          },
+          {
+            "selector": ".ResourceCarousel-module_slide_TA2mT:nth-child(3) > .SlotBasedCard-module_borderLight_cgURt.SlotBasedCard-module_densityCompact_kiOfJ > .SlotBasedCard-module_content_0pPXz > .SlotBasedCard-module_main_L1yJ9 > .SlotBasedCard-module_mainHeader_ajfU6 > .SlotBasedCard-module_eyebrow_4v4YS > .ResourceCarousel-module_type_4d-AY > .Typography-module_colorPrimary_pz2sZ.Typography-module_weight400_k9IKs.Typography-module_sizeBase_4Mp7S",
+            "snippet": "<span class=\"Typography-module_root_HVx58 Typography-module_familyBody_-ty25 Typography-module_sizeBase_4Mp7S Typography-module_weight400_k9IKs Typography-module_colorPrimary_pz2sZ\">Tutorials</span>"
+          },
+          {
+            "selector": ".ResourceCarousel-module_slide_TA2mT:nth-child(3) > .SlotBasedCard-module_borderLight_cgURt.SlotBasedCard-module_densityCompact_kiOfJ > .SlotBasedCard-module_content_0pPXz > .SlotBasedCard-module_cta_XxirK > .TextLink-module_root_Bk82w.TextLink-module_variantDefault_oqvjh",
+            "snippet": "<a class=\"TextLink-module_root_Bk82w TextLink-module_variantDefault_oqvjh\" href=\"/community/tutorials/run-ai-agent-cloud-sandbox-digitalocean-harness-runtime\">"
+          },
+          {
+            "selector": ".ResourceCarousel-module_slide_TA2mT:nth-child(4) > .SlotBasedCard-module_borderLight_cgURt.SlotBasedCard-module_densityCompact_kiOfJ > .SlotBasedCard-module_content_0pPXz > .SlotBasedCard-module_main_L1yJ9 > .SlotBasedCard-module_mainHeader_ajfU6 > .SlotBasedCard-module_eyebrow_4v4YS > .ResourceCarousel-module_type_4d-AY > .Typography-module_colorPrimary_pz2sZ.Typography-module_weight400_k9IKs.Typography-module_sizeBase_4Mp7S",
+            "snippet": "<span class=\"Typography-module_root_HVx58 Typography-module_familyBody_-ty25 Typography-module_sizeBase_4Mp7S Typography-module_weight400_k9IKs Typography-module_colorPrimary_pz2sZ\">Tutorials</span>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#_R_59l5fiukl6vb_-0-title-0",
+            "snippet": "<h3 class=\"Typography-module_root_HVx58 Typography-module_familyDisplay_-M7tL Typography-module_sizeXl4_QXMV8 Typography-module_weight800_9-zbM Typography-module_colorPrimary_pz2sZ\" id=\"_R_59l5fiukl6…"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#truste-consent-text",
+            "snippet": "<div id=\"truste-consent-text\" class=\"truste-messageColumn\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "08515e14b891",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "77",
+          "cf-cache-status": "HIT",
+          "etag": "\"vpru1o97kd6dwn\"",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "08515e14b891",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "96",
+          "cf-cache-status": "HIT",
+          "etag": "\"vpru1o97kd6dwn\"",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "08515e14b891",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "115",
+          "cf-cache-status": "HIT",
+          "etag": "\"vpru1o97kd6dwn\"",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "08515e14b891",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "129",
+          "cf-cache-status": "HIT",
+          "etag": "\"vpru1o97kd6dwn\"",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      },
+      {
+        "hash": "08515e14b891",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "179",
+          "cf-cache-status": "HIT",
+          "etag": "\"vpru1o97kd6dwn\"",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
