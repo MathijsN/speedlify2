@@ -1,0 +1,278 @@
+{
+  "url": "https://michaelharley.net/",
+  "name": "mharley.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795094405049,
+  "date": "2026-11-19T13:20:05.049Z",
+  "runId": "2026-11-19T13-13-30-688Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24462,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://michaelharley.net/",
+    "finalUrl": "https://michaelharley.net/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1032,
+      "lcp": 1032,
+      "si": 1032,
+      "tbt": 0,
+      "tti": 1032,
+      "cls": 0,
+      "ttfb": 642,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 39,
+      "networkRtt": 0,
+      "networkServerLatency": 68.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 40.6,
+      "elementRenderDelay": 133.3
+    },
+    "weight": {
+      "total": 479877,
+      "requests": 31,
+      "mainDocument": 15059,
+      "byType": {
+        "total": {
+          "bytes": 478792,
+          "requests": 25
+        },
+        "image": {
+          "bytes": 315143,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 101536,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 24985,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 19312,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 15059,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 2757,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3192,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3192,
+      "mainThreadMs": 1.8,
+      "top": [
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3192,
+          "mainThreadMs": 1.8,
+          "byType": {
+            "script": 2757,
+            "image": 435
+          },
+          "typedBytes": 3192
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 683.7,
+      "byGroup": {
+        "other": 307.7,
+        "styleLayout": 237.3,
+        "paintCompositeRender": 76.3,
+        "scriptEvaluation": 34.3,
+        "parseHTML": 19.5,
+        "scriptParseCompile": 8.6
+      },
+      "bootupMs": 30.5,
+      "longTasks": 1,
+      "longestTaskMs": 81
+    },
+    "dom": {
+      "elements": 574,
+      "depth": 12,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 15860,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 25,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2628,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:20:14.641Z",
+      "runtimeMs": 7088.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "webserver",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "webserver"
+    },
+    "violations": 1,
+    "passes": 839,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "cite",
+            "snippet": "<cite class=\"quote-cite\">Letter to James Guthrie, 14 August 1864</cite>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "9ec9776a1bdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmz7r2uluuxr-1w2i-gzip\"",
+          "last-modified": "Thu, 19 Nov 2026 13:15:03 GMT"
+        }
+      },
+      {
+        "hash": "9ec9776a1bdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmz7r2uluuxr-1w2i-gzip\"",
+          "last-modified": "Thu, 19 Nov 2026 13:15:03 GMT"
+        }
+      },
+      {
+        "hash": "9ec9776a1bdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmz7r2uluuxr-1w2i-gzip\"",
+          "last-modified": "Thu, 19 Nov 2026 13:15:03 GMT"
+        }
+      },
+      {
+        "hash": "9ec9776a1bdd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"dmz7r2uluuxr-1w2i-gzip\"",
+          "last-modified": "Thu, 19 Nov 2026 13:15:03 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
