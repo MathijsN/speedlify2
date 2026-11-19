@@ -1,0 +1,333 @@
+{
+  "url": "https://mobile11ty.pages.dev/",
+  "name": "mobile11ty.pages.dev",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795094752675,
+  "date": "2026-11-19T13:25:52.675Z",
+  "runId": "2026-11-19T13-13-25-710Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21058,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 94,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mobile11ty.pages.dev/",
+    "finalUrl": "https://mobile11ty.pages.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 97
+    },
+    "timings": {
+      "fcp": 1537,
+      "lcp": 2808,
+      "si": 1537,
+      "tbt": 21,
+      "tti": 2808,
+      "cls": 0.081,
+      "ttfb": 474,
+      "maxPotentialFid": 71,
+      "serverResponseTime": 28,
+      "networkRtt": 0.1,
+      "networkServerLatency": 23.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 29.1,
+      "resourceLoadDelay": 155.1,
+      "resourceLoadDuration": 24.9,
+      "elementRenderDelay": 33.3
+    },
+    "weight": {
+      "total": 211543,
+      "requests": 48,
+      "mainDocument": 1997,
+      "byType": {
+        "total": {
+          "bytes": 211543,
+          "requests": 48
+        },
+        "image": {
+          "bytes": 101319,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 93393,
+          "requests": 33
+        },
+        "other": {
+          "bytes": 9335,
+          "requests": 10
+        },
+        "stylesheet": {
+          "bytes": 5499,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 1997,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 111476,
+          "requests": 45
+        }
+      },
+      "scripts": 33,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 111476,
+      "mainThreadMs": 28.4,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 107624,
+          "mainThreadMs": 28.4,
+          "byType": {
+            "script": 93393,
+            "stylesheet": 4896,
+            "other": 9335
+          },
+          "typedBytes": 107624
+        },
+        {
+          "entity": "web.app",
+          "bytes": 3852,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 3852
+          },
+          "typedBytes": 3852
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 539.1,
+      "byGroup": {
+        "scriptEvaluation": 244,
+        "other": 217.8,
+        "styleLayout": 51.8,
+        "parseHTML": 11.6,
+        "paintCompositeRender": 11.4,
+        "scriptParseCompile": 2.6
+      },
+      "bootupMs": 232,
+      "longTasks": 1,
+      "longestTaskMs": 71
+    },
+    "dom": {
+      "elements": 343,
+      "depth": 15,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 763,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 12910.499999999996,
+      "poorlyCachedCount": 35
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 21,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 22
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2903,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:26:06.873Z",
+      "runtimeMs": 6130.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cf8b953ee9062e-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 20,
+    "passes": 557,
+    "incomplete": 6,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "role-img-alt",
+        "impact": "serious",
+        "nodes": 17,
+        "help": "[role=\"img\"] and [role=\"image\"] elements must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/role-img-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".button-clear.in-toolbar-color.in-buttons > ion-icon[name=\"logo-github\"]",
+            "snippet": "<ion-icon name=\"logo-github\" role=\"img\" class=\"md hydrated\"></ion-icon>"
+          },
+          {
+            "selector": "ion-icon[name=\"logo-octocat\"]",
+            "snippet": "<ion-icon name=\"logo-octocat\" role=\"img\" class=\"md hydrated\"></ion-icon>"
+          },
+          {
+            "selector": "ion-item[href$=\"install/\"] > ion-icon[name=\"logo-ionic\"]",
+            "snippet": "<ion-icon name=\"logo-ionic\" role=\"img\" class=\"md hydrated\"></ion-icon>"
+          },
+          {
+            "selector": "ion-item[href$=\"config/\"] > ion-icon[name=\"logo-ionic\"]",
+            "snippet": "<ion-icon name=\"logo-ionic\" role=\"img\" class=\"md hydrated\"></ion-icon>"
+          },
+          {
+            "selector": "ion-item[href$=\"host/\"] > ion-icon[name=\"logo-ionic\"]",
+            "snippet": "<ion-icon name=\"logo-ionic\" role=\"img\" class=\"md hydrated\"></ion-icon>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-banner-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Banner landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-banner-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "ion-header",
+            "snippet": "<ion-header role=\"banner\" class=\"md header-md header-collapse-none hydrated\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-banner",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one banner landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-banner?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "header",
+            "snippet": "<header>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "header",
+            "snippet": "<header>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "cb4eaa7f8c0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "cb4eaa7f8c0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "cb4eaa7f8c0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "cb4eaa7f8c0a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

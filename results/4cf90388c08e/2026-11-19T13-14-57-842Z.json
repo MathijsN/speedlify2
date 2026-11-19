@@ -1,0 +1,290 @@
+{
+  "url": "https://www.swingswingsubmarine.com/",
+  "name": "www.swingswingsubmarine.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795094097842,
+  "date": "2026-11-19T13:14:57.842Z",
+  "runId": "2026-11-19T13-13-25-710Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26719,
+  "error": null,
+  "variance": {
+    "min": 68,
+    "max": 84,
+    "spread": 16,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.swingswingsubmarine.com/",
+    "finalUrl": "https://www.swingswingsubmarine.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 71,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 69
+    },
+    "timings": {
+      "fcp": 1680,
+      "lcp": 4009,
+      "si": 1736,
+      "tbt": 57,
+      "tti": 4174,
+      "cls": 0.314,
+      "ttfb": 602,
+      "maxPotentialFid": 164,
+      "serverResponseTime": 87,
+      "networkRtt": 86,
+      "networkServerLatency": 4.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 378.6,
+      "resourceLoadDelay": 7.2,
+      "resourceLoadDuration": 349.2,
+      "elementRenderDelay": 22.2
+    },
+    "weight": {
+      "total": 4220007,
+      "requests": 21,
+      "mainDocument": 1904,
+      "byType": {
+        "total": {
+          "bytes": 4208734,
+          "requests": 20
+        },
+        "media": {
+          "bytes": 3768859,
+          "requests": 12
+        },
+        "script": {
+          "bytes": 298782,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 72762,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 60975,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5452,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 1904,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 298782,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 298782,
+      "mainThreadMs": 60.6,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 298782,
+          "mainThreadMs": 60.6,
+          "byType": {
+            "script": 298782
+          },
+          "typedBytes": 298782
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1152.1,
+      "byGroup": {
+        "other": 539.9,
+        "styleLayout": 183.5,
+        "scriptEvaluation": 169.1,
+        "scriptParseCompile": 93.6,
+        "parseHTML": 93,
+        "paintCompositeRender": 65.3,
+        "garbageCollection": 7.8
+      },
+      "bootupMs": 261,
+      "longTasks": 3,
+      "longestTaskMs": 164
+    },
+    "dom": {
+      "elements": 38,
+      "depth": 5,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 921,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 1714759.4312500001,
+      "poorlyCachedCount": 19
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 12,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 9
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2934.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T13:14:59.048Z",
+      "runtimeMs": 9525.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 3,
+    "passes": 139,
+    "incomplete": 4,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          },
+          {
+            "selector": "iframe >>> html",
+            "snippet": "<html>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> .opacity-1",
+            "snippet": "<span class=\"col-start-1 row-start-1 whitespace-nowrap opacity-1 [opacity_200ms,visibility_200ms_step-start] visible\">Subscribe</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e484e6bf3dd2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e484e6bf3dd2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e484e6bf3dd2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e484e6bf3dd2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
