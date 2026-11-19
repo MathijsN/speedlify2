@@ -1,0 +1,282 @@
+{
+  "url": "https://singlemotherguide.com/",
+  "name": "singlemotherguide.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795124421216,
+  "date": "2026-11-19T21:40:21.216Z",
+  "runId": "2026-11-19T21-38-40-045Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 42860,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": {
+    "min": 65,
+    "max": 70,
+    "spread": 5,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://singlemotherguide.com/",
+    "finalUrl": "https://singlemotherguide.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 65,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 3468,
+      "lcp": 3468,
+      "si": 5843,
+      "tbt": 583,
+      "tti": 5103,
+      "cls": 0,
+      "ttfb": 660,
+      "maxPotentialFid": 237,
+      "serverResponseTime": 171,
+      "networkRtt": 23.1,
+      "networkServerLatency": 216.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 223.1,
+      "elementRenderDelay": 2169.3
+    },
+    "weight": {
+      "total": 472383,
+      "requests": 36,
+      "mainDocument": 9575,
+      "byType": {
+        "total": {
+          "bytes": 472383,
+          "requests": 36
+        },
+        "script": {
+          "bytes": 372900,
+          "requests": 16
+        },
+        "stylesheet": {
+          "bytes": 27534,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 23183,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 22782,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 21521,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 4463,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 304433,
+          "requests": 16
+        }
+      },
+      "scripts": 16,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 266432,
+      "mainThreadMs": 70.8,
+      "top": [
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 227284,
+          "mainThreadMs": 54.7,
+          "byType": {
+            "script": 227284
+          },
+          "typedBytes": 227284
+        },
+        {
+          "entity": "adtrafficquality.google",
+          "bytes": 22297,
+          "mainThreadMs": 7,
+          "byType": {
+            "script": 8390,
+            "other": 13890,
+            "image": 17
+          },
+          "typedBytes": 22297
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 7.2,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 6373,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "script": 5400,
+            "other": 973
+          },
+          "typedBytes": 6373
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3269.9,
+      "byGroup": {
+        "scriptEvaluation": 1535.8,
+        "other": 1228.1,
+        "paintCompositeRender": 215.4,
+        "styleLayout": 190.7,
+        "scriptParseCompile": 69.6,
+        "parseHTML": 23.4,
+        "garbageCollection": 6.8
+      },
+      "bootupMs": 1534.5,
+      "longTasks": 8,
+      "longestTaskMs": 458
+    },
+    "dom": {
+      "elements": 69,
+      "depth": 16,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 173231,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 650,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 20893.11340782122,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 49
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2474.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:40:22.478Z",
+      "runtimeMs": 10095
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5d2605b8b4636cd-CMH",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e04e82617384",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "c532b2998487",
+        "nonce": "518886d8d1fd",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
