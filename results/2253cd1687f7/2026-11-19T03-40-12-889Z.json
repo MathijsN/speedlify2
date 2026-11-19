@@ -1,0 +1,312 @@
+{
+  "url": "https://www.simpleerb.com/blog",
+  "name": "www.simpleerb.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059612889,
+  "date": "2026-11-19T03:40:12.889Z",
+  "runId": "2026-11-19T03-32-27-249Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22783,
+  "error": null,
+  "variance": {
+    "min": 60,
+    "max": 67,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.simpleerb.com/blog",
+    "finalUrl": "https://www.simpleerb.com/blog/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 60,
+      "accessibility": 94,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 3
+    },
+    "timings": {
+      "fcp": 804,
+      "lcp": 4620,
+      "si": 804,
+      "tbt": 47,
+      "tti": 4627,
+      "cls": 0.755,
+      "ttfb": 622,
+      "maxPotentialFid": 143,
+      "serverResponseTime": 21,
+      "networkRtt": 0.2,
+      "networkServerLatency": 44.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 111.5,
+      "resourceLoadDelay": 7.9,
+      "resourceLoadDuration": 97.8,
+      "elementRenderDelay": 70.8
+    },
+    "weight": {
+      "total": 482850,
+      "requests": 15,
+      "mainDocument": 7690,
+      "byType": {
+        "total": {
+          "bytes": 482850,
+          "requests": 14
+        },
+        "script": {
+          "bytes": 225240,
+          "requests": 5
+        },
+        "image": {
+          "bytes": 225147,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 14466,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 10307,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 7690,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 207681,
+          "requests": 4
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 207681,
+      "mainThreadMs": 47.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183172,
+          "mainThreadMs": 37.1,
+          "byType": {
+            "script": 183172
+          },
+          "typedBytes": 183172
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20914,
+          "mainThreadMs": 10.2,
+          "byType": {
+            "script": 20876,
+            "other": 38
+          },
+          "typedBytes": 20914
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 3595,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "script": 3595
+          },
+          "typedBytes": 3595
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 609.2,
+      "byGroup": {
+        "scriptEvaluation": 257.9,
+        "other": 173.4,
+        "styleLayout": 61.1,
+        "scriptParseCompile": 44.2,
+        "paintCompositeRender": 36.3,
+        "garbageCollection": 21.2,
+        "parseHTML": 15.1
+      },
+      "bootupMs": 206,
+      "longTasks": 1,
+      "longestTaskMs": 143
+    },
+    "dom": {
+      "elements": 407,
+      "depth": 11,
+      "maxChildren": 72
+    },
+    "waste": {
+      "unusedJsBytes": 83980,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 15657,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 21,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "canonical",
+          "title": "Document does not have a valid `rel=canonical`",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 772,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3023,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:40:28.855Z",
+      "runtimeMs": 6468.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.10.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7RY8EW0A9RKBGGBP8T4AZBK"
+    },
+    "violations": 1,
+    "passes": 618,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-gray-600",
+            "snippet": "<button @click=\"open = !open\" class=\"text-gray-600 hover:text-gray-900 focus:outline-none p-2\"> <svg class=\"h-6 w-6\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"> <path stroke-linecap=\"round…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8e0c2520f440",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"f6e0420f3b241d1379fcaee1e82e7edd-ssl\""
+        }
+      },
+      {
+        "hash": "8e0c2520f440",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"f6e0420f3b241d1379fcaee1e82e7edd-ssl\""
+        }
+      },
+      {
+        "hash": "8e0c2520f440",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"f6e0420f3b241d1379fcaee1e82e7edd-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

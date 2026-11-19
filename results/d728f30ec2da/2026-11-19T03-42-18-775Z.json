@@ -1,0 +1,277 @@
+{
+  "url": "https://www.tim-kleyersburg.de/",
+  "name": "www.tim-kleyersburg.de",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059738775,
+  "date": "2026-11-19T03:42:18.775Z",
+  "runId": "2026-11-19T03-32-27-249Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25058,
+  "error": null,
+  "variance": {
+    "min": 87,
+    "max": 99,
+    "spread": 12,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.tim-kleyersburg.de/",
+    "finalUrl": "https://www.tim-kleyersburg.de/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1526,
+      "lcp": 2587,
+      "si": 1526,
+      "tbt": 0,
+      "tti": 2587,
+      "cls": 0,
+      "ttfb": 474,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 184,
+      "networkRtt": 0,
+      "networkServerLatency": 141
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 185.5,
+      "resourceLoadDelay": 8.7,
+      "resourceLoadDuration": 33,
+      "elementRenderDelay": 28.5
+    },
+    "weight": {
+      "total": 224317,
+      "requests": 12,
+      "mainDocument": 5823,
+      "byType": {
+        "total": {
+          "bytes": 224317,
+          "requests": 12
+        },
+        "image": {
+          "bytes": 103573,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 72589,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 22903,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 17207,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5823,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2222,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 76316,
+          "requests": 5
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 76316,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 72589,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 72589
+          },
+          "typedBytes": 72589
+        },
+        {
+          "entity": "wacg.dev",
+          "bytes": 2297,
+          "mainThreadMs": 0,
+          "byType": {
+            "script": 2297
+          },
+          "typedBytes": 2297
+        },
+        {
+          "entity": "bunny.net",
+          "bytes": 1430,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1430
+          },
+          "typedBytes": 1430
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 192.1,
+      "byGroup": {
+        "other": 89,
+        "styleLayout": 50.2,
+        "scriptEvaluation": 30.7,
+        "parseHTML": 12.7,
+        "paintCompositeRender": 7.8,
+        "scriptParseCompile": 1.7
+      },
+      "bootupMs": 7.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 99,
+      "depth": 9,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 902,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 94768.04367361112,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 13,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2996,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:42:36.886Z",
+      "runtimeMs": 6654.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.17.5"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc34dc0c49e1ee-LAX",
+      "server": "cloudflare",
+      "x-powered-by": "PHP/8.5.11"
+    },
+    "violations": 0,
+    "passes": 206,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0814cf7893d7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0814cf7893d7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0814cf7893d7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0814cf7893d7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
