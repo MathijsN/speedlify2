@@ -1,0 +1,331 @@
+{
+  "url": "https://surajwate.com/",
+  "name": "surajwate.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795124760727,
+  "date": "2026-11-19T21:46:00.727Z",
+  "runId": "2026-11-19T21-38-44-627Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21481,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://surajwate.com/",
+    "finalUrl": "https://surajwate.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1536,
+      "lcp": 1536,
+      "si": 1536,
+      "tbt": 94,
+      "tti": 5364,
+      "cls": 0.014,
+      "ttfb": 604,
+      "maxPotentialFid": 95,
+      "serverResponseTime": 6,
+      "networkRtt": 0.2,
+      "networkServerLatency": 38.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 7.8,
+      "elementRenderDelay": 65.6
+    },
+    "weight": {
+      "total": 785632,
+      "requests": 80,
+      "mainDocument": 2216,
+      "byType": {
+        "total": {
+          "bytes": 785632,
+          "requests": 80
+        },
+        "script": {
+          "bytes": 461814,
+          "requests": 63
+        },
+        "font": {
+          "bytes": 282424,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 31213,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 7965,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 2216,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 778183,
+          "requests": 75
+        }
+      },
+      "scripts": 63,
+      "stylesheets": 6,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 778183,
+      "mainThreadMs": 54,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 265033,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "script": 265033
+          },
+          "typedBytes": 265033
+        },
+        {
+          "entity": "FontAwesome CDN",
+          "bytes": 220478,
+          "mainThreadMs": 3,
+          "byType": {
+            "script": 5846,
+            "font": 185146,
+            "other": 29486
+          },
+          "typedBytes": 220478
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 183005,
+          "mainThreadMs": 47.7,
+          "byType": {
+            "script": 183005
+          },
+          "typedBytes": 183005
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 100561,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 3283,
+            "font": 97278
+          },
+          "typedBytes": 100561
+        },
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 9106,
+          "mainThreadMs": 2.5,
+          "byType": {
+            "script": 7930,
+            "stylesheet": 1176
+          },
+          "typedBytes": 9106
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 702.2,
+      "byGroup": {
+        "other": 281.4,
+        "scriptEvaluation": 269.1,
+        "styleLayout": 66.8,
+        "scriptParseCompile": 47.9,
+        "garbageCollection": 24.1,
+        "parseHTML": 7.9,
+        "paintCompositeRender": 5.1
+      },
+      "bootupMs": 282.3,
+      "longTasks": 3,
+      "longestTaskMs": 95
+    },
+    "dom": {
+      "elements": 44,
+      "depth": 7,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 104057,
+      "unusedCssBytes": 14785,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1544,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 9011.116666666667,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3483.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:46:09.273Z",
+      "runtimeMs": 6263.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "17f0e9d7e09220aaed665bf701b764c52033cfc9",
+      "x-github-request-id": "2266:2F3DBB:78FF55:839376:6AFF6E19",
+      "x-served-by": "cache-iad-khef600083-IAD"
+    },
+    "violations": 0,
+    "passes": 100,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a31742f7209b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"66ee99a6-1729\"",
+          "last-modified": "Sat, 21 Sep 2024 10:02:14 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "a31742f7209b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "etag": "W/\"66ee99a6-1729\"",
+          "last-modified": "Sat, 21 Sep 2024 10:02:14 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "a31742f7209b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "etag": "W/\"66ee99a6-1729\"",
+          "last-modified": "Sat, 21 Sep 2024 10:02:14 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "a31742f7209b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "etag": "W/\"66ee99a6-1729\"",
+          "last-modified": "Sat, 21 Sep 2024 10:02:14 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

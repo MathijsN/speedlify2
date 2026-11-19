@@ -1,0 +1,293 @@
+{
+  "url": "https://www.lenesaile.com/en",
+  "name": "www.lenesaile.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795124541301,
+  "date": "2026-11-19T21:42:21.301Z",
+  "runId": "2026-11-19T21-38-44-627Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20523,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 99,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.lenesaile.com/en",
+    "finalUrl": "https://www.lenesaile.com/en/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1705,
+      "lcp": 2103,
+      "si": 1705,
+      "tbt": 0,
+      "tti": 2103,
+      "cls": 0,
+      "ttfb": 603,
+      "maxPotentialFid": 31,
+      "serverResponseTime": 3,
+      "networkRtt": 0,
+      "networkServerLatency": 2.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 61.5,
+      "resourceLoadDelay": 7.9,
+      "resourceLoadDuration": 5.9,
+      "elementRenderDelay": 39.8
+    },
+    "weight": {
+      "total": 300930,
+      "requests": 16,
+      "mainDocument": 35471,
+      "byType": {
+        "total": {
+          "bytes": 297930,
+          "requests": 15
+        },
+        "other": {
+          "bytes": 136978,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 92688,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 35471,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 30301,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 2492,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1920,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1920,
+      "mainThreadMs": 0.8,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 1920,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "script": 1920
+          },
+          "typedBytes": 1920
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 267.8,
+      "byGroup": {
+        "other": 114.7,
+        "styleLayout": 85.6,
+        "scriptEvaluation": 30.1,
+        "paintCompositeRender": 18.6,
+        "parseHTML": 15.9,
+        "scriptParseCompile": 2.8
+      },
+      "bootupMs": 23.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 204,
+      "depth": 11,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 752.9,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 45
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3468,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:42:35.836Z",
+      "runtimeMs": 5731.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7TW5W2R7CMHN2575S7ARC05"
+    },
+    "violations": 4,
+    "passes": 316,
+    "incomplete": 5,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"about/\"]",
+            "snippet": "<a href=\"/en/about/\">About me</a>"
+          },
+          {
+            "selector": "a[href$=\"services/\"]",
+            "snippet": "<a href=\"/en/services/\">What I do</a>"
+          },
+          {
+            "selector": "li:nth-child(3) > a[href$=\"projects/\"]",
+            "snippet": "<a href=\"/en/projects/\">Projects</a>"
+          },
+          {
+            "selector": "a[href$=\"blog/\"]",
+            "snippet": "<a href=\"/en/blog/\">Blog</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6eaee90750af",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7031",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528969",
+          "etag": "W/\"71d183bf6a3707e02edbe2d060a62afd-ssl\""
+        }
+      },
+      {
+        "hash": "6eaee90750af",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7038",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528962",
+          "etag": "W/\"71d183bf6a3707e02edbe2d060a62afd-ssl\""
+        }
+      },
+      {
+        "hash": "6eaee90750af",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7044",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31528956",
+          "etag": "W/\"71d183bf6a3707e02edbe2d060a62afd-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

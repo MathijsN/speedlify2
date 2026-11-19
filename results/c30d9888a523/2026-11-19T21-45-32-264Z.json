@@ -1,0 +1,319 @@
+{
+  "url": "https://flag.is/",
+  "name": "flag.is",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795124732264,
+  "date": "2026-11-19T21:45:32.264Z",
+  "runId": "2026-11-19T21-38-44-627Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25463,
+  "error": null,
+  "variance": {
+    "min": 70,
+    "max": 81,
+    "spread": 11,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://flag.is/",
+    "finalUrl": "https://flag.is/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 79,
+      "accessibility": 93,
+      "best-practices": 96,
+      "seo": 90,
+      "agentic-browsing": 65
+    },
+    "timings": {
+      "fcp": 2499,
+      "lcp": 2499,
+      "si": 2499,
+      "tbt": 516,
+      "tti": 3277,
+      "cls": 0.083,
+      "ttfb": 691,
+      "maxPotentialFid": 372,
+      "serverResponseTime": 98,
+      "networkRtt": 0,
+      "networkServerLatency": 91.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 99.5,
+      "elementRenderDelay": 100
+    },
+    "weight": {
+      "total": 374660,
+      "requests": 12,
+      "mainDocument": 328377,
+      "byType": {
+        "total": {
+          "bytes": 373616,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 328377,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 36887,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 8352,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 1034.7,
+      "byGroup": {
+        "scriptEvaluation": 655.1,
+        "other": 244.5,
+        "garbageCollection": 42.4,
+        "styleLayout": 34.9,
+        "parseHTML": 20.7,
+        "scriptParseCompile": 19.4,
+        "paintCompositeRender": 17.7
+      },
+      "bootupMs": 672.2,
+      "longTasks": 2,
+      "longestTaskMs": 372
+    },
+    "dom": {
+      "elements": 62,
+      "depth": 8,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 78058,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 2650,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 29509.600000000002,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failingNodes": 4,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 7,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 3,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3495.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:45:49.116Z",
+      "runtimeMs": 7603.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 7,
+    "passes": 48,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#challenge-status-sub",
+            "snippet": "<p id=\"challenge-status-sub\">Your browser was identified as automated or unsafe.</p>"
+          },
+          {
+            "selector": "#challenge-footer > span",
+            "snippet": "<span>Powered by</span>"
+          },
+          {
+            "selector": "a > span",
+            "snippet": "<span>CrowdSec</span>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#challenge-header",
+            "snippet": "<div id=\"challenge-header\"> <h1>Security Check</h1> <p id=\"challenge-status-sub\">Your browser was identified as automated or unsafe.</p> </div>"
+          },
+          {
+            "selector": "#challenge-footer > span",
+            "snippet": "<span>Powered by</span>"
+          },
+          {
+            "selector": "a > span",
+            "snippet": "<span>CrowdSec</span>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d9f12439727e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "3e5ddb5dda4e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "20c68eb2b9f2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e1a3f82a6d8f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
