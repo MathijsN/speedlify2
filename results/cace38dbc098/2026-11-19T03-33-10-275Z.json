@@ -1,0 +1,353 @@
+{
+  "url": "https://jonwebb.dev/",
+  "name": "jonwebb.dev",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795059190275,
+  "date": "2026-11-19T03:33:10.275Z",
+  "runId": "2026-11-19T03-32-32-293Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22150,
+  "error": null,
+  "variance": {
+    "min": 75,
+    "max": 95,
+    "spread": 20,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jonwebb.dev/",
+    "finalUrl": "https://jonwebb.dev/Home",
+    "redirect": {
+      "from": "https://jonwebb.dev/",
+      "to": "https://jonwebb.dev/Home",
+      "chain": [
+        {
+          "url": "https://jonwebb.dev/",
+          "status": 200
+        },
+        {
+          "url": "https://jonwebb.dev/Home",
+          "status": null
+        }
+      ],
+      "statuses": [
+        200
+      ],
+      "change": "path",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 93,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 916,
+      "lcp": 3255,
+      "si": 1757,
+      "tbt": 12,
+      "tti": 3257,
+      "cls": 0,
+      "ttfb": 599,
+      "maxPotentialFid": 62,
+      "serverResponseTime": 149,
+      "networkRtt": 0.1,
+      "networkServerLatency": 149.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 150.7,
+      "elementRenderDelay": 272.3
+    },
+    "weight": {
+      "total": 287168,
+      "requests": 9,
+      "mainDocument": 1835,
+      "byType": {
+        "total": {
+          "bytes": 271018,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 237468,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 29278,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1893,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 1835,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 544,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 269183,
+          "requests": 6
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 316665,
+      "mainThreadMs": 43.4,
+      "top": [
+        {
+          "entity": "obsidian.md",
+          "bytes": 316665,
+          "mainThreadMs": 43.4,
+          "byType": {
+            "script": 237468,
+            "stylesheet": 29278,
+            "other": 49375,
+            "image": 544
+          },
+          "typedBytes": 316665
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 416.3,
+      "byGroup": {
+        "scriptEvaluation": 144.7,
+        "other": 132,
+        "scriptParseCompile": 62.3,
+        "styleLayout": 57.9,
+        "paintCompositeRender": 10.1,
+        "parseHTML": 9.4
+      },
+      "bootupMs": 205.5,
+      "longTasks": 1,
+      "longestTaskMs": 62
+    },
+    "dom": {
+      "elements": 131,
+      "depth": 15,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 86591,
+      "unusedCssBytes": 17865,
+      "legacyJsBytes": 8057,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 25,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2489,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:33:25.523Z",
+      "runtimeMs": 6511.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "obsidian-publish",
+      "name": "Obsidian Publish",
+      "icon": "Obsidian",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "obsidian-publish"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc27652e221666-SJC",
+      "server": "cloudflare"
+    },
+    "violations": 10,
+    "passes": 145,
+    "incomplete": 2,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 8,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "input",
+            "snippet": "<input class=\"search-bar\" tabindex=\"0\" type=\"text\" placeholder=\"Search page or heading...\">"
+          },
+          {
+            "selector": ".site-header-text",
+            "snippet": "<a class=\"site-header-text\" href=\"https://jonwebb.dev/Home\">jonwebb.dev</a>"
+          },
+          {
+            "selector": ".mod-header",
+            "snippet": "<div class=\"mod-header mod-ui\"><h1 class=\"page-header\">Home</h1></div>"
+          },
+          {
+            "selector": ".el-p",
+            "snippet": "<div class=\"el-p\"><p dir=\"auto\">Welcome to my webzone!</p></div>"
+          },
+          {
+            "selector": ".el-ul",
+            "snippet": "<div class=\"el-ul\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".callout-title-inner",
+            "snippet": "<div class=\"callout-title-inner\">Disclaimer</div>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li[data-line=\"2\"] > .external-link[rel=\"noopener nofollow\"][target=\"_blank\"]",
+            "snippet": "<a href=\"https://gist.githubu...\" class=\"external-link\" rel=\"noopener nofollow\" aria-label=\"https://gist.githubu...\" data-tooltip-positio...=\"top\" target=\"_blank\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "fbb0741591ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "fbb0741591ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "fbb0741591ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "fbb0741591ac",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
