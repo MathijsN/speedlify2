@@ -1,0 +1,275 @@
+{
+  "url": "https://tdh.se/",
+  "name": "tdh.se",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795124392207,
+  "date": "2026-11-19T21:39:52.207Z",
+  "runId": "2026-11-19T21-38-34-518Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 44510,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://tdh.se/",
+    "finalUrl": "https://tdh.se/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1190,
+      "lcp": 1190,
+      "si": 1775,
+      "tbt": 0,
+      "tti": 1190,
+      "cls": 0.003,
+      "ttfb": 559,
+      "maxPotentialFid": 44,
+      "serverResponseTime": 62,
+      "networkRtt": 142.6,
+      "networkServerLatency": 109.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 271,
+      "elementRenderDelay": 140.4
+    },
+    "weight": {
+      "total": 175915,
+      "requests": 13,
+      "mainDocument": 18767,
+      "byType": {
+        "total": {
+          "bytes": 175915,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 81665,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 51898,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 21595,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 18767,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1990,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 16132,
+          "requests": 4
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 16132,
+      "mainThreadMs": 6.3,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10479,
+          "mainThreadMs": 5.2,
+          "byType": {
+            "script": 10479
+          },
+          "typedBytes": 10479
+        },
+        {
+          "entity": "hedengren.services",
+          "bytes": 5653,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 4708,
+            "other": 945
+          },
+          "typedBytes": 5653
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 606.6,
+      "byGroup": {
+        "other": 262.4,
+        "styleLayout": 125.4,
+        "paintCompositeRender": 116.6,
+        "scriptEvaluation": 85.4,
+        "parseHTML": 12.6,
+        "scriptParseCompile": 4.3
+      },
+      "bootupMs": 45.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 295,
+      "depth": 9,
+      "maxChildren": 50
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10484,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4191.6,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 30,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 35
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4062,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T21:39:53.370Z",
+      "runtimeMs": 14623.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5d25fc2ea055711-PHX",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 659,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7aa2266c1335",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "38485",
+          "cf-cache-status": "UPDATING"
+        }
+      },
+      {
+        "hash": "7aa2266c1335",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2822",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "7aa2266c1335",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2836",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "7aa2266c1335",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2848",
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

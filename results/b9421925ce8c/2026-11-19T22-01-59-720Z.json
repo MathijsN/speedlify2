@@ -1,0 +1,412 @@
+{
+  "url": "https://webpack.js.org/",
+  "name": "webpack",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795125719720,
+  "date": "2026-11-19T22:01:59.720Z",
+  "runId": "2026-11-19T21-38-34-518Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 86025,
+  "error": null,
+  "variance": {
+    "min": 92,
+    "max": 97,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://webpack.js.org/",
+    "finalUrl": "https://webpack.js.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 89,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1711,
+      "lcp": 1711,
+      "si": 1749,
+      "tbt": 229,
+      "tti": 5992,
+      "cls": 0.004,
+      "ttfb": 626,
+      "maxPotentialFid": 145,
+      "serverResponseTime": 17,
+      "networkRtt": 0,
+      "networkServerLatency": 36.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 18.9,
+      "elementRenderDelay": 142.8
+    },
+    "weight": {
+      "total": 794757,
+      "requests": 22,
+      "mainDocument": 11002,
+      "byType": {
+        "total": {
+          "bytes": 794757,
+          "requests": 22
+        },
+        "script": {
+          "bytes": 597970,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 73112,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 69537,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 25352,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 17784,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 11002,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 257310,
+          "requests": 6
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 257310,
+      "mainThreadMs": 47.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 182998,
+          "mainThreadMs": 47.6,
+          "byType": {
+            "script": 182998
+          },
+          "typedBytes": 182998
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 74312,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1200,
+            "font": 73112
+          },
+          "typedBytes": 74312
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1544.2,
+      "byGroup": {
+        "scriptEvaluation": 758.6,
+        "other": 325.5,
+        "styleLayout": 211.5,
+        "scriptParseCompile": 152.7,
+        "paintCompositeRender": 53,
+        "garbageCollection": 24.2,
+        "parseHTML": 18.9
+      },
+      "bootupMs": 895.3,
+      "longTasks": 8,
+      "longestTaskMs": 145
+    },
+    "dom": {
+      "elements": 2747,
+      "depth": 15,
+      "maxChildren": 367
+    },
+    "waste": {
+      "unusedJsBytes": 187513,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 935,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 21,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 7
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4012,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T22:02:32.483Z",
+      "runtimeMs": 15573.5
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.8,
+    "elementRenderDelay": 1020.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::7srxh-1795125802881-3fbcaa24d569"
+    },
+    "violations": 36,
+    "passes": 5594,
+    "incomplete": 0,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 25,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text-\\[33\\.178px\\]",
+            "snippet": "<h1 class=\"flex flex-wrap items-center justify-center text-white text-[33.178px] md:text-[39.813px] text-center font-[200] mt-[80px] md:mt-[90px] row-start-1 row-end-2\">"
+          },
+          {
+            "selector": "h2:nth-child(1)",
+            "snippet": "<h2><span id=\"install-webpack\"></span>Install Webpack<a href=\"#install-webpack\" aria-hidden=\"true\" tabindex=\"-1\"><span class=\"header-link\"></span></a></h2>"
+          },
+          {
+            "selector": ".splash__wrap:nth-child(2) > .splash__install > .code-block-wrapper.mb-6.group > pre",
+            "snippet": "<pre><code class=\"hljs language-bash\"><span class=\"token function\">npm</span> <span class=\"token function\">install</span> --save-dev webpack webpack-cli</code></pre>"
+          },
+          {
+            "selector": "h2:nth-child(3)",
+            "snippet": "<h2><span id=\"write-your-code\"></span>Write Your Code<a href=\"#write-your-code\" aria-hidden=\"true\" tabindex=\"-1\"><span class=\"header-link\"></span></a></h2>"
+          },
+          {
+            "selector": ".splash__wrap:nth-child(4) > .splash__left > p",
+            "snippet": "<p><strong>src/index.html</strong></p>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(4) > strong > a",
+            "snippet": "<a href=\"https://youtu.be/3Nv9muOkb6k?t=21293\">Watch one here</a>"
+          },
+          {
+            "selector": "p:nth-child(9) > a[href$=\"mode/\"][data-discover=\"true\"] > code",
+            "snippet": "<code>--mode development</code>"
+          },
+          {
+            "selector": "p:nth-child(11) > a[href$=\"mode/\"][data-discover=\"true\"] > code",
+            "snippet": "<code>--mode production</code>"
+          },
+          {
+            "selector": "a[href$=\"getting-started\"]",
+            "snippet": "<a href=\"/guides/getting-started\" data-discover=\"true\">Get Started</a>"
+          },
+          {
+            "selector": "a[href$=\"concepts\"]",
+            "snippet": "<a href=\"/concepts\" data-discover=\"true\">Concepts</a>"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".splash__wrap:nth-child(4) > .splash__left > .code-block-wrapper.mb-6.group > pre",
+            "snippet": "<pre>"
+          },
+          {
+            "selector": ".splash__wrap:nth-child(6) > .splash__left > .code-block-wrapper.mb-6.group > pre",
+            "snippet": "<pre>"
+          },
+          {
+            "selector": ".splash__wrap:nth-child(6) > .splash__right > .code-block-wrapper.mb-6.group > pre",
+            "snippet": "<pre>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" data-rh-managed=\"lang\" data-theme=\"light\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "bd701277a825",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "117193",
+          "etag": "W/\"81e2f8dd9206f93d0c8e7a1428164ab2\"",
+          "last-modified": "Wed, 18 Nov 2026 13:28:47 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "bd701277a825",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "117208",
+          "etag": "W/\"81e2f8dd9206f93d0c8e7a1428164ab2\"",
+          "last-modified": "Wed, 18 Nov 2026 13:28:47 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "bd701277a825",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "117225",
+          "etag": "W/\"81e2f8dd9206f93d0c8e7a1428164ab2\"",
+          "last-modified": "Wed, 18 Nov 2026 13:28:47 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "bd701277a825",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "117241",
+          "etag": "W/\"81e2f8dd9206f93d0c8e7a1428164ab2\"",
+          "last-modified": "Wed, 18 Nov 2026 13:28:47 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "bd701277a825",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "117271",
+          "etag": "W/\"81e2f8dd9206f93d0c8e7a1428164ab2\"",
+          "last-modified": "Wed, 18 Nov 2026 13:28:47 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
