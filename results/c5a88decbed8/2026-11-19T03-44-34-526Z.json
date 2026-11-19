@@ -1,0 +1,319 @@
+{
+  "url": "https://www.spencerharston.com/",
+  "name": "www.spencerharston.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059874526,
+  "date": "2026-11-19T03:44:34.526Z",
+  "runId": "2026-11-19T03-32-22-413Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19916,
+  "error": null,
+  "variance": {
+    "min": 88,
+    "max": 88,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.spencerharston.com/",
+    "finalUrl": "https://www.spencerharston.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 88,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 26
+    },
+    "timings": {
+      "fcp": 802,
+      "lcp": 802,
+      "si": 802,
+      "tbt": 0,
+      "tti": 802,
+      "cls": 0.238,
+      "ttfb": 487,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 37,
+      "networkRtt": 0.1,
+      "networkServerLatency": 162.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 40.2,
+      "elementRenderDelay": 100.8
+    },
+    "weight": {
+      "total": 49416,
+      "requests": 12,
+      "mainDocument": 3235,
+      "byType": {
+        "total": {
+          "bytes": 49416,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 17101,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 9123,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 8209,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 7303,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 4445,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 3235,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 14712,
+          "requests": 4
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 3,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 14712,
+      "mainThreadMs": 1.3,
+      "top": [
+        {
+          "entity": "Fastly",
+          "bytes": 9123,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 9123
+          },
+          "typedBytes": 9123
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4369,
+          "mainThreadMs": 1.3,
+          "byType": {
+            "script": 4369
+          },
+          "typedBytes": 4369
+        },
+        {
+          "entity": "workers.dev",
+          "bytes": 838,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 838
+          },
+          "typedBytes": 838
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 136.1,
+      "byGroup": {
+        "other": 66.3,
+        "styleLayout": 33,
+        "scriptEvaluation": 20,
+        "parseHTML": 7.5,
+        "paintCompositeRender": 6.6,
+        "scriptParseCompile": 2.7
+      },
+      "bootupMs": 9.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 94,
+      "depth": 10,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 13
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4093,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:44:42.480Z",
+      "runtimeMs": 5786
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.7",
+      "source": "meta",
+      "raw": "Eleventy v3.1.7"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.7"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc380c8dcfacde-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 5,
+    "passes": 203,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-role",
+        "impact": "minor",
+        "nodes": 4,
+        "help": "ARIA role should be appropriate for the element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[title=\"Mastodon profile\"]",
+            "snippet": "<a target=\"_blank\" href=\"https://mastodon.social/@sphars\" role=\"listitem\" class=\"flex items-center gap-x-2\" title=\"Mastodon profile\" rel=\"noreferrer\">"
+          },
+          {
+            "selector": "a[title=\"Bluesky profile\"]",
+            "snippet": "<a target=\"_blank\" href=\"https://bsky.app/profile/sphars.bsky.social\" role=\"listitem\" class=\"flex items-center gap-x-2\" title=\"Bluesky profile\" rel=\"noreferrer\">"
+          },
+          {
+            "selector": "a[href$=\"sphars\"]:nth-child(3)",
+            "snippet": "<a rel=\"noreferrer\" target=\"_blank\" href=\"https://github.com/sphars\" role=\"listitem\" class=\"flex items-center gap-x-2\" title=\"GitHub profile\">"
+          },
+          {
+            "selector": "a[title=\"Last.fm profile\"]",
+            "snippet": "<a rel=\"noreferrer\" target=\"_blank\" href=\"https://www.last.fm/user/spencer314\" role=\"listitem\" class=\"flex items-center gap-x-2\" title=\"Last.fm profile\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c602a956efdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "c602a956efdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "c602a956efdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "c602a956efdf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

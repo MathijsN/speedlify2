@@ -1,0 +1,302 @@
+{
+  "url": "https://maximilianberndt.com/",
+  "name": "maximilianberndt.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795059177084,
+  "date": "2026-11-19T03:32:57.084Z",
+  "runId": "2026-11-19T03-32-22-413Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19543,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://maximilianberndt.com/",
+    "finalUrl": "https://maximilianberndt.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1564,
+      "lcp": 1982,
+      "si": 1564,
+      "tbt": 0,
+      "tti": 1982,
+      "cls": 0,
+      "ttfb": 632,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 21,
+      "networkRtt": 0.2,
+      "networkServerLatency": 31.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 24.2,
+      "elementRenderDelay": 106.3
+    },
+    "weight": {
+      "total": 106238,
+      "requests": 22,
+      "mainDocument": 6605,
+      "byType": {
+        "total": {
+          "bytes": 106238,
+          "requests": 22
+        },
+        "script": {
+          "bytes": 66302,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 26593,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 6605,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6019,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 719,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10609,
+          "requests": 3
+        }
+      },
+      "scripts": 16,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10609,
+      "mainThreadMs": 6,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10352,
+          "mainThreadMs": 6,
+          "byType": {
+            "script": 10352
+          },
+          "typedBytes": 10352
+        },
+        {
+          "entity": "sanity.io",
+          "bytes": 257,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 257
+          },
+          "typedBytes": 257
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 314.2,
+      "byGroup": {
+        "other": 143.4,
+        "scriptEvaluation": 122,
+        "styleLayout": 28.1,
+        "paintCompositeRender": 9.5,
+        "parseHTML": 7.9,
+        "scriptParseCompile": 3.3
+      },
+      "bootupMs": 90,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 127,
+      "depth": 10,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10357,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4140.8,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 13
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4185.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:33:04.979Z",
+      "runtimeMs": 5735.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "sveltekit",
+      "name": "SvelteKit",
+      "icon": "Svelte",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "sveltekit",
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5cc27043b76fab5-STL",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 268,
+    "incomplete": 10,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "button",
+            "snippet": "<button type=\"button\" class=\"group relative z-2 grid h-fit justify-items-end overflow-clip text-foreground\" aria-label=\"Copy email address hallo@maximilianberndt.com\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "095f268786e4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "561",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "095f268786e4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "095f268786e4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "095f268786e4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,339 @@
+{
+  "url": "https://www.londoncss.dev/",
+  "name": "www.londoncss.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059312293,
+  "date": "2026-11-19T03:35:12.293Z",
+  "runId": "2026-11-19T03-32-22-413Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26214,
+  "error": null,
+  "variance": {
+    "min": 68,
+    "max": 77,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.londoncss.dev/",
+    "finalUrl": "https://www.londoncss.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 90,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 3963,
+      "lcp": 3963,
+      "si": 3963,
+      "tbt": 173,
+      "tti": 6307,
+      "cls": 0.001,
+      "ttfb": 664,
+      "maxPotentialFid": 132,
+      "serverResponseTime": 71,
+      "networkRtt": 0.1,
+      "networkServerLatency": 64.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 73,
+      "elementRenderDelay": 81.3
+    },
+    "weight": {
+      "total": 901423,
+      "requests": 22,
+      "mainDocument": 41268,
+      "byType": {
+        "total": {
+          "bytes": 901423,
+          "requests": 22
+        },
+        "script": {
+          "bytes": 537443,
+          "requests": 10
+        },
+        "stylesheet": {
+          "bytes": 227527,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 93781,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 41268,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1404,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 859696,
+          "requests": 20
+        }
+      },
+      "scripts": 10,
+      "stylesheets": 4,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 859696,
+      "mainThreadMs": 96.2,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 642154,
+          "mainThreadMs": 79.7,
+          "byType": {
+            "script": 420067,
+            "stylesheet": 221142,
+            "other": 945
+          },
+          "typedBytes": 642154
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 117376,
+          "mainThreadMs": 15.5,
+          "byType": {
+            "script": 117376
+          },
+          "typedBytes": 117376
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 100166,
+          "mainThreadMs": 1,
+          "byType": {
+            "stylesheet": 6385,
+            "font": 93781
+          },
+          "typedBytes": 100166
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1126.8,
+      "byGroup": {
+        "scriptEvaluation": 421.3,
+        "other": 370,
+        "scriptParseCompile": 117.4,
+        "styleLayout": 111.1,
+        "parseHTML": 48.1,
+        "paintCompositeRender": 43.9,
+        "garbageCollection": 15
+      },
+      "bootupMs": 393.5,
+      "longTasks": 4,
+      "longestTaskMs": 132
+    },
+    "dom": {
+      "elements": 679,
+      "depth": 26,
+      "maxChildren": 49
+    },
+    "waste": {
+      "unusedJsBytes": 288085,
+      "unusedCssBytes": 218666,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 4424,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 33451.42083333333,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 7,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": null,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 2,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 32
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4028,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:35:24.036Z",
+      "runtimeMs": 6935.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "ESF",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "ESF"
+    },
+    "violations": 34,
+    "passes": 563,
+    "incomplete": 53,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 32,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#h\\.hrlmpx1ntmmo_l > .CjVfdc[jscontroller=\"Ae65rd\"] > .C9DxTc",
+            "snippet": "<span class=\"C9DxTc \" style=\"\">Unleash the Power of Pure CSS at London in 2025</span>"
+          },
+          {
+            "selector": "p:nth-child(3)",
+            "snippet": "<p dir=\"ltr\" class=\"zfr3Q CDt4Ke \" style=\"\"><span class=\"C9DxTc \" style=\"\">Are you bending the limits of CSS? From intricate animations to mind-bending layouts, join a community of web designers who …"
+          },
+          {
+            "selector": "p:nth-child(4)",
+            "snippet": "<p dir=\"ltr\" class=\"zfr3Q CDt4Ke \" style=\"\"><span class=\"C9DxTc \" style=\"\">This isn’t just another dev meetup — it's a celebration of CSS as a creative medium. Whether you're pushing pixels with prec…"
+          },
+          {
+            "selector": "#h\\.3wnrad5o8me9_l > .CjVfdc[jscontroller=\"Ae65rd\"] > .C9DxTc",
+            "snippet": "<span class=\"C9DxTc \" style=\"\">Why attend?</span>"
+          },
+          {
+            "selector": ".n8H08c",
+            "snippet": "<ul class=\"n8H08c UVNKR \" style=\"list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-banner",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one banner landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-banner?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[jscontroller=\"RrXLpc\"]",
+            "snippet": "<div jscontroller=\"RrXLpc\" jsname=\"XeeWQc\" role=\"banner\" jsaction=\"keydown:uiKYid(OH0EC);rcuQ6b:WYd;zuqEgd:ufqpf;JIbuQc:XfTnxb(lfEfFf),AlTiYc(GeGHKb),AlTiYc(m1xNUe),zZlNMe(pZn8Oc);YqO5N:ELcyfe;\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div[jscontroller=\"RrXLpc\"]",
+            "snippet": "<div jscontroller=\"RrXLpc\" jsname=\"XeeWQc\" role=\"banner\" jsaction=\"keydown:uiKYid(OH0EC);rcuQ6b:WYd;zuqEgd:ufqpf;JIbuQc:XfTnxb(lfEfFf),AlTiYc(GeGHKb),AlTiYc(m1xNUe),zZlNMe(pZn8Oc);YqO5N:ELcyfe;\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7fcc3007683b",
+        "nonce": "b438e12276b8",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "eae968cb48ac",
+        "nonce": "77f8d72a3275",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "e0a3c0864986",
+        "nonce": "6f3c00be7971",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "93ab1e986593",
+        "nonce": "2e2c22ef8337",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

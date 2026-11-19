@@ -1,0 +1,300 @@
+{
+  "url": "https://agilitycms-eleventy-starter-2020.vercel.app/",
+  "name": "agilitycms-eleventy-starter-2020.vercel.app",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795059288488,
+  "date": "2026-11-19T03:34:48.488Z",
+  "runId": "2026-11-19T03-32-22-413Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20804,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://agilitycms-eleventy-starter-2020.vercel.app/",
+    "finalUrl": "https://agilitycms-eleventy-starter-2020.vercel.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1560,
+      "lcp": 1560,
+      "si": 1560,
+      "tbt": 0,
+      "tti": 1560,
+      "cls": 0,
+      "ttfb": 633,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 25,
+      "networkRtt": 0.1,
+      "networkServerLatency": 32.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 26.9,
+      "elementRenderDelay": 68.1
+    },
+    "weight": {
+      "total": 21328,
+      "requests": 7,
+      "mainDocument": 4644,
+      "byType": {
+        "total": {
+          "bytes": 21184,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 8627,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 7913,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4644,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 9951,
+          "requests": 4
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 9951,
+      "mainThreadMs": 1.2,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 7913,
+          "mainThreadMs": 0.9,
+          "byType": {
+            "script": 7913
+          },
+          "typedBytes": 7913
+        },
+        {
+          "entity": "rsms.me",
+          "bytes": 2038,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 2038
+          },
+          "typedBytes": 2038
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 118.8,
+      "byGroup": {
+        "other": 60.5,
+        "styleLayout": 23.6,
+        "scriptEvaluation": 19.6,
+        "parseHTML": 8.1,
+        "paintCompositeRender": 4.8,
+        "scriptParseCompile": 2.3
+      },
+      "bootupMs": 3.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 131,
+      "depth": 11,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 778,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 2177.14,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3873.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:35:03.033Z",
+      "runtimeMs": 5675.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "2.8.2"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "cle1::mljhh-1795059307725-098a84b130d4"
+    },
+    "violations": 2,
+    "passes": 225,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".lg\\:flex-1",
+            "snippet": "<div class=\"lg:w-0 lg:flex-1\"> <a href=\"/\" class=\"flex\"> <img class=\"h-8 w-auto sm:h-10\" src=\"https://157eac06-cdn.agilitycms.cloud/icons/telescope.svg\" alt=\"Telescope Logo\" title=\"Agility Starter Si…"
+          },
+          {
+            "selector": ".bg-gray-200",
+            "snippet": "<div class=\"relative bg-gray-200\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6cc89f164b3f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5648",
+          "etag": "W/\"34e4e8af94418c8f48041c92395a31b93d806f504abca75f16784aaa7babf58e\"",
+          "last-modified": "Thu, 19 Nov 2026 02:00:41 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6cc89f164b3f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5656",
+          "etag": "W/\"34e4e8af94418c8f48041c92395a31b93d806f504abca75f16784aaa7babf58e\"",
+          "last-modified": "Thu, 19 Nov 2026 02:00:41 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6cc89f164b3f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5662",
+          "etag": "W/\"34e4e8af94418c8f48041c92395a31b93d806f504abca75f16784aaa7babf58e\"",
+          "last-modified": "Thu, 19 Nov 2026 02:00:41 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6cc89f164b3f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"34e4e8af94418c8f48041c92395a31b93d806f504abca75f16784aaa7babf58e\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

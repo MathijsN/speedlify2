@@ -1,0 +1,295 @@
+{
+  "url": "https://www.maitriweb.it/",
+  "name": "www.maitriweb.it",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795059365106,
+  "date": "2026-11-19T03:36:05.106Z",
+  "runId": "2026-11-19T03-32-22-413Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21322,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.maitriweb.it/",
+    "finalUrl": "https://www.maitriweb.it/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 942,
+      "lcp": 942,
+      "si": 942,
+      "tbt": 0,
+      "tti": 942,
+      "cls": 0,
+      "ttfb": 642,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 41,
+      "networkRtt": 0.1,
+      "networkServerLatency": 41.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 42.9,
+      "elementRenderDelay": 75.3
+    },
+    "weight": {
+      "total": 230474,
+      "requests": 18,
+      "mainDocument": 8470,
+      "byType": {
+        "total": {
+          "bytes": 228710,
+          "requests": 17
+        },
+        "image": {
+          "bytes": 156936,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 42475,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 12729,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 8470,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 6499,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1601,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 156936,
+          "requests": 8
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 156936,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "ctfassets.net",
+          "bytes": 156936,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 156936
+          },
+          "typedBytes": 156936
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 210.9,
+      "byGroup": {
+        "other": 101.8,
+        "styleLayout": 52.3,
+        "scriptEvaluation": 28.4,
+        "paintCompositeRender": 14,
+        "parseHTML": 8.4,
+        "scriptParseCompile": 5.9
+      },
+      "bootupMs": 13,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 168,
+      "depth": 10,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 6170.299999999998,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 9
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4085,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-19T03:36:20.312Z",
+      "runtimeMs": 5963.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7RY10YVZVRQ6B03CKRVX1DT"
+    },
+    "violations": 2,
+    "passes": 301,
+    "incomplete": 8,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"privacy/\"][target=\"_blank\"]",
+            "snippet": "<a href=\"/privacy/\" target=\"_blank\">clicca qui</a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".m-cookie-banner",
+            "snippet": "<div class=\"m-cookie-banner js-cookie-banner\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "04fc4aa47e1e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"4e8d9d707fb1f44a26a6d6e729cf73fd-ssl\""
+        }
+      },
+      {
+        "hash": "04fc4aa47e1e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"4e8d9d707fb1f44a26a6d6e729cf73fd-ssl\""
+        }
+      },
+      {
+        "hash": "04fc4aa47e1e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"4e8d9d707fb1f44a26a6d6e729cf73fd-ssl\""
+        }
+      },
+      {
+        "hash": "04fc4aa47e1e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"4e8d9d707fb1f44a26a6d6e729cf73fd-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
