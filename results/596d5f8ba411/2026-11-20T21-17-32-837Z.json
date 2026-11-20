@@ -1,0 +1,328 @@
+{
+  "url": "https://www.tesla.com/",
+  "name": "Tesla",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795209452837,
+  "date": "2026-11-20T21:17:32.837Z",
+  "runId": "2026-11-20T21-08-34-969Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 50786,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)",
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://www.tesla.com/",
+    "finalUrl": "https://www.tesla.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 25,
+      "accessibility": 85,
+      "best-practices": 73,
+      "seo": 83,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 24081,
+      "lcp": 45223,
+      "si": 24081,
+      "tbt": 4791,
+      "tti": 45299,
+      "cls": 0.002,
+      "ttfb": 647,
+      "maxPotentialFid": 1265,
+      "serverResponseTime": 142,
+      "networkRtt": 25,
+      "networkServerLatency": 337.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 187.2,
+      "elementRenderDelay": 3851.1
+    },
+    "weight": {
+      "total": 13518916,
+      "requests": 134,
+      "mainDocument": 405973,
+      "byType": {
+        "total": {
+          "bytes": 13518056,
+          "requests": 122
+        },
+        "script": {
+          "bytes": 5909729,
+          "requests": 26
+        },
+        "media": {
+          "bytes": 5790751,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 621864,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 406464,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 342381,
+          "requests": 45
+        },
+        "image": {
+          "bytes": 292227,
+          "requests": 35
+        },
+        "font": {
+          "bytes": 154640,
+          "requests": 4
+        },
+        "third-party": {
+          "bytes": 1371825,
+          "requests": 34
+        }
+      },
+      "scripts": 29,
+      "stylesheets": 6,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 11,
+      "bytes": 1371398,
+      "mainThreadMs": 661.7,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 611429,
+          "mainThreadMs": 292.9,
+          "byType": {
+            "script": 611429
+          },
+          "typedBytes": 611429
+        },
+        {
+          "entity": "Google Maps",
+          "bytes": 403360,
+          "mainThreadMs": 82.6,
+          "byType": {
+            "script": 403315,
+            "other": 45
+          },
+          "typedBytes": 403360
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 304248,
+          "mainThreadMs": 269.2,
+          "byType": {
+            "script": 304248
+          },
+          "typedBytes": 304248
+        },
+        {
+          "entity": "cloudfront.net",
+          "bytes": 25515,
+          "mainThreadMs": 5.4,
+          "byType": {
+            "script": 25515
+          },
+          "typedBytes": 25515
+        },
+        {
+          "entity": "Twitter Online Conversion Tracking",
+          "bytes": 22193,
+          "mainThreadMs": 11.5,
+          "byType": {
+            "script": 17689,
+            "image": 4504
+          },
+          "typedBytes": 22193
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 20748.4,
+      "byGroup": {
+        "scriptEvaluation": 8745.6,
+        "styleLayout": 8069.6,
+        "other": 1740.9,
+        "scriptParseCompile": 1268.1,
+        "garbageCollection": 446.1,
+        "parseHTML": 259.1,
+        "paintCompositeRender": 219
+      },
+      "bootupMs": 9969.6,
+      "longTasks": 20,
+      "longestTaskMs": 1265
+    },
+    "dom": {
+      "elements": 2683,
+      "depth": 29,
+      "maxChildren": 692
+    },
+    "waste": {
+      "unusedJsBytes": 1880471,
+      "unusedCssBytes": 506579,
+      "legacyJsBytes": 10866,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 22481,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 10222,
+      "renderBlockingCount": 7,
+      "poorlyCachedBytes": 1804407.675833333,
+      "poorlyCachedCount": 17
+    },
+    "accessibility": {
+      "failingCount": 5,
+      "applicableCount": 34,
+      "failingNodes": 37,
+      "failing": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 12
+        },
+        {
+          "id": "aria-required-parent",
+          "title": "`[role]`s are not contained by their required parent element",
+          "weight": 10,
+          "nodes": 11
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 9
+        },
+        {
+          "id": "aria-allowed-attr",
+          "title": "`[aria-*]` attributes do not match their roles",
+          "weight": 10,
+          "nodes": 3
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 7
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 4
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 14
+        },
+        {
+          "id": "hreflang",
+          "title": "Document doesn't have a valid `hreflang`",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 135
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2767,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T21:17:34.105Z",
+      "runtimeMs": 17125.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Access Denied",
+    "host": {
+      "id": "akamai",
+      "name": "Akamai",
+      "icon": "Akamai",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AkamaiGHost"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d59808fe83bd",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1795208720\"",
+          "last-modified": "Fri, 20 Nov 2026 21:05:20 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

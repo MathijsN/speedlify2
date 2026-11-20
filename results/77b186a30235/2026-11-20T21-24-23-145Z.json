@@ -1,0 +1,329 @@
+{
+  "url": "https://www.amazon.com/",
+  "name": "Amazon",
+  "group": "big-tech",
+  "groupName": "Big Tech",
+  "timestamp": 1795209863145,
+  "date": "2026-11-20T21:24:23.145Z",
+  "runId": "2026-11-20T21-08-34-969Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 37357,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.amazon.com/",
+    "finalUrl": "https://www.amazon.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1677,
+      "lcp": 1677,
+      "si": 1677,
+      "tbt": 0,
+      "tti": 1677,
+      "cls": 0,
+      "ttfb": 617,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 24,
+      "networkRtt": 0,
+      "networkServerLatency": 17.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 25.9,
+      "elementRenderDelay": 34.7
+    },
+    "weight": {
+      "total": 58576,
+      "requests": 4,
+      "mainDocument": 4121,
+      "byType": {
+        "total": {
+          "bytes": 42723,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 21600,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 17002,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4121,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 42723,
+          "requests": 3
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 38602,
+      "mainThreadMs": 1.2,
+      "top": [
+        {
+          "entity": "Marketplace Web Service",
+          "bytes": 38602,
+          "mainThreadMs": 1.2,
+          "byType": {
+            "stylesheet": 21600,
+            "image": 17002
+          },
+          "typedBytes": 38602
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 103.1,
+      "byGroup": {
+        "other": 65.8,
+        "styleLayout": 16.7,
+        "scriptEvaluation": 9.6,
+        "parseHTML": 7.2,
+        "paintCompositeRender": 3.2,
+        "scriptParseCompile": 0.6
+      },
+      "bootupMs": 4.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 32,
+      "depth": 12,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 20146,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 910,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 11,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 2
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2759.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T21:24:36.719Z",
+      "runtimeMs": 5715.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127.1,
+    "elementRenderDelay": 192.4
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Server",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Server",
+      "via": "1.1 0a432b1c1907fe458396e81994e1c7cc.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "8MEjnpFKKf9LSU3D9ArKjuUZKjZSk4mCFq289M7UFpGgazwLNgLD1A=="
+    },
+    "violations": 5,
+    "passes": 41,
+    "incomplete": 3,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".a-alert",
+            "snippet": "<div class=\"a-box a-alert a-alert-info a-spacing-base\"> <div class=\"a-box-inner\"> <i class=\"a-icon a-icon-alert\" alt=\"Alert icon\"></i> <h4>Click the button below to continue shopping</h4> </div> </di…"
+          },
+          {
+            "selector": ".a-spacing-small",
+            "snippet": "<div class=\"a-text-center a-spacing-small a-size-mini\">"
+          },
+          {
+            "selector": ".a-color-base",
+            "snippet": "<div class=\"a-text-center a-size-mini a-color-base\"> © 1996-2025, Amazon.com, Inc. or its affiliates </div>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"a-no-js\" lang=\"en-us\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html class=\"a-no-js\" lang=\"en-us\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1e3b254990af",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "8d865a8d1044",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "59ecc32dc434",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "7d6c52d409d8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      },
+      {
+        "hash": "f7837afbe6e9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-cache": "Miss from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
