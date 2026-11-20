@@ -1,0 +1,490 @@
+{
+  "url": "https://jamescowebdesigns.com/",
+  "name": "jamescowebdesigns.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795144839502,
+  "date": "2026-11-20T03:20:39.502Z",
+  "runId": "2026-11-20T03-19-53-232Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 46088,
+  "error": null,
+  "variance": {
+    "min": 38,
+    "max": 55,
+    "spread": 17,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jamescowebdesigns.com/",
+    "finalUrl": "https://jamescowebdesigns.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 55,
+      "accessibility": 83,
+      "best-practices": 69,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1710,
+      "lcp": 8986,
+      "si": 1710,
+      "tbt": 817,
+      "tti": 16921,
+      "cls": 0.005,
+      "ttfb": 479,
+      "maxPotentialFid": 1076,
+      "serverResponseTime": 23,
+      "networkRtt": 0.9,
+      "networkServerLatency": 80.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 25.3,
+      "resourceLoadDelay": 10.7,
+      "resourceLoadDuration": 141.9,
+      "elementRenderDelay": 47.6
+    },
+    "weight": {
+      "total": 7349539,
+      "requests": 58,
+      "mainDocument": 22103,
+      "byType": {
+        "total": {
+          "bytes": 7346574,
+          "requests": 57
+        },
+        "image": {
+          "bytes": 5435551,
+          "requests": 14
+        },
+        "script": {
+          "bytes": 1801666,
+          "requests": 20
+        },
+        "font": {
+          "bytes": 65499,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 25242,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 15292,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 3324,
+          "requests": 7
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1670167,
+          "requests": 31
+        }
+      },
+      "scripts": 20,
+      "stylesheets": 5,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 950477,
+      "mainThreadMs": 240.4,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 486554,
+          "mainThreadMs": 114,
+          "byType": {
+            "script": 486554
+          },
+          "typedBytes": 486554
+        },
+        {
+          "entity": "Stripe",
+          "bytes": 298324,
+          "mainThreadMs": 71.2,
+          "byType": {
+            "script": 298324
+          },
+          "typedBytes": 298324
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 69188,
+          "mainThreadMs": 1,
+          "byType": {
+            "stylesheet": 3689,
+            "font": 65499
+          },
+          "typedBytes": 69188
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 55085,
+          "mainThreadMs": 31.4,
+          "byType": {
+            "script": 55085
+          },
+          "typedBytes": 55085
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 30852,
+          "mainThreadMs": 10.7,
+          "byType": {
+            "script": 30852
+          },
+          "typedBytes": 30852
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3420.6,
+      "byGroup": {
+        "scriptEvaluation": 1731.8,
+        "other": 701.4,
+        "scriptParseCompile": 396.7,
+        "styleLayout": 377.9,
+        "paintCompositeRender": 120.9,
+        "garbageCollection": 48,
+        "parseHTML": 43.9
+      },
+      "bootupMs": 2034,
+      "longTasks": 8,
+      "longestTaskMs": 1076
+    },
+    "dom": {
+      "elements": 797,
+      "depth": 12,
+      "maxChildren": 45
+    },
+    "waste": {
+      "unusedJsBytes": 502374,
+      "unusedCssBytes": 21305,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 13107,
+      "renderBlockingMs": 780,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 311810.8060821759,
+      "poorlyCachedCount": 4
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 22,
+      "failingNodes": 36,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 16
+        },
+        {
+          "id": "listitem",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "weight": 7,
+          "nodes": 15
+        },
+        {
+          "id": "list",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "weight": 7,
+          "nodes": 3
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 5,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 6
+        },
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 29
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2671,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:20:57.248Z",
+      "runtimeMs": 8903
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5d452f4fea4632c-IAD",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7VFJ5928VTGRZ892FYD18GE"
+    },
+    "violations": 77,
+    "passes": 519,
+    "incomplete": 41,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 41,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".skip",
+            "snippet": "<a class=\"skip\" aria-label=\"skip to main content\" href=\"#main\">Click To Skip To Main Content</a>"
+          },
+          {
+            "selector": ".container > h1",
+            "snippet": "<h1>Web Design &amp; Development</h1>"
+          },
+          {
+            "selector": "#landing > .container > h2",
+            "snippet": "<h2>Drive success online with our 100% hand-coded websites, delivering superior results for only $150 a month!</h2>"
+          },
+          {
+            "selector": ".mock-up.mobile-display",
+            "snippet": "<img class=\"mock-up mobile-display\" src=\"/assets/images/landing/mock-up-replace.png\" alt=\"a mockup of a website on computer desktop and phone\">"
+          },
+          {
+            "selector": ".what-we-do-topper > h2",
+            "snippet": "<h2> <span>WHAT </span> WE DO </h2>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 16,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".what-we-do-topper > h2 > span",
+            "snippet": "<span>WHAT </span>"
+          },
+          {
+            "selector": ".what-we-do-topper > p > a",
+            "snippet": "<a href=\"/blog/what-is-the-difference-between-hand-coded-websites-and-wordpress-sites#blog-post\">LEARN MORE</a>"
+          },
+          {
+            "selector": ".left-text-group > h2 > span:nth-child(1)",
+            "snippet": "<span>$0</span>"
+          },
+          {
+            "selector": "h2 > span:nth-child(2)",
+            "snippet": "<span>$150</span>"
+          },
+          {
+            "selector": "#portfolio2 > h2 > span",
+            "snippet": "<span>OUR </span>"
+          }
+        ]
+      },
+      {
+        "id": "listitem",
+        "impact": "serious",
+        "nodes": 15,
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".price-box:nth-child(1) > ul > .plan-features.fadeIn > li:nth-child(1)",
+            "snippet": "<li><img aria-hidden=\"true\" src=\"/assets/svgs/tick.svg\" alt=\"\"> Custom CMS</li>"
+          },
+          {
+            "selector": ".price-box:nth-child(1) > ul > .plan-features.fadeIn > li:nth-child(2)",
+            "snippet": "<li><img aria-hidden=\"true\" src=\"/assets/svgs/tick.svg\" alt=\"\"> 1000+ Word Post + SEO</li>"
+          },
+          {
+            "selector": ".price-box:nth-child(1) > ul > .plan-features.fadeIn > li:nth-child(3)",
+            "snippet": "<li><img aria-hidden=\"true\" src=\"/assets/svgs/tick.svg\" alt=\"\"> 1 Post Per Month</li>"
+          },
+          {
+            "selector": ".price-box:nth-child(1) > ul > .plan-features.fadeIn > li:nth-child(4)",
+            "snippet": "<li><img aria-hidden=\"true\" src=\"/assets/svgs/tick.svg\" alt=\"\"> $100 Per Extra Blog Post</li>"
+          },
+          {
+            "selector": ".price-box:nth-child(2) > ul > .plan-features.fadeIn > li:nth-child(1)",
+            "snippet": "<li><img aria-hidden=\"true\" src=\"/assets/svgs/tick.svg\" alt=\"\"> 5 Page Site</li>"
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 3,
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".price-box:nth-child(1) > ul",
+            "snippet": "<ul>"
+          },
+          {
+            "selector": ".price-box:nth-child(2) > ul",
+            "snippet": "<ul>"
+          },
+          {
+            "selector": ".price-box:nth-child(3) > ul",
+            "snippet": "<ul>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".what-we-do-topper > p > a",
+            "snippet": "<a href=\"/blog/what-is-the-difference-between-hand-coded-websites-and-wordpress-sites#blog-post\">LEARN MORE</a>"
+          },
+          {
+            "selector": "a[href$=\"about\"]",
+            "snippet": "<a href=\"about\">LEARN MORE</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "8821f312b0f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "8821f312b0f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "8821f312b0f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "26",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535975",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "8821f312b0f0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "41",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535960",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,350 @@
+{
+  "url": "https://vitepress.dev/",
+  "name": "VitePress",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795147681324,
+  "date": "2026-11-20T04:08:01.324Z",
+  "runId": "2026-11-20T03-19-53-232Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 40690,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://vitepress.dev/",
+    "finalUrl": "https://vitepress.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 94,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 809,
+      "lcp": 2258,
+      "si": 814,
+      "tbt": 37,
+      "tti": 2345,
+      "cls": 0,
+      "ttfb": 608,
+      "maxPotentialFid": 87,
+      "serverResponseTime": 7,
+      "networkRtt": 0.1,
+      "networkServerLatency": 51.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.1,
+      "resourceLoadDelay": 10,
+      "resourceLoadDuration": 25.7,
+      "elementRenderDelay": 45.9
+    },
+    "weight": {
+      "total": 211286,
+      "requests": 23,
+      "mainDocument": 3363,
+      "byType": {
+        "total": {
+          "bytes": 211286,
+          "requests": 17
+        },
+        "script": {
+          "bytes": 83037,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 73082,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 38463,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 9851,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 3490,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 3363,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3213,
+          "requests": 2
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3213,
+      "mainThreadMs": 2,
+      "top": [
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3213,
+          "mainThreadMs": 2,
+          "byType": {
+            "script": 2779,
+            "image": 434
+          },
+          "typedBytes": 3213
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 537,
+      "byGroup": {
+        "scriptEvaluation": 186.9,
+        "other": 159.2,
+        "styleLayout": 100.9,
+        "parseHTML": 67,
+        "paintCompositeRender": 19.9,
+        "scriptParseCompile": 3.2
+      },
+      "bootupMs": 175.3,
+      "longTasks": 1,
+      "longestTaskMs": 87
+    },
+    "dom": {
+      "elements": 170,
+      "depth": 19,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 29736,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 22,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 31
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2609,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T04:08:16.104Z",
+      "runtimeMs": 6197.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 597.8,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1210.1,
+    "elementRenderDelay": 321.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "vitepress",
+      "name": "VitePress",
+      "icon": "Vitepress",
+      "version": "2.0.0",
+      "source": "meta",
+      "raw": "VitePress v2.0.0-alpha.21"
+    },
+    "probe": {
+      "metas": [
+        "VitePress v2.0.0-alpha.21"
+      ],
+      "marks": [
+        "vitepress",
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.43"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7VJ8SHEQFXTGZRR5M9ZH4RS"
+    },
+    "violations": 4,
+    "passes": 177,
+    "incomplete": 1,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".VPHero",
+            "snippet": "<div class=\"VPHero has-image VPHomeHero\" data-v-8a12ee6a=\"\" data-v-28e93027=\"\">"
+          },
+          {
+            "selector": ".VPFeatures",
+            "snippet": "<div class=\"VPFeatures VPHomeFeatures\" data-v-8a12ee6a=\"\" data-v-a8703f4b=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".brand",
+            "snippet": "<a class=\"VPButton no-icon medium brand\" href=\"./guide/what-is-vitepress\" data-v-28e93027=\"\" data-v-f246de38=\"\"><!--[-->What is VitePress?<!--]--></a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en-US\" dir=\"ltr\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e461f5f31d41",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17863",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31518137",
+          "etag": "W/\"9d18e2ddea4ff78da6c6c3d89cc33af4-ssl\""
+        }
+      },
+      {
+        "hash": "e461f5f31d41",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17870",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31518130",
+          "etag": "W/\"9d18e2ddea4ff78da6c6c3d89cc33af4-ssl\""
+        }
+      },
+      {
+        "hash": "e461f5f31d41",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17877",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31518123",
+          "etag": "W/\"9d18e2ddea4ff78da6c6c3d89cc33af4-ssl\""
+        }
+      },
+      {
+        "hash": "e461f5f31d41",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17883",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31518117",
+          "etag": "W/\"9d18e2ddea4ff78da6c6c3d89cc33af4-ssl\""
+        }
+      },
+      {
+        "hash": "e461f5f31d41",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31518099",
+          "etag": "W/\"9d18e2ddea4ff78da6c6c3d89cc33af4-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

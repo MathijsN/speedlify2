@@ -1,0 +1,345 @@
+{
+  "url": "https://mistral.ai/",
+  "name": "Mistral",
+  "group": "ai",
+  "groupName": "AI",
+  "timestamp": 1795146106079,
+  "date": "2026-11-20T03:41:46.079Z",
+  "runId": "2026-11-20T03-19-53-232Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 100630,
+  "error": null,
+  "variance": {
+    "min": 53,
+    "max": 54,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mistral.ai/",
+    "finalUrl": "https://mistral.ai/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 54,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1883,
+      "lcp": 13746,
+      "si": 3270,
+      "tbt": 768,
+      "tti": 13833,
+      "cls": 0.01,
+      "ttfb": 517,
+      "maxPotentialFid": 348,
+      "serverResponseTime": 18,
+      "networkRtt": 1.2,
+      "networkServerLatency": 121.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 19.9,
+      "elementRenderDelay": 2659.9
+    },
+    "weight": {
+      "total": 2636204,
+      "requests": 171,
+      "mainDocument": 63075,
+      "byType": {
+        "total": {
+          "bytes": 2631745,
+          "requests": 161
+        },
+        "script": {
+          "bytes": 1369293,
+          "requests": 114
+        },
+        "image": {
+          "bytes": 627444,
+          "requests": 32
+        },
+        "font": {
+          "bytes": 520802,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 63075,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 47140,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 3991,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 721383,
+          "requests": 14
+        }
+      },
+      "scripts": 114,
+      "stylesheets": 4,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 5,
+      "bytes": 721382,
+      "mainThreadMs": 246.4,
+      "top": [
+        {
+          "entity": "axept.io",
+          "bytes": 374316,
+          "mainThreadMs": 112.2,
+          "byType": {
+            "script": 316627,
+            "stylesheet": 1440,
+            "font": 52336,
+            "other": 3913
+          },
+          "typedBytes": 374316
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 343766,
+          "mainThreadMs": 133.4,
+          "byType": {
+            "script": 343766
+          },
+          "typedBytes": 343766
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 3223,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "stylesheet": 3223
+          },
+          "typedBytes": 3223
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 57,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 57
+          },
+          "typedBytes": 57
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 20,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 20
+          },
+          "typedBytes": 20
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5249.1,
+      "byGroup": {
+        "other": 2336,
+        "scriptEvaluation": 1404,
+        "styleLayout": 712.4,
+        "paintCompositeRender": 469.5,
+        "scriptParseCompile": 220.6,
+        "parseHTML": 68.3,
+        "garbageCollection": 38.3
+      },
+      "bootupMs": 1510.6,
+      "longTasks": 12,
+      "longestTaskMs": 348
+    },
+    "dom": {
+      "elements": 2493,
+      "depth": 20,
+      "maxChildren": 230
+    },
+    "waste": {
+      "unusedJsBytes": 392343,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 36226,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1216,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 332159.80000000005,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 59
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2634.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:42:21.156Z",
+      "runtimeMs": 16370.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1127,
+    "elementRenderDelay": 13625.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5d4733a7d2e46fd-IAD",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M7VGTG4VFVSE2BWNNQ98Q07H"
+    },
+    "violations": 0,
+    "passes": 977,
+    "incomplete": 3,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "61a864ab3a8e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14940",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31521060",
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "61a864ab3a8e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14957",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31521043",
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "61a864ab3a8e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14974",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31521026",
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "61a864ab3a8e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14990",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31521010",
+          "cf-cache-status": "BYPASS"
+        }
+      },
+      {
+        "hash": "61a864ab3a8e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16376",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31519624",
+          "cf-cache-status": "BYPASS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
