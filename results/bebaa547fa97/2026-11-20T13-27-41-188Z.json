@@ -1,0 +1,22 @@
+{
+  "url": "https://docs.gitlab.com/user/project/pages",
+  "name": "GitLab Pages",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795181261188,
+  "date": "2026-11-20T13:27:41.188Z",
+  "runId": "2026-11-20T12-56-41-483Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 53194,
+  "error": "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+  "errors": [
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse."
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 1
+}

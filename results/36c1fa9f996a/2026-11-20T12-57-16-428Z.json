@@ -1,0 +1,22 @@
+{
+  "url": "https://render.com/",
+  "name": "Render",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795179436428,
+  "date": "2026-11-20T12:57:16.428Z",
+  "runId": "2026-11-20T12-56-41-483Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 478575,
+  "error": "lighthouse timed out after 120000ms",
+  "errors": [
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 9
+}
