@@ -1,43 +1,43 @@
 {
-  "timestamp": 1794927771508,
+  "timestamp": 1795179391766,
   "height": 498,
   "width": 250,
-  "settledAt": 3370,
+  "settledAt": 3471,
   "throttlingMethod": "simulate",
   "markers": null,
   "frames": [
     {
-      "timing": 421,
+      "timing": 434,
       "file": "05280545a0a5.jpg"
     },
     {
-      "timing": 843,
+      "timing": 868,
       "file": "05280545a0a5.jpg"
     },
     {
-      "timing": 1264,
+      "timing": 1302,
       "file": "05280545a0a5.jpg"
     },
     {
-      "timing": 1685,
+      "timing": 1736,
       "file": "05280545a0a5.jpg"
     },
     {
-      "timing": 2106,
+      "timing": 2169,
       "file": "05280545a0a5.jpg"
     },
     {
-      "timing": 2528,
-      "file": "035bec8a9cd7.jpg"
+      "timing": 2603,
+      "file": "8dfe0b2d3ad2.jpg"
     },
     {
-      "timing": 2949,
-      "file": "28450fc2077c.jpg"
+      "timing": 3037,
+      "file": "2c01cc0732e4.jpg"
     },
     {
-      "timing": 3370,
-      "file": "bebeda2a59a3.jpg"
+      "timing": 3471,
+      "file": "04ff5bd30d50.jpg"
     }
   ],
-  "final": "bebeda2a59a3.jpg"
+  "final": "04ff5bd30d50.jpg"
 }

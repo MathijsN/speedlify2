@@ -1,0 +1,397 @@
+{
+  "url": "https://www.cloudflare.com/",
+  "name": "Cloudflare",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795180131147,
+  "date": "2026-11-20T13:08:51.147Z",
+  "runId": "2026-11-20T12-56-30-691Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 302483,
+  "error": null,
+  "variance": {
+    "min": 79,
+    "max": 86,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.cloudflare.com/",
+    "finalUrl": "https://www.cloudflare.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 85,
+      "accessibility": 96,
+      "best-practices": 73,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1991,
+      "lcp": 2741,
+      "si": 2278,
+      "tbt": 392,
+      "tti": 16886,
+      "cls": 0.018,
+      "ttfb": 491,
+      "maxPotentialFid": 223,
+      "serverResponseTime": 7,
+      "networkRtt": 40.4,
+      "networkServerLatency": 103
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9,
+      "resourceLoadDelay": 96,
+      "resourceLoadDuration": 3.4,
+      "elementRenderDelay": 99.4
+    },
+    "weight": {
+      "total": 2762675,
+      "requests": 187,
+      "mainDocument": 157806,
+      "byType": {
+        "total": {
+          "bytes": 2756245,
+          "requests": 185
+        },
+        "script": {
+          "bytes": 1962388,
+          "requests": 100
+        },
+        "image": {
+          "bytes": 425964,
+          "requests": 47
+        },
+        "document": {
+          "bytes": 159034,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 98051,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 61075,
+          "requests": 27
+        },
+        "font": {
+          "bytes": 49733,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 256483,
+          "requests": 36
+        }
+      },
+      "scripts": 100,
+      "stylesheets": 4,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 12,
+      "bytes": 251703,
+      "mainThreadMs": 45.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 169433,
+          "mainThreadMs": 12.1,
+          "byType": {
+            "script": 169433
+          },
+          "typedBytes": 169433
+        },
+        {
+          "entity": "DemandBase",
+          "bytes": 23597,
+          "mainThreadMs": 14.6,
+          "byType": {
+            "script": 23154,
+            "other": 443
+          },
+          "typedBytes": 23597
+        },
+        {
+          "entity": "Twitter Online Conversion Tracking",
+          "bytes": 18646,
+          "mainThreadMs": 5.1,
+          "byType": {
+            "script": 17689,
+            "image": 957
+          },
+          "typedBytes": 18646
+        },
+        {
+          "entity": "The Trade Desk",
+          "bytes": 15461,
+          "mainThreadMs": 2.7,
+          "byType": {
+            "script": 15109,
+            "other": 352
+          },
+          "typedBytes": 15461
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 6.6,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 6678.1,
+      "byGroup": {
+        "other": 2677.8,
+        "scriptEvaluation": 1870.7,
+        "styleLayout": 1282.1,
+        "paintCompositeRender": 445.3,
+        "scriptParseCompile": 238.6,
+        "parseHTML": 115.2,
+        "garbageCollection": 48.3
+      },
+      "bootupMs": 1906,
+      "longTasks": 13,
+      "longestTaskMs": 223
+    },
+    "dom": {
+      "elements": 3013,
+      "depth": 25,
+      "maxChildren": 239
+    },
+    "waste": {
+      "unusedJsBytes": 846604,
+      "unusedCssBytes": 12101,
+      "legacyJsBytes": 18768,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 450,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 130303.14166666666,
+      "poorlyCachedCount": 12
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 10,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 10
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 4,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 22
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 4
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 79
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3997.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T13:09:11.058Z",
+      "runtimeMs": 20437.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 594.2,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1.7,
+    "elementRenderDelay": 1749.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": true,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "6.3.7",
+      "source": "meta",
+      "raw": "Astro v6.3.7"
+    },
+    "probe": {
+      "metas": [
+        "Astro v6.3.7"
+      ],
+      "marks": [
+        "astro",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5d7b3b7fe5868e8-MSP",
+      "server": "cloudflare",
+      "x-served-by": "marketing-site"
+    },
+    "violations": 12,
+    "passes": 1772,
+    "incomplete": 50,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 12,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "div:nth-child(1) > .px-\\[18px\\].gap-1.w-full > .flex-1.opacity-50.min-w-0 > .min-w-0.items-center.flex > .leading-\\[1\\.2\\].tracking-\\[-0\\.02em\\].font-mono",
+            "snippet": "<span class=\"text-foreground-100 font-mono whitespace-nowrap text-[12px] leading-[1.2] tracking-[-0.02em]\">scanning PRs</span>"
+          },
+          {
+            "selector": "div:nth-child(1) > .px-\\[18px\\].gap-1.w-full > .flex-1.opacity-50.min-w-0 > .min-w-0.items-center.flex > .pr-3.pl-\\[10px\\].gap-3 > .leading-\\[1\\.2\\].tracking-\\[-0\\.02em\\].font-mono",
+            "snippet": "<span class=\"text-foreground-100 font-mono whitespace-nowrap text-[12px] leading-[1.2] tracking-[-0.02em]\">179.6k tokens</span>"
+          },
+          {
+            "selector": "div:nth-child(2) > .px-\\[18px\\].gap-1.w-full > .flex-1.opacity-50.min-w-0 > .min-w-0.items-center.flex > .leading-\\[1\\.2\\].tracking-\\[-0\\.02em\\].font-mono",
+            "snippet": "<span class=\"text-foreground-100 font-mono whitespace-nowrap text-[12px] leading-[1.2] tracking-[-0.02em]\">running checks</span>"
+          },
+          {
+            "selector": "div:nth-child(2) > .px-\\[18px\\].gap-1.w-full > .flex-1.opacity-50.min-w-0 > .min-w-0.items-center.flex > .pr-3.pl-\\[10px\\].gap-3 > .leading-\\[1\\.2\\].tracking-\\[-0\\.02em\\].font-mono",
+            "snippet": "<span class=\"text-foreground-100 font-mono whitespace-nowrap text-[12px] leading-[1.2] tracking-[-0.02em]\">8k tokens</span>"
+          },
+          {
+            "selector": "div:nth-child(3) > .px-\\[18px\\].gap-1.w-full > .flex-1.opacity-50.min-w-0 > .min-w-0.items-center.flex > .leading-\\[1\\.2\\].tracking-\\[-0\\.02em\\].font-mono",
+            "snippet": "<span class=\"text-foreground-100 font-mono whitespace-nowrap text-[12px] leading-[1.2] tracking-[-0.02em]\">fixed documentation</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "af55a3ca7677",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "c2727698995d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "c2727698995d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "16ba36b3c6de",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "3",
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "3704bbfd9361",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
