@@ -1,0 +1,282 @@
+{
+  "url": "https://www.axcora.com/",
+  "name": "www.axcora.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795144889714,
+  "date": "2026-11-20T03:21:29.714Z",
+  "runId": "2026-11-20T03-19-48-657Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19606,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.axcora.com/",
+    "finalUrl": "https://www.axcora.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 788,
+      "lcp": 788,
+      "si": 788,
+      "tbt": 0,
+      "tti": 788,
+      "cls": 0,
+      "ttfb": 611,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 19,
+      "networkRtt": 0.1,
+      "networkServerLatency": 21.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.5,
+      "elementRenderDelay": 43.4
+    },
+    "weight": {
+      "total": 245688,
+      "requests": 12,
+      "mainDocument": 5192,
+      "byType": {
+        "total": {
+          "bytes": 245688,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 224751,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 10010,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5192,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4848,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 887,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 226012,
+          "requests": 7
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 226012,
+      "mainThreadMs": 0.2,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 226012,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1261,
+            "font": 224751
+          },
+          "typedBytes": 226012
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 190.1,
+      "byGroup": {
+        "other": 78.4,
+        "styleLayout": 73.6,
+        "paintCompositeRender": 17.2,
+        "scriptEvaluation": 13.9,
+        "parseHTML": 5.9,
+        "scriptParseCompile": 1
+      },
+      "bootupMs": 6.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 199,
+      "depth": 8,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 13276.999999999998,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 6
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4210.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:21:37.194Z",
+      "runtimeMs": 5675.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": null,
+      "name": "DAX dotnet - Pure C# Slim SSG",
+      "icon": null,
+      "version": null,
+      "source": "meta",
+      "raw": "DAX dotnet - Pure C# Slim SSG"
+    },
+    "probe": {
+      "metas": [
+        "DAX dotnet - Pure C# Slim SSG"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "7844bb967f3f617c166a9c6564dae6cad277fceb",
+      "x-github-request-id": "26AE:37EB3F:C505C:DC692:6AFFB52F",
+      "x-served-by": "cache-iad-kcgs7200147-IAD"
+    },
+    "violations": 0,
+    "passes": 413,
+    "incomplete": 2,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3b527050fe40",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "533",
+          "etag": "W/\"6ac476f3-4119\"",
+          "last-modified": "Tue, 06 Oct 2026 04:20:03 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "3b527050fe40",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "539",
+          "etag": "W/\"6ac476f3-4119\"",
+          "last-modified": "Tue, 06 Oct 2026 04:20:03 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "3b527050fe40",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "545",
+          "etag": "W/\"6ac476f3-4119\"",
+          "last-modified": "Tue, 06 Oct 2026 04:20:03 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "3b527050fe40",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "548",
+          "etag": "W/\"6ac476f3-4119\"",
+          "last-modified": "Tue, 06 Oct 2026 04:20:03 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "HIT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

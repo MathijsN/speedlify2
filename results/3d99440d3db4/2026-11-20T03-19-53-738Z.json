@@ -1,0 +1,421 @@
+{
+  "url": "https://web.dev/",
+  "name": "web.dev",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795144793738,
+  "date": "2026-11-20T03:19:53.738Z",
+  "runId": "2026-11-20T03-19-48-657Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43958,
+  "error": null,
+  "variance": {
+    "min": 70,
+    "max": 80,
+    "spread": 10,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://web.dev/",
+    "finalUrl": "https://web.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 76,
+      "accessibility": 90,
+      "best-practices": 77,
+      "seo": 92,
+      "agentic-browsing": 42
+    },
+    "timings": {
+      "fcp": 2675,
+      "lcp": 2675,
+      "si": 2675,
+      "tbt": 491,
+      "tti": 12971,
+      "cls": 0.119,
+      "ttfb": 712,
+      "maxPotentialFid": 240,
+      "serverResponseTime": 455,
+      "networkRtt": 0.9,
+      "networkServerLatency": 173.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 457.1,
+      "elementRenderDelay": 69.9
+    },
+    "weight": {
+      "total": 1999965,
+      "requests": 93,
+      "mainDocument": 22298,
+      "byType": {
+        "total": {
+          "bytes": 1999965,
+          "requests": 89
+        },
+        "script": {
+          "bytes": 1421360,
+          "requests": 48
+        },
+        "font": {
+          "bytes": 242579,
+          "requests": 12
+        },
+        "stylesheet": {
+          "bytes": 196071,
+          "requests": 8
+        },
+        "image": {
+          "bytes": 85443,
+          "requests": 9
+        },
+        "document": {
+          "bytes": 53005,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 1507,
+          "requests": 8
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1894119,
+          "requests": 79
+        }
+      },
+      "scripts": 48,
+      "stylesheets": 8,
+      "fonts": 12
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 1470424,
+      "mainThreadMs": 304.6,
+      "top": [
+        {
+          "entity": "Google CDN",
+          "bytes": 630195,
+          "mainThreadMs": 78.4,
+          "byType": {
+            "script": 472796,
+            "stylesheet": 156225,
+            "image": 1110,
+            "other": 64
+          },
+          "typedBytes": 630195
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 617778,
+          "mainThreadMs": 223.6,
+          "byType": {
+            "script": 617742,
+            "image": 36
+          },
+          "typedBytes": 617778
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 206754,
+          "mainThreadMs": 0.5,
+          "byType": {
+            "stylesheet": 4335,
+            "font": 202419
+          },
+          "typedBytes": 206754
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 15697,
+          "mainThreadMs": 2.1,
+          "byType": {
+            "script": 15697
+          },
+          "typedBytes": 15697
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2466.7,
+      "byGroup": {
+        "scriptEvaluation": 1260.7,
+        "other": 479.5,
+        "styleLayout": 344.9,
+        "scriptParseCompile": 210.4,
+        "paintCompositeRender": 74.6,
+        "parseHTML": 54.9,
+        "garbageCollection": 41.8
+      },
+      "bootupMs": 1280,
+      "longTasks": 8,
+      "longestTaskMs": 240
+    },
+    "dom": {
+      "elements": 843,
+      "depth": 19,
+      "maxChildren": 23
+    },
+    "waste": {
+      "unusedJsBytes": 480401,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2429,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 225.59999999999994,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 31,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 9
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 4
+        },
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 6
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": null,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 56
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4367.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:20:22.927Z",
+      "runtimeMs": 12111.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "google",
+      "name": "Google Frontend",
+      "icon": "Google",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Google Frontend",
+      "x-cloud-trace-context": "c48fa88e975fac42067e47ae0a578761"
+    },
+    "violations": 19,
+    "passes": 1760,
+    "incomplete": 18,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 9,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "figure > a[href=\"https://web.dev/explore/ai\"]",
+            "snippet": "<a href=\"https://web.dev/explore/ai\">"
+          },
+          {
+            "selector": ".devsite-landing-row-3-up.devsite-landing-row-cards[header-position=\"top\"]:nth-child(2) > .devsite-landing-row-inner > .devsite-landing-row-group > .devsite-landing-row-item[background=\"grey\"][description-position=\"bottom\"]:nth-child(2) > .devsite-landing-row-item-media > figure > a",
+            "snippet": "<a href=\"https://web.dev/explore/how-to-optimize-inp?utm_source=web.dev&utm_medium=cards&utm_campaign=inp-cwv\">"
+          },
+          {
+            "selector": "figure > a[href$=\"identity\"]",
+            "snippet": "<a href=\"https://web.dev/identity\">"
+          },
+          {
+            "selector": ".devsite-landing-row-item-description[icon-position=\"top\"] > a[href$=\"html\"]",
+            "snippet": "<a href=\"https://web.dev/html\"> <div class=\"devsite-landing-row-item-icon-container\" background=\"grey\" foreground=\"light-blue\" size=\"medium\"> <div class=\"devsite-landing-row-item-icon material-icons\"…"
+          },
+          {
+            "selector": ".devsite-landing-row-item-description[icon-position=\"top\"] > a[href$=\"css\"]",
+            "snippet": "<a href=\"https://web.dev/css\"> <div class=\"devsite-landing-row-item-icon-container\" background=\"grey\" foreground=\"light-blue\" size=\"medium\"> <div class=\"devsite-landing-row-item-icon material-icons\" …"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".devsite-landing-row-item[background=\"grey\"][description-position=\"bottom\"]:nth-child(1) > .devsite-landing-row-item-description > .devsite-landing-row-item-body > .devsite-landing-row-item-buttons > .button[href$=\"html\"]",
+            "snippet": "<a href=\"https://web.dev/learn/html\" class=\"button \">Start course</a>"
+          },
+          {
+            "selector": ".devsite-landing-row-item[background=\"grey\"][description-position=\"bottom\"]:nth-child(2) > .devsite-landing-row-item-description > .devsite-landing-row-item-body > .devsite-landing-row-item-buttons > .button[href$=\"css\"]",
+            "snippet": "<a href=\"https://web.dev/learn/css\" class=\"button \">Start course</a>"
+          },
+          {
+            "selector": ".devsite-landing-row-item-centered.devsite-landing-row-3-up.devsite-landing-row-cards:nth-child(6) > .devsite-landing-row-inner > .devsite-landing-row-group > .devsite-landing-row-item[background=\"grey\"][description-position=\"bottom\"]:nth-child(3) > .devsite-landing-row-item-description > .devsite-landing-row-item-body > .devsite-landing-row-item-buttons > .button",
+            "snippet": "<a href=\"https://web.dev/learn/javascript\" class=\"button \">Start course</a>"
+          },
+          {
+            "selector": ".button[href$=\"blog\"]",
+            "snippet": "<a href=\"https://web.dev/blog\" class=\"button \">Read the blog</a>"
+          },
+          {
+            "selector": "iframe >>> a:nth-child(1)",
+            "snippet": "<a href=\"https://policies.google.com/terms\" rel=\"noopener\" target=\"_blank\">Terms and Conditions</a>"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" dir=\"ltr\">"
+          },
+          {
+            "selector": "iframe >>> html",
+            "snippet": "<html lang=\"en\" dir=\"ltr\">"
+          },
+          {
+            "selector": "iframe >>> iframe[title=\"reCAPTCHA\"] >>> html",
+            "snippet": "<html dir=\"ltr\" lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe",
+            "snippet": "<iframe src=\"https://web.dev/frame/root_e7ed82a285fa17c863c90c60e0a1522bed456cddc7356ce2102fecdc9139137c.frame\" allow=\"clipboard-write https://web-dot-devsite-v2-prod-3p.appspot.com\" allowfullscreen=…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a7be76891fa4",
+        "nonce": "4018b99f7441",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 04 Nov 2026 13:35:19 GMT"
+        }
+      },
+      {
+        "hash": "e2a258e5614e",
+        "nonce": "1cb722d67e1e",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 04 Nov 2026 13:35:19 GMT"
+        }
+      },
+      {
+        "hash": "1921eb7f34bb",
+        "nonce": "5e41ef3f1562",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 04 Nov 2026 13:35:19 GMT"
+        }
+      },
+      {
+        "hash": "7ff3fd22bd71",
+        "nonce": "20a6f464c27b",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Wed, 04 Nov 2026 13:35:19 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

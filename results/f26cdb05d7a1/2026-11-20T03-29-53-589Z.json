@@ -1,0 +1,302 @@
+{
+  "url": "https://www.teotimepacreau.fr/",
+  "name": "www.teotimepacreau.fr",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795145393589,
+  "date": "2026-11-20T03:29:53.589Z",
+  "runId": "2026-11-20T03-19-48-657Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20070,
+  "error": null,
+  "variance": {
+    "min": 83,
+    "max": 90,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.teotimepacreau.fr/",
+    "finalUrl": "https://www.teotimepacreau.fr/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 87,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 785,
+      "lcp": 4058,
+      "si": 785,
+      "tbt": 0,
+      "tti": 4058,
+      "cls": 0.037,
+      "ttfb": 608,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 8,
+      "networkRtt": 0,
+      "networkServerLatency": 73.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.7,
+      "elementRenderDelay": 104.7
+    },
+    "weight": {
+      "total": 598281,
+      "requests": 9,
+      "mainDocument": 3873,
+      "byType": {
+        "total": {
+          "bytes": 598281,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 557313,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 26583,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 6544,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3873,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 2913,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1055,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 25599,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 25599,
+      "mainThreadMs": 19.7,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 25599,
+          "mainThreadMs": 19.7,
+          "byType": {
+            "script": 25599
+          },
+          "typedBytes": 25599
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 480.3,
+      "byGroup": {
+        "other": 183.6,
+        "styleLayout": 125.5,
+        "scriptEvaluation": 109.4,
+        "paintCompositeRender": 44.3,
+        "parseHTML": 10.6,
+        "scriptParseCompile": 6.9
+      },
+      "bootupMs": 112,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 98,
+      "depth": 9,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4161.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:30:01.974Z",
+      "runtimeMs": 5671.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7VG2BV0PM2XJ7NHECQCAX86"
+    },
+    "violations": 2,
+    "passes": 156,
+    "incomplete": 5,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#theme-toggler",
+            "snippet": "<button data-theme=\"dark\" id=\"theme-toggler\" name=\"Sélecteur de thème coloré\" style=\"appearance: none; border: none; background-color: transparent; position: absolute; left: 0; right: 0; top: calc(.5…"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "section:nth-child(4) > .homepage-projets-titre-flexer > h2",
+            "snippet": "<h2>Essais</h2>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e5d972d4e0d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"1703369aabf6ec857867338627e54eef-ssl\""
+        }
+      },
+      {
+        "hash": "e5d972d4e0d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"1703369aabf6ec857867338627e54eef-ssl\""
+        }
+      },
+      {
+        "hash": "e5d972d4e0d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"1703369aabf6ec857867338627e54eef-ssl\""
+        }
+      },
+      {
+        "hash": "e5d972d4e0d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"1703369aabf6ec857867338627e54eef-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
