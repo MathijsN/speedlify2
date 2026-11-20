@@ -1,0 +1,340 @@
+{
+  "url": "https://akademia.instytutsprawobywatelskich.pl/",
+  "name": "akademia.instytutsprawobywatelskich.pl",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795209152995,
+  "date": "2026-11-20T21:12:32.995Z",
+  "runId": "2026-11-20T21-08-46-793Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22771,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 98,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://akademia.instytutsprawobywatelskich.pl/",
+    "finalUrl": "https://akademia.instytutsprawobywatelskich.pl/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 976,
+      "lcp": 2381,
+      "si": 976,
+      "tbt": 19,
+      "tti": 2463,
+      "cls": 0,
+      "ttfb": 622,
+      "maxPotentialFid": 87,
+      "serverResponseTime": 21,
+      "networkRtt": 0,
+      "networkServerLatency": 22.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22.8,
+      "resourceLoadDelay": 8.5,
+      "resourceLoadDuration": 9,
+      "elementRenderDelay": 78.3
+    },
+    "weight": {
+      "total": 972898,
+      "requests": 25,
+      "mainDocument": 20847,
+      "byType": {
+        "total": {
+          "bytes": 972898,
+          "requests": 24
+        },
+        "image": {
+          "bytes": 698308,
+          "requests": 14
+        },
+        "font": {
+          "bytes": 191595,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 57022,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 20847,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4532,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 594,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 709385,
+          "requests": 10
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 709385,
+      "mainThreadMs": 21.9,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 652363,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 652363
+          },
+          "typedBytes": 652363
+        },
+        {
+          "entity": "Netlify",
+          "bytes": 55102,
+          "mainThreadMs": 20.8,
+          "byType": {
+            "script": 55102
+          },
+          "typedBytes": 55102
+        },
+        {
+          "entity": "Plausible",
+          "bytes": 1920,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 1920
+          },
+          "typedBytes": 1920
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 406.5,
+      "byGroup": {
+        "other": 146.3,
+        "styleLayout": 110,
+        "scriptEvaluation": 93,
+        "scriptParseCompile": 20.8,
+        "paintCompositeRender": 15.3,
+        "parseHTML": 15.1,
+        "garbageCollection": 5.9
+      },
+      "bootupMs": 106.9,
+      "longTasks": 1,
+      "longestTaskMs": 87
+    },
+    "dom": {
+      "elements": 407,
+      "depth": 11,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 21305,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 13107,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 7
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3456.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T21:12:49.061Z",
+      "runtimeMs": 6395.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7XCW7ER35S53EVK140BX5RQ"
+    },
+    "violations": 4,
+    "passes": 593,
+    "incomplete": 68,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 2,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".bg-blue-200",
+            "snippet": "<div class=\"bg-blue-200 pt-16 xs:pt-8 px-3\">"
+          },
+          {
+            "selector": "#infoCiastka > p",
+            "snippet": "<p>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".xs\\:hidden",
+            "snippet": "<a class=\"absolute xs:hidden right-0 text-gray-100 no-underline px-2 py-1\" href=\"#menu\">↑ Menu</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#menu",
+            "snippet": "<nav id=\"menu\" role=\"navigation\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "44235f82e334",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"bf00132f35febfb8c40713c730bb33b8-ssl\""
+        }
+      },
+      {
+        "hash": "44235f82e334",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"bf00132f35febfb8c40713c730bb33b8-ssl\""
+        }
+      },
+      {
+        "hash": "44235f82e334",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535985",
+          "etag": "W/\"bf00132f35febfb8c40713c730bb33b8-ssl\""
+        }
+      },
+      {
+        "hash": "44235f82e334",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535980",
+          "etag": "W/\"bf00132f35febfb8c40713c730bb33b8-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,306 @@
+{
+  "url": "https://amorgunov.com/",
+  "name": "amorgunov.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795209283310,
+  "date": "2026-11-20T21:14:43.310Z",
+  "runId": "2026-11-20T21-08-46-793Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 21546,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 99,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://amorgunov.com/",
+    "finalUrl": "https://amorgunov.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1535,
+      "lcp": 1535,
+      "si": 1535,
+      "tbt": 95,
+      "tti": 4023,
+      "cls": 0.045,
+      "ttfb": 621,
+      "maxPotentialFid": 130,
+      "serverResponseTime": 21,
+      "networkRtt": 0.1,
+      "networkServerLatency": 22.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22.1,
+      "elementRenderDelay": 66.5
+    },
+    "weight": {
+      "total": 410997,
+      "requests": 19,
+      "mainDocument": 1807,
+      "byType": {
+        "total": {
+          "bytes": 410997,
+          "requests": 19
+        },
+        "script": {
+          "bytes": 312188,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 86230,
+          "requests": 6
+        },
+        "stylesheet": {
+          "bytes": 5229,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 3775,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 1807,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1768,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 393501,
+          "requests": 9
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 393501,
+      "mainThreadMs": 57.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 305873,
+          "mainThreadMs": 57.7,
+          "byType": {
+            "script": 305873
+          },
+          "typedBytes": 305873
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 87628,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1398,
+            "font": 86230
+          },
+          "typedBytes": 87628
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 470.2,
+      "byGroup": {
+        "scriptEvaluation": 236.8,
+        "other": 110.3,
+        "scriptParseCompile": 55.4,
+        "styleLayout": 46.4,
+        "garbageCollection": 9.9,
+        "parseHTML": 6.7,
+        "paintCompositeRender": 4.8
+      },
+      "bootupMs": 282.1,
+      "longTasks": 2,
+      "longestTaskMs": 130
+    },
+    "dom": {
+      "elements": 55,
+      "depth": 10,
+      "maxChildren": 4
+    },
+    "waste": {
+      "unusedJsBytes": 149724,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 764,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 11
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3419,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T21:14:52.725Z",
+      "runtimeMs": 5881.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7XD010NREY1Z8F7RGTX9DQX"
+    },
+    "violations": 2,
+    "passes": 90,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text_type_h4",
+            "snippet": "<span class=\"text text_type_h4\">Пишу о <a href=\"/tags/react\" class=\"link\">#реакте</a> , <a href=\"/tags/typescript\" class=\"link\">#тайпскрипте</a> , <a href=\"/tags/fsd\" class=\"link\">#fsd</a> и обо всем…"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"ru\" data-theme=\"light\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ad751e9fafd5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"75f491456ae980b1c5c5a60e665c3d8d-ssl\""
+        }
+      },
+      {
+        "hash": "ad751e9fafd5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"75f491456ae980b1c5c5a60e665c3d8d-ssl\""
+        }
+      },
+      {
+        "hash": "ad751e9fafd5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"75f491456ae980b1c5c5a60e665c3d8d-ssl\""
+        }
+      },
+      {
+        "hash": "ad751e9fafd5",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"75f491456ae980b1c5c5a60e665c3d8d-ssl\""
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

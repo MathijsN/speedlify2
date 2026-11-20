@@ -1,0 +1,355 @@
+{
+  "url": "https://www.lookback.com/",
+  "name": "www.lookback.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795208941521,
+  "date": "2026-11-20T21:09:01.521Z",
+  "runId": "2026-11-20T21-08-46-793Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 87932,
+  "error": null,
+  "variance": {
+    "min": 79,
+    "max": 90,
+    "spread": 11,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.lookback.com/",
+    "finalUrl": "https://www.lookback.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 94,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 912,
+      "lcp": 3613,
+      "si": 912,
+      "tbt": 0,
+      "tti": 3613,
+      "cls": 0.03,
+      "ttfb": 462,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 9,
+      "networkRtt": 0.4,
+      "networkServerLatency": 15.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 10.1,
+      "resourceLoadDelay": 27.8,
+      "resourceLoadDuration": 32.6,
+      "elementRenderDelay": 58
+    },
+    "weight": {
+      "total": 52941312,
+      "requests": 35,
+      "mainDocument": 7955,
+      "byType": {
+        "total": {
+          "bytes": 52941312,
+          "requests": 33
+        },
+        "media": {
+          "bytes": 52141663,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 645739,
+          "requests": 21
+        },
+        "font": {
+          "bytes": 128575,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 13882,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 7955,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2237,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 1261,
+          "requests": 1
+        },
+        "third-party": {
+          "bytes": 49523,
+          "requests": 2
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 3,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 49523,
+      "mainThreadMs": 0.4,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 49523,
+          "mainThreadMs": 0.4,
+          "byType": {
+            "stylesheet": 1059,
+            "font": 48464
+          },
+          "typedBytes": 49523
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1180.3,
+      "byGroup": {
+        "other": 873.6,
+        "styleLayout": 194.9,
+        "paintCompositeRender": 59,
+        "parseHTML": 24.5,
+        "scriptEvaluation": 19.9,
+        "garbageCollection": 6.7,
+        "scriptParseCompile": 1.7
+      },
+      "bootupMs": 19.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 411,
+      "depth": 13,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 295973.6,
+      "poorlyCachedCount": 29
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 25,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 7
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 20
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3455,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T21:09:50.966Z",
+      "runtimeMs": 22724
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 cb2339b8008ceeabfc2dd9e6cfbc465c.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "23TXz9DdpTvOeMD-oygR1BgmfuycXmEnH55Fvz4ibsZc3EGoH-QNkA=="
+    },
+    "violations": 11,
+    "passes": 849,
+    "incomplete": 13,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 7,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#built-for-research",
+            "snippet": "<h3 id=\"built-for-research\">Built for <i>research</i></h3>"
+          },
+          {
+            "selector": ".section-image-text[data-reversed=\"false\"]:nth-child(5) > .shell > .section__inner > .section__content > h6",
+            "snippet": "<h6>moderated research</h6>"
+          },
+          {
+            "selector": "section[data-reversed=\"true\"] > .shell > .section__inner > .section__content > h6",
+            "snippet": "<h6>unmoderated research</h6>"
+          },
+          {
+            "selector": ".section-image-text[data-reversed=\"false\"]:nth-child(7) > .shell > .section__inner > .section__content > h6",
+            "snippet": "<h6>Lookback Discover &amp; MCP</h6>"
+          },
+          {
+            "selector": ".tiles__item:nth-child(1) > .tile > .tile__content > h6",
+            "snippet": "<h6>Flexible recruitment</h6>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".shell--large.shell > header",
+            "snippet": "<header class=\"section__head\"> <h2 id=\"join-the-ux-research-rundown\">Join the UX Research Rundown</h2> <p>Stay up-to-date on all things UXR with our lovingly curated monthly newsletter,<br>in partner…"
+          },
+          {
+            "selector": "label > span:nth-child(1)",
+            "snippet": "<span>Email Address</span>"
+          },
+          {
+            "selector": ".input",
+            "snippet": "<div class=\"input\"><input id=\"email-lu2inj\" name=\"email\" required=\"\" type=\"email\" class=\"hs-input\" inputmode=\"email\" autocomplete=\"email\"></div>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "label > span:nth-child(1)",
+            "snippet": "<span>Email Address</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b1b086eef6a9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39598",
+          "etag": "W/\"118738016ffa6c6ad8325d7b733e44b5\"",
+          "last-modified": "Thu, 29 Oct 2026 18:06:56 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "b1b086eef6a9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39622",
+          "etag": "W/\"118738016ffa6c6ad8325d7b733e44b5\"",
+          "last-modified": "Thu, 29 Oct 2026 18:06:56 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "b1b086eef6a9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39645",
+          "etag": "W/\"118738016ffa6c6ad8325d7b733e44b5\"",
+          "last-modified": "Thu, 29 Oct 2026 18:06:56 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "b1b086eef6a9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39666",
+          "etag": "W/\"118738016ffa6c6ad8325d7b733e44b5\"",
+          "last-modified": "Thu, 29 Oct 2026 18:06:56 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
