@@ -1,0 +1,430 @@
+{
+  "url": "https://groq.com/",
+  "name": "Groq",
+  "group": "ai",
+  "groupName": "AI",
+  "timestamp": 1795179758445,
+  "date": "2026-11-20T13:02:38.445Z",
+  "runId": "2026-11-20T12-56-39-578Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 66972,
+  "error": null,
+  "variance": {
+    "min": 84,
+    "max": 86,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://groq.com/",
+    "finalUrl": "https://groq.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 84,
+      "accessibility": 90,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 937,
+      "lcp": 937,
+      "si": 5283,
+      "tbt": 457,
+      "tti": 9495,
+      "cls": 0,
+      "ttfb": 621,
+      "maxPotentialFid": 276,
+      "serverResponseTime": 14,
+      "networkRtt": 16,
+      "networkServerLatency": 68.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 57.2,
+      "elementRenderDelay": 142.4
+    },
+    "weight": {
+      "total": 1337713,
+      "requests": 79,
+      "mainDocument": 13581,
+      "byType": {
+        "total": {
+          "bytes": 1334966,
+          "requests": 78
+        },
+        "script": {
+          "bytes": 1051344,
+          "requests": 42
+        },
+        "font": {
+          "bytes": 139411,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 94491,
+          "requests": 24
+        },
+        "stylesheet": {
+          "bytes": 36075,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 13581,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 64,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 582005,
+          "requests": 24
+        }
+      },
+      "scripts": 42,
+      "stylesheets": 5,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 582068,
+      "mainThreadMs": 210.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 500030,
+          "mainThreadMs": 171.3,
+          "byType": {
+            "script": 500030
+          },
+          "typedBytes": 500030
+        },
+        {
+          "entity": "datagrail.io",
+          "bytes": 48177,
+          "mainThreadMs": 13,
+          "byType": {
+            "script": 48177
+          },
+          "typedBytes": 48177
+        },
+        {
+          "entity": "reddit",
+          "bytes": 29636,
+          "mainThreadMs": 25.6,
+          "byType": {
+            "script": 27912,
+            "other": 1724
+          },
+          "typedBytes": 29636
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 3568,
+          "mainThreadMs": 0.7,
+          "byType": {
+            "script": 3002,
+            "other": 566
+          },
+          "typedBytes": 3568
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 552,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 552
+          },
+          "typedBytes": 552
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4119.5,
+      "byGroup": {
+        "scriptEvaluation": 2363.1,
+        "other": 1138.5,
+        "scriptParseCompile": 248.8,
+        "styleLayout": 239.3,
+        "garbageCollection": 59.9,
+        "paintCompositeRender": 49.3,
+        "parseHTML": 20.4
+      },
+      "bootupMs": 2413.4,
+      "longTasks": 9,
+      "longestTaskMs": 276
+    },
+    "dom": {
+      "elements": 309,
+      "depth": 10,
+      "maxChildren": 42
+    },
+    "waste": {
+      "unusedJsBytes": 354230,
+      "unusedCssBytes": 10959,
+      "legacyJsBytes": 31908,
+      "duplicatedJsBytes": 19410,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 154,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 151512.02499999997,
+      "poorlyCachedCount": 6
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failingNodes": 70,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 55
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 15
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 4
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 4,
+      "baselineLimitedFeatures": 55
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2959,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T13:02:39.653Z",
+      "runtimeMs": 9977.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "elementRenderDelay": 660.4
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "pdx1::iad1::jkgkx-1795179822724-8937d74c279b"
+    },
+    "violations": 71,
+    "passes": 273,
+    "incomplete": 42,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 55,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".AnnouncementBanner_link__B2CVp",
+            "snippet": "<a class=\"AnnouncementBanner_link__B2CVp\" data-internal-link=\"internal\" href=\"/newsroom/groq-closes-usd350-million-series-a-building-the-world-s-leading-ai-inference-cloud\">Read more<span aria-hidden…"
+          },
+          {
+            "selector": "p[aria-label=\"Groq was built for this.\"] > div[aria-hidden=\"true\"] > div[aria-hidden=\"true\"]:nth-child(1)",
+            "snippet": "<div aria-hidden=\"true\" style=\"position: relative; display: inline-block; color: rgb(206, 206, 191);\">Groq</div>"
+          },
+          {
+            "selector": "p[aria-label=\"Groq was built for this.\"] > div[aria-hidden=\"true\"] > div[aria-hidden=\"true\"]:nth-child(2)",
+            "snippet": "<div aria-hidden=\"true\" style=\"position: relative; display: inline-block; color: rgb(206, 206, 191);\">was</div>"
+          },
+          {
+            "selector": "p[aria-label=\"Groq was built for this.\"] > div[aria-hidden=\"true\"] > div[aria-hidden=\"true\"]:nth-child(3)",
+            "snippet": "<div aria-hidden=\"true\" style=\"position: relative; display: inline-block; color: rgb(206, 206, 191);\">built</div>"
+          },
+          {
+            "selector": "p[aria-label=\"Groq was built for this.\"] > div[aria-hidden=\"true\"] > div[aria-hidden=\"true\"]:nth-child(4)",
+            "snippet": "<div aria-hidden=\"true\" style=\"position: relative; display: inline-block; color: rgb(206, 206, 191);\">for</div>"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 15,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p[aria-label=\"Every customer served.\"]",
+            "snippet": "<p class=\"HomeProseReveal_line__ANM8z\" data-prose-reveal=\"true\" aria-label=\"Every customer served.\" style=\"color: rgb(206, 206, 191);\">"
+          },
+          {
+            "selector": "p[aria-label=\"Every product sold.\"]",
+            "snippet": "<p class=\"HomeProseReveal_line__ANM8z\" data-prose-reveal=\"true\" aria-label=\"Every product sold.\" style=\"color: rgb(206, 206, 191);\">"
+          },
+          {
+            "selector": "p[aria-label=\"Every commit merged.\"]",
+            "snippet": "<p class=\"HomeProseReveal_line__ANM8z\" data-prose-reveal=\"true\" aria-label=\"Every commit merged.\" style=\"color: rgb(206, 206, 191);\">"
+          },
+          {
+            "selector": "p[aria-label=\"Every agent task completed.\"]",
+            "snippet": "<p class=\"HomeProseReveal_line__ANM8z\" data-prose-reveal=\"true\" aria-label=\"Every agent task completed.\" style=\"color: rgb(206, 206, 191);\">"
+          },
+          {
+            "selector": "p[aria-label=\"That’s inference.\"]",
+            "snippet": "<p class=\"HomeProseReveal_line__ANM8z\" data-prose-reveal=\"true\" aria-label=\"That’s inference.\" style=\"color: rgb(206, 206, 191);\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"__variable_496b5d __variable_030b43 __variable_844de5 lenis\" data-scroll-behavior=\"smooth\" style=\"scroll-behavior: smooth;\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7bf0c1155e86",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "26",
+          "etag": "W/\"1635z5tqfb616fi\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "7bf0c1155e86",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "36",
+          "etag": "W/\"1635z5tqfb616fi\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "7bf0c1155e86",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "45",
+          "etag": "W/\"1635z5tqfb616fi\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "7bf0c1155e86",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "54",
+          "etag": "W/\"1635z5tqfb616fi\"",
+          "x-nextjs-prerender": "1",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "f6922e45533c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

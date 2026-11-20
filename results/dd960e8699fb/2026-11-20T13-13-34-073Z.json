@@ -1,0 +1,22 @@
+{
+  "url": "https://pnetto.com/",
+  "name": "pnetto.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795180414073,
+  "date": "2026-11-20T13:13:34.073Z",
+  "runId": "2026-11-20T12-56-39-578Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 94853,
+  "error": "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+  "errors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 3
+}

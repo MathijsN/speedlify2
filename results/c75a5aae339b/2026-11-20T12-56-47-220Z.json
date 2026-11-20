@@ -1,0 +1,22 @@
+{
+  "url": "https://sglazov.ru/",
+  "name": "sglazov.ru",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795179407220,
+  "date": "2026-11-20T12:56:47.220Z",
+  "runId": "2026-11-20T12-56-39-578Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 274682,
+  "error": "The \"start lh:runner:gather\" performance mark has not been set",
+  "errors": [
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms",
+    "The \"start lh:runner:gather\" performance mark has not been set"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 1
+}
