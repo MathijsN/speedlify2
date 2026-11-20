@@ -1,0 +1,306 @@
+{
+  "url": "https://11ty.rocks/",
+  "name": "11ty.rocks",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795209079280,
+  "date": "2026-11-20T21:11:19.280Z",
+  "runId": "2026-11-20T21-08-37-994Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 26013,
+  "error": null,
+  "variance": {
+    "min": 98,
+    "max": 100,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://11ty.rocks/",
+    "finalUrl": "https://11ty.rocks/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1876,
+      "lcp": 1876,
+      "si": 1876,
+      "tbt": 8,
+      "tti": 2176,
+      "cls": 0,
+      "ttfb": 608,
+      "maxPotentialFid": 58,
+      "serverResponseTime": 11,
+      "networkRtt": 0.9,
+      "networkServerLatency": 17.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 12.4,
+      "elementRenderDelay": 101.7
+    },
+    "weight": {
+      "total": 1176091,
+      "requests": 21,
+      "mainDocument": 6557,
+      "byType": {
+        "total": {
+          "bytes": 1176091,
+          "requests": 20
+        },
+        "script": {
+          "bytes": 909257,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 79083,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 74539,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 53707,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 30227,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 29278,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1108376,
+          "requests": 14
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 2157,
+      "mainThreadMs": 2.6,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 2157,
+          "mainThreadMs": 2.6,
+          "byType": {
+            "script": 2157
+          },
+          "typedBytes": 2157
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 411.7,
+      "byGroup": {
+        "styleLayout": 176.3,
+        "other": 157.5,
+        "scriptEvaluation": 32.9,
+        "paintCompositeRender": 26.1,
+        "parseHTML": 16.7,
+        "scriptParseCompile": 2.1
+      },
+      "bootupMs": 9.7,
+      "longTasks": 1,
+      "longestTaskMs": 58
+    },
+    "dom": {
+      "elements": 271,
+      "depth": 8,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 22662.75,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 26,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 43
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2722.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T21:11:36.701Z",
+      "runtimeMs": 7546.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M7XCT1WZES0RYHKC16DRJWBA"
+    },
+    "violations": 3,
+    "passes": 735,
+    "incomplete": 28,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=BKdQEXqfFA0\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">B…"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6e1bc513196a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20276",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31515725",
+          "etag": "W/\"f727c4f7d184542e010dfe2ceffd2d44-ssl\""
+        }
+      },
+      {
+        "hash": "6e1bc513196a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20285",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31515716",
+          "etag": "W/\"f727c4f7d184542e010dfe2ceffd2d44-ssl\""
+        }
+      },
+      {
+        "hash": "6e1bc513196a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "20292",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31515709",
+          "etag": "W/\"f727c4f7d184542e010dfe2ceffd2d44-ssl\""
+        }
+      },
+      {
+        "hash": "6e1bc513196a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31515702",
+          "etag": "W/\"f727c4f7d184542e010dfe2ceffd2d44-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

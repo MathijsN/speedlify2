@@ -1,0 +1,270 @@
+{
+  "url": "https://alexhmpreston.com/",
+  "name": "alexhmpreston.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795209236393,
+  "date": "2026-11-20T21:13:56.393Z",
+  "runId": "2026-11-20T21-08-37-994Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24050,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 99,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://alexhmpreston.com/",
+    "finalUrl": "https://alexhmpreston.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1591,
+      "lcp": 1591,
+      "si": 1591,
+      "tbt": 0,
+      "tti": 1591,
+      "cls": 0,
+      "ttfb": 491,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 69,
+      "networkRtt": 0.2,
+      "networkServerLatency": 41.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 70.8,
+      "elementRenderDelay": 92.9
+    },
+    "weight": {
+      "total": 445789,
+      "requests": 22,
+      "mainDocument": 9594,
+      "byType": {
+        "total": {
+          "bytes": 433709,
+          "requests": 21
+        },
+        "image": {
+          "bytes": 344266,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 65059,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 13615,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 9594,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1175,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 13615,
+          "requests": 2
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 13615,
+      "mainThreadMs": 8.7,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 7.4,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Plausible",
+          "bytes": 3264,
+          "mainThreadMs": 1.3,
+          "byType": {
+            "script": 3264
+          },
+          "typedBytes": 3264
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 282.9,
+      "byGroup": {
+        "other": 129.6,
+        "styleLayout": 83.1,
+        "scriptEvaluation": 47,
+        "paintCompositeRender": 10.9,
+        "parseHTML": 10,
+        "scriptParseCompile": 2.2
+      },
+      "bootupMs": 28,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 220,
+      "depth": 9,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 7377.200000000001,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 19
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2625.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T21:14:13.314Z",
+      "runtimeMs": 6733
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5da76ad2fc91b59-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 458,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "435ebb45789f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "435ebb45789f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "435ebb45789f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "435ebb45789f",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

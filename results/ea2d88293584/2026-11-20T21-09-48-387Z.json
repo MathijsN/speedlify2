@@ -1,0 +1,325 @@
+{
+  "url": "https://www.petrzalka.info/",
+  "name": "www.petrzalka.info",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795208988387,
+  "date": "2026-11-20T21:09:48.387Z",
+  "runId": "2026-11-20T21-08-37-994Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 41059,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://www.petrzalka.info/",
+    "finalUrl": "https://www.petrzalka.info/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": null,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": null,
+      "lcp": null,
+      "si": null,
+      "tbt": null,
+      "tti": null,
+      "cls": 0,
+      "ttfb": null,
+      "maxPotentialFid": null,
+      "serverResponseTime": 609,
+      "networkRtt": 112.2,
+      "networkServerLatency": 133.5
+    },
+    "lcpBreakdown": null,
+    "weight": {
+      "total": 8029698,
+      "requests": 53,
+      "mainDocument": 8512,
+      "byType": {
+        "total": {
+          "bytes": 7921531,
+          "requests": 45
+        },
+        "other": {
+          "bytes": 6499827,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 894835,
+          "requests": 14
+        },
+        "document": {
+          "bytes": 337980,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 127360,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 37552,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 23977,
+          "requests": 13
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 321578,
+          "requests": 17
+        }
+      },
+      "scripts": 14,
+      "stylesheets": 13,
+      "fonts": 6
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 321578,
+      "mainThreadMs": 12.4,
+      "top": [
+        {
+          "entity": "Esri ArcGIS",
+          "bytes": 233714,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 233714
+          },
+          "typedBytes": 233714
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 46265,
+          "mainThreadMs": 11.1,
+          "byType": {
+            "script": 42608,
+            "stylesheet": 3657
+          },
+          "typedBytes": 46265
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 41599,
+          "mainThreadMs": 1.3,
+          "byType": {
+            "stylesheet": 4047,
+            "font": 37552
+          },
+          "typedBytes": 41599
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2968.8,
+      "byGroup": {
+        "scriptEvaluation": 1455.9,
+        "other": 953.6,
+        "garbageCollection": 296.2,
+        "styleLayout": 94.4,
+        "parseHTML": 91.7,
+        "scriptParseCompile": 45.3,
+        "paintCompositeRender": 31.6
+      },
+      "bootupMs": 1405.4,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 32,
+      "depth": 7,
+      "maxChildren": 19
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 20,
+      "poorlyCachedBytes": 855063.5999999997,
+      "poorlyCachedCount": 35
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 12,
+      "redirectMs": null,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2669.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T21:10:03.646Z",
+      "runtimeMs": 12391.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "7.1.5",
+      "source": "meta",
+      "raw": "WordPress 7.1.5"
+    },
+    "probe": {
+      "metas": [
+        "WordPress 7.1.5",
+        "Elementor 4.0.0; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_f"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "OpenResty",
+      "detailIcon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "openresty"
+    },
+    "violations": 9,
+    "passes": 253,
+    "incomplete": 3,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 8,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> #hladanie-vstup",
+            "snippet": "<input type=\"text\" id=\"hladanie-vstup\" placeholder=\"Hľadať ulicu…\" autocomplete=\"off\">"
+          },
+          {
+            "selector": "iframe >>> .toggle-row",
+            "snippet": "<div class=\"toggle-row\"> <span class=\"lbl\">Tepelná vrstva</span> <label class=\"toggle-switch\"> <input type=\"checkbox\" id=\"prepinac-vrstvy\" checked=\"\"> <span class=\"toggle-track\"></span> </label> </di…"
+          },
+          {
+            "selector": "iframe >>> #panel-teplota-label",
+            "snippet": "<div id=\"panel-teplota-label\">Teplota povrchu</div>"
+          },
+          {
+            "selector": "iframe >>> .video-cta",
+            "snippet": "<a href=\"#video-sekcia\" class=\"video-cta\" onclick=\"zavriPanel()\">Informácie z terénu <span class=\"arrow\">↓</span></a>"
+          },
+          {
+            "selector": "iframe >>> .right-links > a[target=\"_blank\"][rel=\"noopener\"]:nth-child(2)",
+            "snippet": "<a href=\"https://www.esri.com/en-us/legal/terms/data-attributions\" target=\"_blank\" rel=\"noopener\">Mapové dáta</a>"
+          }
+        ]
+      },
+      {
+        "id": "label",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Form elements must have labels",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe >>> #prepinac-vrstvy",
+            "snippet": "<input type=\"checkbox\" id=\"prepinac-vrstvy\" checked=\"\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f804c4645499",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "f804c4645499",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "f804c4645499",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "f804c4645499",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
