@@ -1,0 +1,370 @@
+{
+  "url": "https://womenofjamstack.com/",
+  "name": "womenofjamstack.com",
+  "group": "11ty-emeritus",
+  "groupName": "11ty Emeritus",
+  "timestamp": 1795144791923,
+  "date": "2026-11-20T03:19:51.923Z",
+  "runId": "2026-11-20T03-19-50-834Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 47707,
+  "error": null,
+  "variance": {
+    "min": 60,
+    "max": 77,
+    "spread": 17,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://womenofjamstack.com/",
+    "finalUrl": "https://womenofjamstack.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 60,
+      "accessibility": 90,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 52
+    },
+    "timings": {
+      "fcp": 1767,
+      "lcp": 4295,
+      "si": 2796,
+      "tbt": 2,
+      "tti": 4295,
+      "cls": 0.854,
+      "ttfb": 695,
+      "maxPotentialFid": 52,
+      "serverResponseTime": 65,
+      "networkRtt": 0.2,
+      "networkServerLatency": 221
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 66.7,
+      "resourceLoadDelay": 371.1,
+      "resourceLoadDuration": 176.5,
+      "elementRenderDelay": 647.2
+    },
+    "weight": {
+      "total": 845997,
+      "requests": 50,
+      "mainDocument": 34372,
+      "byType": {
+        "total": {
+          "bytes": 845997,
+          "requests": 50
+        },
+        "image": {
+          "bytes": 622270,
+          "requests": 7
+        },
+        "script": {
+          "bytes": 85958,
+          "requests": 16
+        },
+        "font": {
+          "bytes": 60103,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 34372,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 32537,
+          "requests": 20
+        },
+        "other": {
+          "bytes": 10757,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 34175,
+          "requests": 4
+        }
+      },
+      "scripts": 16,
+      "stylesheets": 20,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 33526,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "archive.org",
+          "bytes": 17044,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 17044
+          },
+          "typedBytes": 17044
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 16482,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 607,
+            "font": 15875
+          },
+          "typedBytes": 16482
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 821.4,
+      "byGroup": {
+        "styleLayout": 264,
+        "other": 224.4,
+        "scriptEvaluation": 219.3,
+        "parseHTML": 54.9,
+        "scriptParseCompile": 30,
+        "paintCompositeRender": 19.8,
+        "garbageCollection": 9
+      },
+      "bootupMs": 186.2,
+      "longTasks": 2,
+      "longestTaskMs": 57
+    },
+    "dom": {
+      "elements": 670,
+      "depth": 22,
+      "maxChildren": 68
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 15119,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1072,
+      "renderBlockingCount": 21,
+      "poorlyCachedBytes": 767342,
+      "poorlyCachedCount": 44
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 24,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 9
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 3
+        },
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3044,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:20:10.866Z",
+      "runtimeMs": 13259
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "Wordpress",
+      "version": "7.1.5",
+      "source": "meta",
+      "raw": "WordPress 7.1.5"
+    },
+    "probe": {
+      "metas": [
+        "All in One SEO (AIOSEO) 5.0.5.1",
+        "WordPress 7.1.5"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 14,
+    "passes": 1105,
+    "incomplete": 5,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 9,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sowb-button > span",
+            "snippet": "<span> Contact Us </span>"
+          },
+          {
+            "selector": "p[data-start=\"470\"] > a",
+            "snippet": "<a href=\"https://womenofjamstack.com/women-of-influence/\">And in many families, that quiet strength often comes from older women.</a>"
+          },
+          {
+            "selector": "p[data-start=\"2423\"] > a",
+            "snippet": "<a href=\"https://goo.gl/maps/YzVofdKf151LV4BSA\">garage door repair</a>"
+          },
+          {
+            "selector": "p[data-start=\"6484\"] > a",
+            "snippet": "<a href=\"https://goo.gl/maps/YzVofdKf151LV4BSA\">garage door repair Wellesley MA</a>"
+          },
+          {
+            "selector": "p:nth-child(9) > a",
+            "snippet": "<a href=\"https://womenofjamstack.com/empowered-and-handy-skilled-women-take-on-home-improvement-projects-with-confidence/\">demonstrating their skills and pushing the boundaries of creativity</a>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 3,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sow-features-feature.sow-icon-container-position-top:nth-child(1) > .textwidget > h5",
+            "snippet": "<h5 class=\"sow-features-feature-title\"> Graphic Design </h5>"
+          },
+          {
+            "selector": ".slick-current > .sow-carousel-item-title",
+            "snippet": "<h3 class=\"sow-carousel-item-title\">"
+          },
+          {
+            "selector": ".panel-widget-style-for-11-5-0-0 > .so-widget-sow-editor.so-widget-sow-editor-base > .siteorigin-widget-tinymce.textwidget > h3",
+            "snippet": "<h3><img fetchpriority=\"high\" decoding=\"async\" src=\"https://web.archive.org/web/20220703033344im_/https://womenofjamstack.com/img/j1AzQcXnYx-300.webp\" alt=\"Salma Alam-Naylor\" width=\"900\" height=\"900\"…"
+          }
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p[data-start=\"2599\"][data-end=\"2679\"]:nth-child(23) > iframe",
+            "snippet": "<iframe loading=\"lazy\" style=\"border: 0;\" src=\"https://www.google.c...\" width=\"600\" height=\"450\" allowfullscreen=\"allowfullscreen\">"
+          },
+          {
+            "selector": "center > iframe",
+            "snippet": "<iframe loading=\"lazy\" style=\"border: 0;\" src=\"https://www.google.c...\" width=\"600\" height=\"450\" allowfullscreen=\"allowfullscreen\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "78a398e98639",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1758"
+        }
+      },
+      {
+        "hash": "78a398e98639",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1775"
+        }
+      },
+      {
+        "hash": "78a398e98639",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1789"
+        }
+      },
+      {
+        "hash": "78a398e98639",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1800"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
