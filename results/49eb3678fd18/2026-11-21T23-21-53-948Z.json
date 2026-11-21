@@ -1,0 +1,316 @@
+{
+  "url": "https://berry-blast-starter.freshjuice.dev/",
+  "name": "berry-blast-starter.freshjuice.dev",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795303313948,
+  "date": "2026-11-21T23:21:53.948Z",
+  "runId": "2026-11-21T23-20-55-823Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24503,
+  "error": null,
+  "variance": {
+    "min": 83,
+    "max": 100,
+    "spread": 17,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://berry-blast-starter.freshjuice.dev/",
+    "finalUrl": "https://berry-blast-starter.freshjuice.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1606,
+      "lcp": 1606,
+      "si": 3969,
+      "tbt": 16,
+      "tti": 1651,
+      "cls": 0,
+      "ttfb": 689,
+      "maxPotentialFid": 99,
+      "serverResponseTime": 87,
+      "networkRtt": 11.5,
+      "networkServerLatency": 89.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 195.3,
+      "elementRenderDelay": 2178
+    },
+    "weight": {
+      "total": 112440,
+      "requests": 10,
+      "mainDocument": 7430,
+      "byType": {
+        "total": {
+          "bytes": 101531,
+          "requests": 9
+        },
+        "image": {
+          "bytes": 52997,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 25616,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 14645,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 7430,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 843,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1296,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 1296,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 1296,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1296
+          },
+          "typedBytes": 1296
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 418.9,
+      "byGroup": {
+        "other": 205.6,
+        "styleLayout": 109.2,
+        "scriptEvaluation": 59.7,
+        "parseHTML": 20.4,
+        "paintCompositeRender": 17,
+        "scriptParseCompile": 7
+      },
+      "bootupMs": 64.9,
+      "longTasks": 2,
+      "longestTaskMs": 99
+    },
+    "dom": {
+      "elements": 334,
+      "depth": 10,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 917,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 36
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2613.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:21:55.202Z",
+      "runtimeMs": 8925.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.8",
+      "source": "meta",
+      "raw": "Eleventy v3.1.8"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.8"
+      ],
+      "marks": [
+        "alpine"
+      ],
+      "markVersions": {
+        "alpine": "3.17.5"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e36f7d8b327447-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 3,
+    "passes": 547,
+    "incomplete": 16,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".py-1",
+            "snippet": "<span class=\"px-4 py-1 text-xs font-bold uppercase tracking-wider bg-primary-400 text-white rounded-full\">Most Popular</span>"
+          }
+        ]
+      },
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 1,
+        "help": "Alternative text of images should not be repeated as text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[alt=\"Berry Blast\"]",
+            "snippet": "<img src=\"/favicon-96x96.png\" alt=\"Berry Blast\" width=\"32\" height=\"32\" class=\"w-8 h-8\" loading=\"lazy\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".github-fork-ribbon",
+            "snippet": "<a class=\"github-fork-ribbon fixed\" href=\"https://github.com/freshjuice-dev/berry-blast-11ty-starter\" data-ribbon=\"Fork me on GitHub\" title=\"Fork me on GitHub\">Fork me on GitHub</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "abf287ca3426",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"42f9cff0eddfc4598a5712e4b368095b\""
+        }
+      },
+      {
+        "hash": "abf287ca3426",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"42f9cff0eddfc4598a5712e4b368095b\""
+        }
+      },
+      {
+        "hash": "abf287ca3426",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "W/\"42f9cff0eddfc4598a5712e4b368095b\""
+        }
+      },
+      {
+        "hash": "abf287ca3426",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT",
+          "etag": "\"42f9cff0eddfc4598a5712e4b368095b\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
