@@ -1,0 +1,22 @@
+{
+  "url": "https://mont-fort.com/",
+  "name": "mont-fort.com",
+  "group": "astro-showcase",
+  "groupName": "Astro Showcase",
+  "timestamp": 1795284624160,
+  "date": "2026-11-21T18:10:24.160Z",
+  "runId": "2026-11-21T17-59-26-449Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 241938,
+  "error": "lighthouse timed out after 120000ms",
+  "errors": [
+    "The \"start lh:gather:getBenchmarkIndex\" performance mark has not been set",
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 26
+}

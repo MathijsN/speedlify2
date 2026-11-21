@@ -1,0 +1,22 @@
+{
+  "url": "https://www.duda.co/",
+  "name": "Duda",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1795285493323,
+  "date": "2026-11-21T18:24:53.323Z",
+  "runId": "2026-11-21T17-59-26-449Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 311579,
+  "error": "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+  "errors": [
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse.",
+    "TRACING_ALREADY_STARTED: An internal Chrome error occurred. Please restart Chrome and try re-running Lighthouse."
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 8
+}
