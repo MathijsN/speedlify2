@@ -1,0 +1,3 @@
+{"version":1,"url":"https://arpit.si/","updated":"2026-11-21T23:21:23.194Z","points":[
+{"t":1795303260477,"gen":"Eleventy v3.1.6","lh":"13.6.0","performance":100,"accessibility":100,"best-practices":100,"seo":100,"lcp":1224,"cls":0,"tbt":0,"fcp":783,"si":783,"ttfb":624,"total":104078,"requests":7,"bytes":0,"mainThreadMs":0,"unusedJsBytes":0,"unusedCssBytes":0,"mainThreadTotal":103.9,"longTasks":0,"elements":45,"failingCount":0,"failingNodes":0,"axeViolations":0,"axePasses":124,"bench":3110,"runs":3,"reqRuns":3,"ms":22715,"spread":12}
+]}
