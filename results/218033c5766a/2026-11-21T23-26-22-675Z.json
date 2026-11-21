@@ -1,0 +1,447 @@
+{
+  "url": "https://brennan.day/",
+  "name": "brennan.day",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303582675,
+  "date": "2026-11-21T23:26:22.675Z",
+  "runId": "2026-11-21T23-20-51-091Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 47809,
+  "error": null,
+  "variance": {
+    "min": 81,
+    "max": 90,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://brennan.day/",
+    "finalUrl": "https://brennan.day/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 89,
+      "accessibility": 88,
+      "best-practices": 88,
+      "seo": 77,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2272,
+      "lcp": 3316,
+      "si": 2798,
+      "tbt": 0,
+      "tti": 3316,
+      "cls": 0,
+      "ttfb": 981,
+      "maxPotentialFid": 42,
+      "serverResponseTime": 979,
+      "networkRtt": 11.6,
+      "networkServerLatency": 148.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 981.2,
+      "elementRenderDelay": 339.8
+    },
+    "weight": {
+      "total": 466289,
+      "requests": 60,
+      "mainDocument": 47712,
+      "byType": {
+        "total": {
+          "bytes": 464248,
+          "requests": 59
+        },
+        "font": {
+          "bytes": 229820,
+          "requests": 12
+        },
+        "script": {
+          "bytes": 65418,
+          "requests": 12
+        },
+        "image": {
+          "bytes": 54549,
+          "requests": 9
+        },
+        "stylesheet": {
+          "bytes": 53219,
+          "requests": 17
+        },
+        "document": {
+          "bytes": 47712,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 13530,
+          "requests": 8
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 296945,
+          "requests": 33
+        }
+      },
+      "scripts": 12,
+      "stylesheets": 17,
+      "fonts": 12
+    },
+    "thirdParty": {
+      "count": 9,
+      "bytes": 297280,
+      "mainThreadMs": 7.9,
+      "top": [
+        {
+          "entity": "bunny.net",
+          "bytes": 218589,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 1596,
+            "font": 216993
+          },
+          "typedBytes": 218589
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 22633,
+          "mainThreadMs": 2.1,
+          "byType": {
+            "script": 22633
+          },
+          "typedBytes": 22633
+        },
+        {
+          "entity": "webring.fun",
+          "bytes": 16230,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "script": 13875,
+            "other": 2355
+          },
+          "typedBytes": 16230
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 13361,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 534,
+            "font": 12827
+          },
+          "typedBytes": 13361
+        },
+        {
+          "entity": "possiblyaxolotl.com",
+          "bytes": 9240,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "script": 3457,
+            "stylesheet": 809,
+            "image": 4974
+          },
+          "typedBytes": 9240
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 818.5,
+      "byGroup": {
+        "styleLayout": 318.1,
+        "other": 271,
+        "paintCompositeRender": 82.6,
+        "scriptEvaluation": 81.1,
+        "parseHTML": 42.3,
+        "scriptParseCompile": 18.7,
+        "garbageCollection": 4.8
+      },
+      "bootupMs": 33.1,
+      "longTasks": 1,
+      "longestTaskMs": 68
+    },
+    "dom": {
+      "elements": 2055,
+      "depth": 12,
+      "maxChildren": 365
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 9972,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 4487,
+      "renderBlockingCount": 21,
+      "poorlyCachedBytes": 25644.75,
+      "poorlyCachedCount": 8
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 30,
+      "failingNodes": 14,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 6
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 3
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 3,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4141,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:26:39.045Z",
+      "runtimeMs": 13604.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "nginx",
+      "x-nf-request-id": "01M806YQCRV1V9HADX58XRV9DM"
+    },
+    "violations": 11,
+    "passes": 1669,
+    "incomplete": 12,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".webring-widget-static-prev",
+            "snippet": "<a href=\"https://birdbyrocket.com\" class=\"webring-widget-static-site webring-widget-static-prev\" style=\"--hover-color: #0c885e\">"
+          },
+          {
+            "selector": ".webring-widget-static-random",
+            "snippet": "<a href=\"https://almosteverythursday.com/\" class=\"webring-widget-static-site webring-widget-static-random\" style=\"--hover-color: #000000\">"
+          },
+          {
+            "selector": ".webring-widget-static-next",
+            "snippet": "<a href=\"https://burgeonlab.com\" class=\"webring-widget-static-site webring-widget-static-next\" style=\"--hover-color: #e24613\">"
+          },
+          {
+            "selector": "journal-ring .prev-button",
+            "snippet": "<a class=\"prev-button\" href=\"https://esoterical.org/main\"><img src=\"https://nenrikido.neocities.org/images/webrings/journalring/icons/blue-prev-arrow.png\"></a>"
+          },
+          {
+            "selector": "journal-ring a:nth-child(2)",
+            "snippet": "<a href=\"https://nenrikido.neocities.org/webrings/journalring/\"><img src=\"https://nenrikido.neocities.org/images/webrings/journalring/icons/blue-icon.png\" class=\"icon icon-blue\"></a>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 3,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "journal-ring .prev-button > img",
+            "snippet": "<img src=\"https://nenrikido.neocities.org/images/webrings/journalring/icons/blue-prev-arrow.png\">"
+          },
+          {
+            "selector": "journal-ring .icon",
+            "snippet": "<img src=\"https://nenrikido.neocities.org/images/webrings/journalring/icons/blue-icon.png\" class=\"icon icon-blue\">"
+          },
+          {
+            "selector": "journal-ring .next-button > img",
+            "snippet": "<img src=\"https://nenrikido.neocities.org/images/webrings/journalring/icons/blue-next-arrow.png\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pagination",
+            "snippet": "<nav class=\"pagination\"> <a href=\"/archive/\" class=\"pagination-link\">View all posts →</a> <a href=\"/collections/\" class=\"pagination-link\">View collections →</a> </nav>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".to-top",
+            "snippet": "<a class=\"to-top js-required\" href=\"#top\">↑ TOP</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c0184c188674",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2161",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31533839",
+          "etag": "W/\"4d7e4b16cc1880f33d45342743256472-ssl\""
+        }
+      },
+      {
+        "hash": "c0184c188674",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6066",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31529934",
+          "etag": "W/\"4d7e4b16cc1880f33d45342743256472-ssl\""
+        }
+      },
+      {
+        "hash": "c0184c188674",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5899",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31530101",
+          "etag": "W/\"4d7e4b16cc1880f33d45342743256472-ssl\""
+        }
+      },
+      {
+        "hash": "c0184c188674",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "2205",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31533795",
+          "etag": "W/\"4d7e4b16cc1880f33d45342743256472-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

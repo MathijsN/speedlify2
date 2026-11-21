@@ -1,0 +1,347 @@
+{
+  "url": "https://blog.khoiuna.info/",
+  "name": "blog.khoiuna.info",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303485208,
+  "date": "2026-11-21T23:24:45.208Z",
+  "runId": "2026-11-21T23-20-51-091Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20140,
+  "error": null,
+  "variance": {
+    "min": 93,
+    "max": 94,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://blog.khoiuna.info/",
+    "finalUrl": "https://blog.imkhoi.com/",
+    "redirect": {
+      "from": "https://blog.khoiuna.info/",
+      "to": "https://blog.imkhoi.com/",
+      "chain": [
+        {
+          "url": "https://blog.khoiuna.info/",
+          "status": 307
+        },
+        {
+          "url": "https://blog.imkhoi.com/",
+          "status": 200
+        }
+      ],
+      "statuses": [
+        307
+      ],
+      "change": "host",
+      "permanent": false,
+      "schemeUpgrade": false,
+      "hops": 1
+    },
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2493,
+      "lcp": 2493,
+      "si": 2493,
+      "tbt": 0,
+      "tti": 2493,
+      "cls": 0,
+      "ttfb": 639,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 37,
+      "networkRtt": 0.1,
+      "networkServerLatency": 145.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 82.9,
+      "elementRenderDelay": 78.4
+    },
+    "weight": {
+      "total": 50466,
+      "requests": 10,
+      "mainDocument": 3479,
+      "byType": {
+        "total": {
+          "bytes": 49898,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 36014,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 9941,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 3479,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 464,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 39540,
+          "requests": 5
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 4,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 50384,
+      "mainThreadMs": 11.8,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 34709,
+          "mainThreadMs": 3.7,
+          "byType": {
+            "script": 31647,
+            "stylesheet": 3062
+          },
+          "typedBytes": 34709
+        },
+        {
+          "entity": "imkhoi.com",
+          "bytes": 10926,
+          "mainThreadMs": 6.3,
+          "byType": {
+            "document": 3479,
+            "stylesheet": 6879,
+            "other": 568
+          },
+          "typedBytes": 10926
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4367,
+          "mainThreadMs": 1.8,
+          "byType": {
+            "script": 4367
+          },
+          "typedBytes": 4367
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 167.4,
+      "byGroup": {
+        "other": 71.2,
+        "scriptEvaluation": 43,
+        "styleLayout": 26.7,
+        "parseHTML": 10.4,
+        "scriptParseCompile": 9.5,
+        "paintCompositeRender": 6.6
+      },
+      "bootupMs": 23.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 190,
+      "depth": 10,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 26178,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 911,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 3470.899999999999,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 793.4,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 21
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4251,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:24:59.119Z",
+      "runtimeMs": 5973.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [
+        "preact"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::xd8d8-1795303504122-f5d9580ecaf8"
+    },
+    "violations": 2,
+    "passes": 360,
+    "incomplete": 7,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pt-5",
+            "snippet": "<nav class=\"pt-5 flex justify-between\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "20bdb7a2ceb2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "281286",
+          "etag": "W/\"7d2ee5c6e571064f357136efd0e568b2\"",
+          "last-modified": "Wed, 18 Nov 2026 17:16:40 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "20bdb7a2ceb2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "281293",
+          "etag": "W/\"7d2ee5c6e571064f357136efd0e568b2\"",
+          "last-modified": "Wed, 18 Nov 2026 17:16:40 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "20bdb7a2ceb2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "281299",
+          "etag": "W/\"7d2ee5c6e571064f357136efd0e568b2\"",
+          "last-modified": "Wed, 18 Nov 2026 17:16:40 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
