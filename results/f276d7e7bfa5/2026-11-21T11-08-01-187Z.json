@@ -1,0 +1,460 @@
+{
+  "url": "https://app-generator.dev/",
+  "name": "eleventy-html5up-txt.appseed.us",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795259281187,
+  "date": "2026-11-21T11:08:01.187Z",
+  "runId": "2026-11-21T11-07-55-042Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 32891,
+  "error": null,
+  "variance": {
+    "min": 65,
+    "max": 73,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://app-generator.dev/",
+    "finalUrl": "https://app-generator.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 69,
+      "accessibility": 83,
+      "best-practices": 92,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2093,
+      "lcp": 6544,
+      "si": 2338,
+      "tbt": 300,
+      "tti": 6890,
+      "cls": 0.013,
+      "ttfb": 463,
+      "maxPotentialFid": 197,
+      "serverResponseTime": 165,
+      "networkRtt": 0.8,
+      "networkServerLatency": 178.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 166.6,
+      "resourceLoadDelay": 158.2,
+      "resourceLoadDuration": 19.5,
+      "elementRenderDelay": 89.1
+    },
+    "weight": {
+      "total": 1984615,
+      "requests": 41,
+      "mainDocument": 8265,
+      "byType": {
+        "total": {
+          "bytes": 1926196,
+          "requests": 40
+        },
+        "image": {
+          "bytes": 1098743,
+          "requests": 13
+        },
+        "script": {
+          "bytes": 736414,
+          "requests": 12
+        },
+        "stylesheet": {
+          "bytes": 50062,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 31748,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 8265,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 964,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 605615,
+          "requests": 25
+        }
+      },
+      "scripts": 12,
+      "stylesheets": 7,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 605111,
+      "mainThreadMs": 122.9,
+      "top": [
+        {
+          "entity": "Cloudflare CDN",
+          "bytes": 455407,
+          "mainThreadMs": 75.2,
+          "byType": {
+            "script": 454534,
+            "stylesheet": 873
+          },
+          "typedBytes": 455407
+        },
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 51473,
+          "mainThreadMs": 2.7,
+          "byType": {
+            "script": 47674,
+            "stylesheet": 3799
+          },
+          "typedBytes": 51473
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 32628,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 880,
+            "font": 31748
+          },
+          "typedBytes": 32628
+        },
+        {
+          "entity": "gumroad.com",
+          "bytes": 31995,
+          "mainThreadMs": 11,
+          "byType": {
+            "script": 4746,
+            "stylesheet": 27249
+          },
+          "typedBytes": 31995
+        },
+        {
+          "entity": "GitHub",
+          "bytes": 23257,
+          "mainThreadMs": 0.8,
+          "byType": {
+            "script": 6903,
+            "image": 16354
+          },
+          "typedBytes": 23257
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1414.3,
+      "byGroup": {
+        "scriptEvaluation": 430.3,
+        "other": 362.3,
+        "scriptParseCompile": 340.3,
+        "styleLayout": 159.7,
+        "parseHTML": 82.6,
+        "paintCompositeRender": 19.7,
+        "garbageCollection": 19.4
+      },
+      "bootupMs": 693.7,
+      "longTasks": 6,
+      "longestTaskMs": 197
+    },
+    "dom": {
+      "elements": 192,
+      "depth": 10,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 190412,
+      "unusedCssBytes": 37387,
+      "legacyJsBytes": 58009,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 28795,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 4444,
+      "renderBlockingCount": 10,
+      "poorlyCachedBytes": 921999.6133333332,
+      "poorlyCachedCount": 21
+    },
+    "accessibility": {
+      "failingCount": 4,
+      "applicableCount": 21,
+      "failingNodes": 9,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "button-name",
+          "title": "Buttons do not have an accessible name",
+          "weight": 10,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "image-size-responsive",
+          "title": "Serves images with low resolution",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is not valid",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 42
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2449,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T11:08:24.537Z",
+      "runtimeMs": 8799.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {
+        "fontawesome": "6.7.0"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5df3cae8ae4d7aa-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 16,
+    "passes": 285,
+    "incomplete": 7,
+    "violationRules": 6,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 6,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".md\\:mx-0",
+            "snippet": "<div class=\"flex justify-center flex-col items-center mx-3 md:mx-0\">"
+          },
+          {
+            "selector": ".md\\:mx-auto.mb-16.px-4",
+            "snippet": "<div class=\" mx-3 md:mx-auto mb-16 w-full sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto px-4\">"
+          },
+          {
+            "selector": ".md\\:text-xl",
+            "snippet": "<h4 class=\"text-gray-900 dark:text-white font-bold text-base md:text-xl mb-3 text-center md:text-left\">Stay Updated with the Latest Insights</h4>"
+          },
+          {
+            "selector": ".md\\:text-base",
+            "snippet": "<div class=\"mb-5 text-center text-sm md:text-base\"> <p class=\"text-gray-500 dark:text-gray-300\">Get expert tips, tutorials, and the latest updates on Flask, Django, Python, and more—delivered</p> <p …"
+          },
+          {
+            "selector": "label",
+            "snippet": "<label for=\"email\" class=\"sr-only\">Email</label>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[rel=\"noopener noreferrer\"]",
+            "snippet": "<a href=\"/terms/\" rel=\"noopener noreferrer\" target=\"_blank\">pricing</a>"
+          },
+          {
+            "selector": ".col-span-3.md\\:col-span-1.shadow-md:nth-child(2) > .mt-auto.justify-between.items-center > .font-semibold.text-gray-700.dark\\:text-gray-300 > a[href$=\"terms/\"]",
+            "snippet": "<a href=\"/terms/\">PRO Users</a>"
+          },
+          {
+            "selector": ".col-span-3.md\\:col-span-1.shadow-md:nth-child(3) > .mt-auto.justify-between.items-center > .font-semibold.text-gray-700.dark\\:text-gray-300 > a[href$=\"terms/\"]",
+            "snippet": "<a href=\"/terms/\">PRO Users</a>"
+          },
+          {
+            "selector": ".text-gray-400.text-center.dark\\:text-gray-300",
+            "snippet": "<div class=\"text-center text-gray-400 dark:text-gray-300 text-sm\"> <u><a href=\"/\" rel=\"noreferrer\">App Generator</a></u> - v1.0.14 @ All rights reserved </div>"
+          },
+          {
+            "selector": "a[rel=\"noreferrer\"]",
+            "snippet": "<a href=\"/\" rel=\"noreferrer\">App Generator</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".col-span-3.md\\:col-span-1.shadow-md:nth-child(2) > .mt-auto.justify-between.items-center > .font-semibold.text-gray-700.dark\\:text-gray-300 > a[href$=\"terms/\"]",
+            "snippet": "<a href=\"/terms/\">PRO Users</a>"
+          },
+          {
+            "selector": ".col-span-3.md\\:col-span-1.shadow-md:nth-child(3) > .mt-auto.justify-between.items-center > .font-semibold.text-gray-700.dark\\:text-gray-300 > a[href$=\"terms/\"]",
+            "snippet": "<a href=\"/terms/\">PRO Users</a>"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#theme-toggle-2",
+            "snippet": "<button id=\"theme-toggle-2\" data-tooltip-target=\"tooltip-toggle\" type=\"button\" class=\"text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:r…"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e7a94f84ec4b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "c63fe8bafb6e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "64dd33e436be",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "092aa3253753",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
