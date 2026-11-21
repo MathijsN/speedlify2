@@ -1,0 +1,353 @@
+{
+  "url": "https://aphera.co/",
+  "name": "aphera.co",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303292497,
+  "date": "2026-11-21T23:21:32.497Z",
+  "runId": "2026-11-21T23-20-55-934Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29947,
+  "error": null,
+  "variance": {
+    "min": 73,
+    "max": 74,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://aphera.co/",
+    "finalUrl": "https://aphera.co/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 74,
+      "accessibility": 90,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1715,
+      "lcp": 15985,
+      "si": 1715,
+      "tbt": 0,
+      "tti": 16127,
+      "cls": 0,
+      "ttfb": 610,
+      "maxPotentialFid": 42,
+      "serverResponseTime": 18,
+      "networkRtt": 15,
+      "networkServerLatency": 280.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 19.4,
+      "resourceLoadDelay": 13.7,
+      "resourceLoadDuration": 12.8,
+      "elementRenderDelay": 82.5
+    },
+    "weight": {
+      "total": 17746182,
+      "requests": 56,
+      "mainDocument": 9358,
+      "byType": {
+        "total": {
+          "bytes": 17746182,
+          "requests": 56
+        },
+        "image": {
+          "bytes": 14875100,
+          "requests": 40
+        },
+        "media": {
+          "bytes": 2634531,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 150095,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 42761,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 30714,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 9358,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3623,
+          "requests": 4
+        },
+        "third-party": {
+          "bytes": 36854,
+          "requests": 6
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 36854,
+      "mainThreadMs": 11.3,
+      "top": [
+        {
+          "entity": "paddle.com",
+          "bytes": 18110,
+          "mainThreadMs": 4,
+          "byType": {
+            "script": 17107,
+            "stylesheet": 1003
+          },
+          "typedBytes": 18110
+        },
+        {
+          "entity": "profitwell.com",
+          "bytes": 13414,
+          "mainThreadMs": 3.9,
+          "byType": {
+            "script": 13414
+          },
+          "typedBytes": 13414
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 5330,
+          "mainThreadMs": 3.4,
+          "byType": {
+            "script": 4672,
+            "other": 658
+          },
+          "typedBytes": 5330
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1009.2,
+      "byGroup": {
+        "other": 634.5,
+        "styleLayout": 166.4,
+        "scriptEvaluation": 89.2,
+        "paintCompositeRender": 63.5,
+        "parseHTML": 28.3,
+        "scriptParseCompile": 20.5,
+        "garbageCollection": 6.8
+      },
+      "bootupMs": 61.5,
+      "longTasks": 1,
+      "longestTaskMs": 60
+    },
+    "dom": {
+      "elements": 356,
+      "depth": 11,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 22019,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 2677,
+      "unminifiedCssBytes": 7598,
+      "renderBlockingMs": 1061,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 21436.32,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 28,
+      "failingNodes": 26,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 16
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 8
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2469,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:21:52.492Z",
+      "runtimeMs": 8781.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "bunny",
+      "name": "Bunny CDN",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "BunnyCDN-ASB1-1310"
+    },
+    "violations": 11,
+    "passes": 764,
+    "incomplete": 58,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".gallery-carousel-caption",
+            "snippet": "<p class=\"gallery-carousel-caption\">Developed with Aphera</p>"
+          },
+          {
+            "selector": ".home-pillars-subhead",
+            "snippet": "<p class=\"text-center home-pillars-subhead\">Fast because it’s keyboard-driven. Yours with every preference saved.</p>"
+          },
+          {
+            "selector": ".press-mention",
+            "snippet": "<p class=\"text-center press-mention\">As mentioned in <a href=\"https://petapixel.com/2026/08/21/aphera-is-a-raw-editor-for-photographers-who-chase-feeling-over-formula/\">PetaPixel</a> and <a href=\"htt…"
+          },
+          {
+            "selector": "time[datetime=\"2026-11-20T17:00:00.000Z\"]",
+            "snippet": "<time datetime=\"2026-11-20T17:00:00.000Z\">November 20, 2026</time>"
+          },
+          {
+            "selector": "time[datetime=\"2026-11-04T17:00:00.000Z\"]",
+            "snippet": "<time datetime=\"2026-11-04T17:00:00.000Z\">November 4, 2026</time>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".press-mention > a:nth-child(1)",
+            "snippet": "<a href=\"https://petapixel.com/2026/08/21/aphera-is-a-raw-editor-for-photographers-who-chase-feeling-over-formula/\">PetaPixel</a>"
+          },
+          {
+            "selector": ".press-mention > a:nth-child(2)",
+            "snippet": "<a href=\"https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer\">The Verge</a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".reveal-panel > .container",
+            "snippet": "<div class=\"container\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "facf397c1c1b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 21 Nov 2026 04:25:25 GMT"
+        }
+      },
+      {
+        "hash": "facf397c1c1b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 21 Nov 2026 04:25:25 GMT"
+        }
+      },
+      {
+        "hash": "facf397c1c1b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 21 Nov 2026 04:25:25 GMT"
+        }
+      },
+      {
+        "hash": "facf397c1c1b",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sat, 21 Nov 2026 04:25:25 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

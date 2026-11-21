@@ -1,0 +1,562 @@
+{
+  "url": "https://bayton.org/",
+  "name": "bayton.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303490516,
+  "date": "2026-11-21T23:24:50.516Z",
+  "runId": "2026-11-21T23-20-55-934Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 55919,
+  "error": null,
+  "variance": {
+    "min": 30,
+    "max": 33,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://bayton.org/",
+    "finalUrl": "https://bayton.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 31,
+      "accessibility": 84,
+      "best-practices": 96,
+      "seo": 85,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 10380,
+      "lcp": 10380,
+      "si": 11581,
+      "tbt": 1223,
+      "tti": 34515,
+      "cls": 0,
+      "ttfb": 615,
+      "maxPotentialFid": 360,
+      "serverResponseTime": 13,
+      "networkRtt": 0.9,
+      "networkServerLatency": 28.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 16.7,
+      "elementRenderDelay": 2343.6
+    },
+    "weight": {
+      "total": 10400605,
+      "requests": 142,
+      "mainDocument": 47312,
+      "byType": {
+        "total": {
+          "bytes": 10398528,
+          "requests": 140
+        },
+        "image": {
+          "bytes": 4579138,
+          "requests": 41
+        },
+        "font": {
+          "bytes": 3329219,
+          "requests": 10
+        },
+        "script": {
+          "bytes": 1811319,
+          "requests": 46
+        },
+        "document": {
+          "bytes": 561697,
+          "requests": 8
+        },
+        "stylesheet": {
+          "bytes": 114281,
+          "requests": 21
+        },
+        "other": {
+          "bytes": 2874,
+          "requests": 14
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2686160,
+          "requests": 101
+        }
+      },
+      "scripts": 47,
+      "stylesheets": 21,
+      "fonts": 10
+    },
+    "thirdParty": {
+      "count": 9,
+      "bytes": 1020380,
+      "mainThreadMs": 812.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 512721,
+          "mainThreadMs": 115.2,
+          "byType": {
+            "script": 512721
+          },
+          "typedBytes": 512721
+        },
+        {
+          "entity": "posthog.com",
+          "bytes": 274314,
+          "mainThreadMs": 217.2,
+          "byType": {
+            "script": 273484,
+            "other": 830
+          },
+          "typedBytes": 274314
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 82332,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 82332
+          },
+          "typedBytes": 82332
+        },
+        {
+          "entity": "Sentry",
+          "bytes": 75436,
+          "mainThreadMs": 433.6,
+          "byType": {
+            "script": 75341,
+            "other": 95
+          },
+          "typedBytes": 75436
+        },
+        {
+          "entity": "FontAwesome CDN",
+          "bytes": 33042,
+          "mainThreadMs": 8.7,
+          "byType": {
+            "stylesheet": 33042
+          },
+          "typedBytes": 33042
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 7907.4,
+      "byGroup": {
+        "scriptEvaluation": 3850.5,
+        "other": 1808.5,
+        "styleLayout": 710.7,
+        "paintCompositeRender": 691.4,
+        "scriptParseCompile": 531,
+        "parseHTML": 220.8,
+        "garbageCollection": 94.5
+      },
+      "bootupMs": 4193.3,
+      "longTasks": 15,
+      "longestTaskMs": 360
+    },
+    "dom": {
+      "elements": 666,
+      "depth": 17,
+      "maxChildren": 42
+    },
+    "waste": {
+      "unusedJsBytes": 449883,
+      "unusedCssBytes": 32970,
+      "legacyJsBytes": 40440,
+      "duplicatedJsBytes": 19813,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 3180,
+      "renderBlockingMs": 2889,
+      "renderBlockingCount": 9,
+      "poorlyCachedBytes": 256515.26666666666,
+      "poorlyCachedCount": 12
+    },
+    "accessibility": {
+      "failingCount": 5,
+      "applicableCount": 29,
+      "failingNodes": 34,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 23
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 10,
+          "nodes": 4
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "title": "Elements use prohibited ARIA attributes",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements do not have `[alt]` attributes",
+          "weight": 1,
+          "nodes": 4
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 64
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2448,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:25:08.871Z",
+      "runtimeMs": 16482.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5e3747e8a85d69c-IAD",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M806W2RVP0J2QYK7NT3D8WA4"
+    },
+    "violations": 118,
+    "passes": 1887,
+    "incomplete": 7,
+    "violationRules": 7,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 64,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#home-redesign-projects > .home-redesign-container > .home-redesign-section__intro",
+            "snippet": "<div class=\"home-redesign-section__intro\">"
+          },
+          {
+            "selector": "article:nth-child(1) > .home-redesign-card__body > .home-redesign-card__header > .home-redesign-card__title",
+            "snippet": "<h3 class=\"home-redesign-card__title\"> <a href=\"/projects/managed-settings/\"> Managed Settings </a> </h3>"
+          },
+          {
+            "selector": "#home-redesign-projects > .home-redesign-container > .home-redesign-grid > article:nth-child(1) > .home-redesign-card__body > .home-redesign-card__copy",
+            "snippet": "<p class=\"home-redesign-card__copy\">Limited Settings experiences that keep managed Android estates focused and secure.</p>"
+          },
+          {
+            "selector": "#home-redesign-projects > .home-redesign-container > .home-redesign-grid > article:nth-child(1) > .home-redesign-card__body > .home-redesign-card__tags",
+            "snippet": "<div class=\"home-redesign-card__tags\"> <span class=\"home-redesign-tag\">Products</span> </div>"
+          },
+          {
+            "selector": ".home-redesign-card__action[href$=\"managed-settings/\"]",
+            "snippet": "<a class=\"home-redesign-card__action\" href=\"/projects/managed-settings/\">Go »</a>"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 23,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".home-redesign-button--primary.home-redesign-button[href$=\"blog\"]",
+            "snippet": "<a class=\"home-redesign-button home-redesign-button--primary\" href=\"/blog\">Read the blog »</a>"
+          },
+          {
+            "selector": ".home-redesign-button--primary.home-redesign-button[href$=\"android\"]",
+            "snippet": "<a class=\"home-redesign-button home-redesign-button--primary\" href=\"/android\">Read the docs »</a>"
+          },
+          {
+            "selector": ".home-redesign-grid--three.home-redesign-grid:nth-child(2) > article:nth-child(1) > .home-redesign-card__body > .home-redesign-card__meta",
+            "snippet": "<div class=\"home-redesign-card__meta\">23 October 2026</div>"
+          },
+          {
+            "selector": ".home-redesign-grid--three.home-redesign-grid:nth-child(2) > article:nth-child(2) > .home-redesign-card__body > .home-redesign-card__meta",
+            "snippet": "<div class=\"home-redesign-card__meta\">12 October 2026</div>"
+          },
+          {
+            "selector": ".home-redesign-grid--three.home-redesign-grid:nth-child(2) > article:nth-child(3) > .home-redesign-card__body > .home-redesign-card__meta",
+            "snippet": "<div class=\"home-redesign-card__meta\">02 October 2026</div>"
+          }
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 8,
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#EHO-mf4ie6k > iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          },
+          {
+            "selector": "#tsJSwE6dHsA > iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          },
+          {
+            "selector": "#ezb8wJitEmI > iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          },
+          {
+            "selector": "#QbxQbqLvacM > iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          },
+          {
+            "selector": "#OxreOz3PQBM > iframe >>> #movie_player",
+            "snippet": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-small-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/pl…"
+          }
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "nodes": 7,
+        "help": "Elements must only use supported ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#EHO-mf4ie6k > iframe >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=EHO-mf4ie6k\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">A…"
+          },
+          {
+            "selector": "#tsJSwE6dHsA > iframe >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=tsJSwE6dHsA\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">M…"
+          },
+          {
+            "selector": "#ezb8wJitEmI > iframe >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=ezb8wJitEmI\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">W…"
+          },
+          {
+            "selector": "#QbxQbqLvacM > iframe >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=QbxQbqLvacM\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">W…"
+          },
+          {
+            "selector": "#OxreOz3PQBM > iframe >>> .ytmVideoInfoVideoTitle",
+            "snippet": "<a class=\"ytmVideoInfoVideoTitle\" aria-level=\"2\" href=\"https://www.youtube.com/watch?v=OxreOz3PQBM\"><span class=\"ytAttributedStringHost ytmVideoInfoLink ytAttributedStringWhiteSpaceNoWrap\" style=\"\">A…"
+          }
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 7,
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#EHO-mf4ie6k > iframe >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          },
+          {
+            "selector": "#tsJSwE6dHsA > iframe >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          },
+          {
+            "selector": "#ezb8wJitEmI > iframe >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          },
+          {
+            "selector": "#QbxQbqLvacM > iframe >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          },
+          {
+            "selector": "#OxreOz3PQBM > iframe >>> .ytmVideoInfoChannelAvatar",
+            "snippet": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspect…"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#bayton_logo > .bayton-logo-dynamic[href=\"/\"]",
+            "snippet": "<a class=\"bayton-logo-dynamic\" href=\"/\">"
+          },
+          {
+            "selector": "a[alt=\"Linkedin\"]",
+            "snippet": "<a href=\"https://linkedin.com/in/jasonbayton\" alt=\"Linkedin\" rel=\"me\"><img src=\"/img/icons/linkedin-brands.svg\"></a>"
+          },
+          {
+            "selector": "a[alt=\"Bluesky\"]",
+            "snippet": "<a href=\"https://bsky.app/profile/jason.bayton.org\" alt=\"Bluesky\" rel=\"me\"><img src=\"/img/icons/bluesky-brands.svg\"></a>"
+          },
+          {
+            "selector": "a[href$=\"jasonbayton\"]:nth-child(3)",
+            "snippet": "<a href=\"https://github.com/jasonbayton\" alt=\"GitHub\" rel=\"me\"><img src=\"/img/icons/github-brands.svg\" width=\"\"></a>"
+          },
+          {
+            "selector": "a[href$=\"ub46Wgu5eC\"]",
+            "snippet": "<a href=\"https://discord.gg/ub46Wgu5eC\" alt=\"Discord\"><img src=\"/img/icons/discord-brands.svg\" style=\"width:28px;\"></a>"
+          }
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "nodes": 4,
+        "help": "Images must have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "img[src$=\"linkedin-brands.svg\"]",
+            "snippet": "<img src=\"/img/icons/linkedin-brands.svg\">"
+          },
+          {
+            "selector": "img[src$=\"bluesky-brands.svg\"]",
+            "snippet": "<img src=\"/img/icons/bluesky-brands.svg\">"
+          },
+          {
+            "selector": "img[src$=\"github-brands.svg\"]",
+            "snippet": "<img src=\"/img/icons/github-brands.svg\" width=\"\">"
+          },
+          {
+            "selector": "img[src$=\"discord-brands.svg\"]",
+            "snippet": "<img src=\"/img/icons/discord-brands.svg\" style=\"width:28px;\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "0513619f47e9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0513619f47e9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0513619f47e9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "34",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535966",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "0513619f47e9",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "50",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535950",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,328 @@
+{
+  "url": "https://austinjavascript.com/",
+  "name": "austinjavascript.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303405081,
+  "date": "2026-11-21T23:23:25.081Z",
+  "runId": "2026-11-21T23-20-55-934Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29373,
+  "error": null,
+  "variance": {
+    "min": 90,
+    "max": 97,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://austinjavascript.com/",
+    "finalUrl": "https://austinjavascript.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 96,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 942,
+      "lcp": 2142,
+      "si": 942,
+      "tbt": 257,
+      "tti": 5255,
+      "cls": 0,
+      "ttfb": 642,
+      "maxPotentialFid": 279,
+      "serverResponseTime": 14,
+      "networkRtt": 0.5,
+      "networkServerLatency": 99.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 15.8,
+      "resourceLoadDelay": 10.1,
+      "resourceLoadDuration": 17.7,
+      "elementRenderDelay": 75.5
+    },
+    "weight": {
+      "total": 1023546,
+      "requests": 128,
+      "mainDocument": 12121,
+      "byType": {
+        "total": {
+          "bytes": 1023546,
+          "requests": 128
+        },
+        "script": {
+          "bytes": 480790,
+          "requests": 14
+        },
+        "image": {
+          "bytes": 414658,
+          "requests": 102
+        },
+        "other": {
+          "bytes": 55024,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 32251,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 21966,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 18857,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 597615,
+          "requests": 24
+        }
+      },
+      "scripts": 14,
+      "stylesheets": 4,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 197994,
+      "mainThreadMs": 125.4,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 166730,
+          "mainThreadMs": 71.5,
+          "byType": {
+            "script": 166730
+          },
+          "typedBytes": 166730
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 20913,
+          "mainThreadMs": 42.2,
+          "byType": {
+            "script": 20875,
+            "other": 38
+          },
+          "typedBytes": 20913
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 11.7,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1463.9,
+      "byGroup": {
+        "other": 575.8,
+        "scriptEvaluation": 533.5,
+        "styleLayout": 156.8,
+        "scriptParseCompile": 97,
+        "paintCompositeRender": 81.3,
+        "parseHTML": 19.4
+      },
+      "bootupMs": 595.2,
+      "longTasks": 4,
+      "longestTaskMs": 279
+    },
+    "dom": {
+      "elements": 483,
+      "depth": 10,
+      "maxChildren": 128
+    },
+    "waste": {
+      "unusedJsBytes": 75782,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 308362.02999999997,
+      "poorlyCachedCount": 106
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 24,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 30
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2492,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:23:44.314Z",
+      "runtimeMs": 8510.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5e371c2099ad691-IAD",
+      "server": "cloudflare",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "fbed51f7514dce662f1ec620551b147766990506",
+      "x-github-request-id": "3412:5CA04:BE81F9:D29C6E:6B0227EE",
+      "x-served-by": "cache-iad-kiad7000106-IAD"
+    },
+    "violations": 1,
+    "passes": 2316,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Frames must have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "iframe",
+            "snippet": "<iframe scrolling=\"no\" style=\"width:100%!important;height:220px;border:1px #ccc solid!important\" src=\"https://buttondown.com/austinjavascript?as_embed=true\"></iframe>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7df6bade7219",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 18 Jun 2025 15:24:31 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7df6bade7219",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 18 Jun 2025 15:24:31 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7df6bade7219",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 18 Jun 2025 15:24:31 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7df6bade7219",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "23",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Wed, 18 Jun 2025 15:24:31 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

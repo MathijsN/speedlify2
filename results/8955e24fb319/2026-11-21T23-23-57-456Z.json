@@ -1,0 +1,287 @@
+{
+  "url": "https://balestraroma.com/en",
+  "name": "balestraroma.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303437456,
+  "date": "2026-11-21T23:23:57.456Z",
+  "runId": "2026-11-21T23-20-55-934Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23514,
+  "error": null,
+  "variance": {
+    "min": 73,
+    "max": 81,
+    "spread": 8,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://balestraroma.com/en",
+    "finalUrl": "https://balestraroma.com/en/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 77,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 830,
+      "lcp": 5604,
+      "si": 1369,
+      "tbt": 157,
+      "tti": 5604,
+      "cls": 0,
+      "ttfb": 491,
+      "maxPotentialFid": 133,
+      "serverResponseTime": 8,
+      "networkRtt": 0,
+      "networkServerLatency": 41.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 55.8,
+      "resourceLoadDelay": 76.6,
+      "resourceLoadDuration": 73.6,
+      "elementRenderDelay": 60.1
+    },
+    "weight": {
+      "total": 3623105,
+      "requests": 28,
+      "mainDocument": 7647,
+      "byType": {
+        "total": {
+          "bytes": 3623105,
+          "requests": 28
+        },
+        "image": {
+          "bytes": 3323347,
+          "requests": 19
+        },
+        "script": {
+          "bytes": 182323,
+          "requests": 2
+        },
+        "font": {
+          "bytes": 106494,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 7647,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3294,
+          "requests": 5
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3484982,
+          "requests": 19
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 0,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 3484982,
+      "mainThreadMs": 83.1,
+      "top": [
+        {
+          "entity": "imagekit.io",
+          "bytes": 3302611,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 3302611
+          },
+          "typedBytes": 3302611
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 171972,
+          "mainThreadMs": 74.2,
+          "byType": {
+            "script": 171972
+          },
+          "typedBytes": 171972
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 8.9,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "Google Analytics",
+          "bytes": 48,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 48
+          },
+          "typedBytes": 48
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 774.6,
+      "byGroup": {
+        "scriptEvaluation": 309.6,
+        "other": 291.2,
+        "styleLayout": 59.2,
+        "scriptParseCompile": 56.5,
+        "paintCompositeRender": 29.5,
+        "parseHTML": 18.7,
+        "garbageCollection": 9.9
+      },
+      "bootupMs": 346.2,
+      "longTasks": 2,
+      "longestTaskMs": 133
+    },
+    "dom": {
+      "elements": 651,
+      "depth": 9,
+      "maxChildren": 15
+    },
+    "waste": {
+      "unusedJsBytes": 74436,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 791.1,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2455.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:24:06.206Z",
+      "runtimeMs": 6932.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e372581e4981c9-IAD",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 702,
+    "incomplete": 4,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "summary-name",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Summary elements must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/summary-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "summary",
+            "snippet": "<summary> <span id=\"hamburger\"> <span></span> <span></span> <span></span> </span> </summary>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b8617753520c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "b8617753520c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "b8617753520c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

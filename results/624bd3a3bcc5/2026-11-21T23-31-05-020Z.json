@@ -1,0 +1,259 @@
+{
+  "url": "https://buttonbuddy.dev/",
+  "name": "buttonbuddy.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795303865020,
+  "date": "2026-11-21T23:31:05.020Z",
+  "runId": "2026-11-21T23-20-55-934Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20904,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://buttonbuddy.dev/",
+    "finalUrl": "https://buttonbuddy.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 824,
+      "lcp": 824,
+      "si": 824,
+      "tbt": 0,
+      "tti": 824,
+      "cls": 0,
+      "ttfb": 634,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 48,
+      "networkRtt": 3.4,
+      "networkServerLatency": 34
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 96.5,
+      "elementRenderDelay": 203.5
+    },
+    "weight": {
+      "total": 77332,
+      "requests": 7,
+      "mainDocument": 3796,
+      "byType": {
+        "total": {
+          "bytes": 77332,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 53949,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 9771,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 6654,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 3796,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 3162,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 2158,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 2158,
+      "mainThreadMs": 1,
+      "top": [
+        {
+          "entity": "Plausible",
+          "bytes": 2158,
+          "mainThreadMs": 1,
+          "byType": {
+            "script": 2158
+          },
+          "typedBytes": 2158
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 248.7,
+      "byGroup": {
+        "other": 123.3,
+        "styleLayout": 58.1,
+        "scriptEvaluation": 31.5,
+        "paintCompositeRender": 23.2,
+        "parseHTML": 9.2,
+        "scriptParseCompile": 3.4
+      },
+      "bootupMs": 8.9,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 192,
+      "depth": 8,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 7,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 9
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2424.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T23:31:06.289Z",
+      "runtimeMs": 6431.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8076H7JSTP0PXHFDJBZRX4E"
+    },
+    "violations": 0,
+    "passes": 448,
+    "incomplete": 14,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "11bd73567c17",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"bb072eeaa04ac8dcacfe6be073e2908a-ssl\""
+        }
+      },
+      {
+        "hash": "11bd73567c17",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"bb072eeaa04ac8dcacfe6be073e2908a-ssl\""
+        }
+      },
+      {
+        "hash": "11bd73567c17",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "etag": "W/\"bb072eeaa04ac8dcacfe6be073e2908a-ssl\""
+        }
+      },
+      {
+        "hash": "11bd73567c17",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"bb072eeaa04ac8dcacfe6be073e2908a-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
