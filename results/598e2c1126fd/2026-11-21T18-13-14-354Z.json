@@ -1,0 +1,269 @@
+{
+  "url": "https://playheadapp.com/",
+  "name": "playheadapp.com",
+  "group": "astro-showcase",
+  "groupName": "Astro Showcase",
+  "timestamp": 1795284794354,
+  "date": "2026-11-21T18:13:14.354Z",
+  "runId": "2026-11-21T17-59-23-746Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 1,
+  "durationMs": 73627,
+  "error": null,
+  "partialErrors": [
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)",
+    "NO_FCP: The page did not paint any content. Please ensure you keep the browser window in the foreground during the load and try again. (NO_FCP)"
+  ],
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://playheadapp.com/",
+    "finalUrl": "https://playheadapp.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 71,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1822,
+      "lcp": 7120,
+      "si": 3262,
+      "tbt": 209,
+      "tti": 7120,
+      "cls": 0,
+      "ttfb": 518,
+      "maxPotentialFid": 259,
+      "serverResponseTime": 71,
+      "networkRtt": 28.2,
+      "networkServerLatency": 68.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 156,
+      "resourceLoadDelay": 8.3,
+      "resourceLoadDuration": 419,
+      "elementRenderDelay": 35
+    },
+    "weight": {
+      "total": 1276705,
+      "requests": 21,
+      "mainDocument": 16475,
+      "byType": {
+        "total": {
+          "bytes": 1276705,
+          "requests": 21
+        },
+        "image": {
+          "bytes": 829225,
+          "requests": 8
+        },
+        "script": {
+          "bytes": 312725,
+          "requests": 8
+        },
+        "other": {
+          "bytes": 111186,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 16475,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 7094,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10478,
+          "requests": 1
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10478,
+      "mainThreadMs": 6,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 6,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 5845.9,
+      "byGroup": {
+        "scriptEvaluation": 4526,
+        "other": 718.6,
+        "styleLayout": 267.1,
+        "garbageCollection": 176.5,
+        "paintCompositeRender": 109.2,
+        "scriptParseCompile": 33.6,
+        "parseHTML": 14.9
+      },
+      "bootupMs": 4525.2,
+      "longTasks": 1,
+      "longestTaskMs": 259
+    },
+    "dom": {
+      "elements": 607,
+      "depth": 11,
+      "maxChildren": 64
+    },
+    "waste": {
+      "unusedJsBytes": 176928,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 12790,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 124999.65833333334,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 21,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 42
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4165.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T18:13:15.530Z",
+      "runtimeMs": 8513.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": "6.3.1",
+      "source": "meta",
+      "raw": "Astro v6.3.1"
+    },
+    "probe": {
+      "metas": [
+        "Astro v6.3.1"
+      ],
+      "marks": [
+        "astro",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e1ac8fcb54c10b-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 665,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href=\"/\"]",
+            "snippet": "<a href=\"/\" aria-label=\"Playhead home\" class=\"block relative\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "98ae332ad0b4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "98ae332ad0b4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

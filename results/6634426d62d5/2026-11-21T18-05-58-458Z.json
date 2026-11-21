@@ -1,0 +1,22 @@
+{
+  "url": "https://danielhieber.info/",
+  "name": "danielhieber.info",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795284358458,
+  "date": "2026-11-21T18:05:58.458Z",
+  "runId": "2026-11-21T17-59-23-746Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 360081,
+  "error": "lighthouse timed out after 120000ms",
+  "errors": [
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 61
+}
