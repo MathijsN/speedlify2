@@ -1,0 +1,390 @@
+{
+  "url": "https://developer.chrome.com/",
+  "name": "developer.chrome.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795330973961,
+  "date": "2026-11-22T07:02:53.961Z",
+  "runId": "2026-11-22T06-53-50-065Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 38472,
+  "error": null,
+  "variance": {
+    "min": 51,
+    "max": 54,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://developer.chrome.com/",
+    "finalUrl": "https://developer.chrome.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 52,
+      "accessibility": 93,
+      "best-practices": 77,
+      "seo": 92,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 2537,
+      "lcp": 6218,
+      "si": 3431,
+      "tbt": 949,
+      "tti": 13141,
+      "cls": 0.026,
+      "ttfb": 1072,
+      "maxPotentialFid": 262,
+      "serverResponseTime": 1070,
+      "networkRtt": 0.1,
+      "networkServerLatency": 105.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 1072.2,
+      "elementRenderDelay": 271.3
+    },
+    "weight": {
+      "total": 1951883,
+      "requests": 69,
+      "mainDocument": 21815,
+      "byType": {
+        "total": {
+          "bytes": 1951883,
+          "requests": 69
+        },
+        "script": {
+          "bytes": 1386186,
+          "requests": 44
+        },
+        "image": {
+          "bytes": 216497,
+          "requests": 10
+        },
+        "font": {
+          "bytes": 164676,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 161234,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 21815,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1475,
+          "requests": 9
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1715268,
+          "requests": 57
+        }
+      },
+      "scripts": 44,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 2000949,
+      "mainThreadMs": 414.1,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 995014,
+          "mainThreadMs": 321.5,
+          "byType": {
+            "script": 995014
+          },
+          "typedBytes": 995014
+        },
+        {
+          "entity": "Google CDN",
+          "bytes": 811381,
+          "mainThreadMs": 89.4,
+          "byType": {
+            "script": 651246,
+            "stylesheet": 156899,
+            "image": 3172,
+            "other": 64
+          },
+          "typedBytes": 811381
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 169011,
+          "mainThreadMs": 0.6,
+          "byType": {
+            "stylesheet": 4335,
+            "font": 164676
+          },
+          "typedBytes": 169011
+        },
+        {
+          "entity": "Unpkg",
+          "bytes": 15697,
+          "mainThreadMs": 1.9,
+          "byType": {
+            "script": 15697
+          },
+          "typedBytes": 15697
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 9666,
+          "mainThreadMs": 0.7,
+          "byType": {
+            "script": 9666
+          },
+          "typedBytes": 9666
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3065.9,
+      "byGroup": {
+        "scriptEvaluation": 1609.4,
+        "other": 622.1,
+        "styleLayout": 366.7,
+        "scriptParseCompile": 308.9,
+        "paintCompositeRender": 66.2,
+        "parseHTML": 48.6,
+        "garbageCollection": 44
+      },
+      "bootupMs": 1643.5,
+      "longTasks": 10,
+      "longestTaskMs": 262
+    },
+    "dom": {
+      "elements": 852,
+      "depth": 20,
+      "maxChildren": 33
+    },
+    "waste": {
+      "unusedJsBytes": 670928,
+      "unusedCssBytes": 134539,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2438,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 30,
+      "failingNodes": 28,
+      "failing": [
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "weight": 7,
+          "nodes": 26
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": null,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 50
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2975.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T07:03:06.699Z",
+      "runtimeMs": 12301.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "lit"
+      ],
+      "markVersions": {
+        "lit": "3.3.3"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "google",
+      "name": "Google Frontend",
+      "icon": "Google",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Google Frontend",
+      "x-cloud-trace-context": "55120ae28daf1d9bca2119af9c4fd733"
+    },
+    "violations": 29,
+    "passes": 972,
+    "incomplete": 17,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 26,
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".dcc-bg-grey.devsite-landing-row-item[description-position=\"bottom\"]:nth-child(1) > .devsite-landing-row-item-media > figure > a",
+            "snippet": "<a href=\"https://developer.chrome.com/blog/chrome-at-io26\">"
+          },
+          {
+            "selector": ".dcc-bg-grey.devsite-landing-row-item[description-position=\"bottom\"]:nth-child(2) > .devsite-landing-row-item-media > figure > a",
+            "snippet": "<a href=\"https://io.google/2026/?utm_source=web&utm_medium=embedded_marketing&utm_campaign=hpp_ondemand_card&utm_content=\">"
+          },
+          {
+            "selector": ".devsite-landing-row-4-up.devsite-landing-row-header-centered[background=\"grey\"] > .devsite-landing-row-inner > .devsite-landing-row-group > .devsite-landing-row-item[description-position=\"bottom\"]:nth-child(1) > .devsite-landing-row-item-media > figure > a",
+            "snippet": "<a href=\"https://developer.chrome.com/docs/ai\">"
+          },
+          {
+            "selector": ".devsite-landing-row-item[description-position=\"bottom\"]:nth-child(1) > .devsite-landing-row-item-description > .devsite-landing-row-item-body > .devsite-landing-row-item-list > .devsite-landing-row-item-list-item:nth-child(1) > .devsite-landing-row-item-list-item-content[icon-position=\"left\"] > a",
+            "snippet": "<a href=\"https://developer.chrome.com/docs/ai\"> <div class=\"devsite-landing-row-item-list-item-icon-container\" foreground=\"theme\" size=\"small\"> <div class=\"devsite-landing-row-item-list-item-icon mat…"
+          },
+          {
+            "selector": ".devsite-landing-row-item[description-position=\"bottom\"]:nth-child(1) > .devsite-landing-row-item-description > .devsite-landing-row-item-body > .devsite-landing-row-item-list > .devsite-landing-row-item-list-item:nth-child(2) > .devsite-landing-row-item-list-item-content[icon-position=\"left\"] > a",
+            "snippet": "<a href=\"https://developer.chrome.com/docs/capabilities\">"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".dcc-bg-grey.devsite-landing-row-item[description-position=\"bottom\"]:nth-child(1) > .devsite-landing-row-item-description > .devsite-landing-row-item-body > .devsite-landing-row-item-buttons > .button",
+            "snippet": "<a href=\"https://developer.chrome.com/blog/chrome-at-io26\" class=\"button \">Find out more</a>"
+          },
+          {
+            "selector": ".dcc-bg-grey.devsite-landing-row-item[description-position=\"bottom\"]:nth-child(2) > .devsite-landing-row-item-description > .devsite-landing-row-item-body > .devsite-landing-row-item-buttons > .button",
+            "snippet": "<a href=\"https://io.google/2026/?utm_source=web&amp;utm_medium=embedded_marketing&amp;utm_campaign=hpp_ondemand_card&amp;utm_content=\" class=\"button \">Watch here</a>"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" dir=\"ltr\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "794b2c2a8153",
+        "nonce": "34d665c4e300",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Fri, 13 Nov 2026 16:42:30 GMT"
+        }
+      },
+      {
+        "hash": "b6e0f30647ee",
+        "nonce": "a111bca0d478",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Fri, 13 Nov 2026 16:42:30 GMT"
+        }
+      },
+      {
+        "hash": "1ee6e708e7e6",
+        "nonce": "3d1616742a6d",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Fri, 13 Nov 2026 16:42:30 GMT"
+        }
+      },
+      {
+        "hash": "9131b0fd887c",
+        "nonce": "d9edba34bae3",
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Fri, 13 Nov 2026 16:42:30 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

@@ -1,0 +1,252 @@
+{
+  "url": "https://darius.codes/",
+  "name": "darius.codes",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795330663283,
+  "date": "2026-11-22T06:57:43.283Z",
+  "runId": "2026-11-22T06-53-50-065Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 29493,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": {
+    "min": 70,
+    "max": 72,
+    "spread": 2,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://darius.codes/",
+    "finalUrl": "https://darius.codes/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 70,
+      "accessibility": 93,
+      "best-practices": 81,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 945,
+      "lcp": 945,
+      "si": 2954,
+      "tbt": 2835,
+      "tti": 4664,
+      "cls": 0.001,
+      "ttfb": 467,
+      "maxPotentialFid": 2661,
+      "serverResponseTime": 37,
+      "networkRtt": 9.7,
+      "networkServerLatency": 16.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 56.5,
+      "elementRenderDelay": 909.8
+    },
+    "weight": {
+      "total": 468624,
+      "requests": 41,
+      "mainDocument": 7460,
+      "byType": {
+        "total": {
+          "bytes": 468624,
+          "requests": 40
+        },
+        "font": {
+          "bytes": 325675,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 121833,
+          "requests": 26
+        },
+        "stylesheet": {
+          "bytes": 11106,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 7460,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2550,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10479,
+          "requests": 1
+        }
+      },
+      "scripts": 26,
+      "stylesheets": 4,
+      "fonts": 5
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 10479,
+      "mainThreadMs": 7.6,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10479,
+          "mainThreadMs": 7.6,
+          "byType": {
+            "script": 10479
+          },
+          "typedBytes": 10479
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 4176.2,
+      "byGroup": {
+        "other": 2862.3,
+        "scriptEvaluation": 1053.8,
+        "styleLayout": 182.5,
+        "garbageCollection": 30.8,
+        "parseHTML": 19.9,
+        "paintCompositeRender": 16.9,
+        "scriptParseCompile": 10
+      },
+      "bootupMs": 1025.4,
+      "longTasks": 3,
+      "longestTaskMs": 2661
+    },
+    "dom": {
+      "elements": 265,
+      "depth": 9,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10484,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 157,
+      "renderBlockingCount": 4,
+      "poorlyCachedBytes": 4191.6,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 21,
+      "failingNodes": 42,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 41
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3088.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T06:57:44.494Z",
+      "runtimeMs": 8622.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e60b45187f85c0-IAD",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "689099daa47d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "HIT"
+        }
+      },
+      {
+        "hash": "d5a47c483008",
+        "nonce": "ab5dfdc40c01",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
