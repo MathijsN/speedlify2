@@ -1,0 +1,323 @@
+{
+  "url": "https://gulpjs.com/",
+  "name": "gulp",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795362502098,
+  "date": "2026-11-22T15:48:22.098Z",
+  "runId": "2026-11-22T15-21-21-318Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 42702,
+  "error": null,
+  "variance": {
+    "min": 92,
+    "max": 96,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gulpjs.com/",
+    "finalUrl": "https://gulpjs.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 99
+    },
+    "timings": {
+      "fcp": 1525,
+      "lcp": 3016,
+      "si": 1525,
+      "tbt": 108,
+      "tti": 3016,
+      "cls": 0.061,
+      "ttfb": 608,
+      "maxPotentialFid": 158,
+      "serverResponseTime": 14,
+      "networkRtt": 0,
+      "networkServerLatency": 17.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 16,
+      "resourceLoadDelay": 9.4,
+      "resourceLoadDuration": 12.4,
+      "elementRenderDelay": 39.3
+    },
+    "weight": {
+      "total": 487128,
+      "requests": 48,
+      "mainDocument": 5573,
+      "byType": {
+        "total": {
+          "bytes": 487128,
+          "requests": 48
+        },
+        "image": {
+          "bytes": 205239,
+          "requests": 13
+        },
+        "script": {
+          "bytes": 168840,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 48832,
+          "requests": 25
+        },
+        "font": {
+          "bytes": 32231,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 26413,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 5573,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 34134,
+          "requests": 4
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 34134,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 34134,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1903,
+            "font": 32231
+          },
+          "typedBytes": 34134
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 633.2,
+      "byGroup": {
+        "scriptEvaluation": 283.2,
+        "other": 204,
+        "styleLayout": 67,
+        "scriptParseCompile": 35.9,
+        "paintCompositeRender": 14.7,
+        "parseHTML": 14.3,
+        "garbageCollection": 14.3
+      },
+      "bootupMs": 299.8,
+      "longTasks": 1,
+      "longestTaskMs": 158
+    },
+    "dom": {
+      "elements": 244,
+      "depth": 11,
+      "maxChildren": 26
+    },
+    "waste": {
+      "unusedJsBytes": 59949,
+      "unusedCssBytes": 17719,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1068,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 271040.51999999996,
+      "poorlyCachedCount": 18
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3520.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T15:48:36.261Z",
+      "runtimeMs": 6120.4
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 592.6,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1619.4,
+    "elementRenderDelay": 23.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "docusaurus",
+      "name": "Docusaurus",
+      "icon": "Docusaurus",
+      "version": "3.10.2",
+      "source": "meta",
+      "raw": "Docusaurus v3.10.2"
+    },
+    "probe": {
+      "metas": [
+        "Docusaurus v3.10.2"
+      ],
+      "marks": [
+        "docusaurus",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5e914e9a8538bda-IAD",
+      "server": "cloudflare",
+      "x-github-request-id": "49E8:1CD5:2907F3:2E1690:6B030EEC"
+    },
+    "violations": 1,
+    "passes": 287,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".pluginsCTA_uzDT > a[href$=\"plugins\"]",
+            "snippet": "<a href=\"/plugins\">community plugins</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6cbe353e20e7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 31 Oct 2026 21:33:03 GMT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6cbe353e20e7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 31 Oct 2026 21:33:03 GMT",
+          "x-proxy-cache": "REVALIDATED"
+        }
+      },
+      {
+        "hash": "6cbe353e20e7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 31 Oct 2026 21:33:03 GMT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6cbe353e20e7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 31 Oct 2026 21:33:03 GMT",
+          "x-proxy-cache": "HIT"
+        }
+      },
+      {
+        "hash": "6cbe353e20e7",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Sat, 31 Oct 2026 21:33:03 GMT",
+          "x-proxy-cache": "REVALIDATED"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
