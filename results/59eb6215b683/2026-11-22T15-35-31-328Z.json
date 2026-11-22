@@ -1,0 +1,326 @@
+{
+  "url": "https://www.speedlify.dev/",
+  "name": "Speedlify",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795361731328,
+  "date": "2026-11-22T15:35:31.328Z",
+  "runId": "2026-11-22T15-21-27-241Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 84764,
+  "error": null,
+  "variance": {
+    "min": 82,
+    "max": 87,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.speedlify.dev/",
+    "finalUrl": "https://www.speedlify.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 86,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1709,
+      "lcp": 1709,
+      "si": 1709,
+      "tbt": 519,
+      "tti": 2864,
+      "cls": 0,
+      "ttfb": 690,
+      "maxPotentialFid": 203,
+      "serverResponseTime": 87,
+      "networkRtt": 0.2,
+      "networkServerLatency": 170.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 88.4,
+      "elementRenderDelay": 78.7
+    },
+    "weight": {
+      "total": 293343,
+      "requests": 42,
+      "mainDocument": 146037,
+      "byType": {
+        "total": {
+          "bytes": 293343,
+          "requests": 41
+        },
+        "document": {
+          "bytes": 146037,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 137904,
+          "requests": 36
+        },
+        "script": {
+          "bytes": 9020,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 382,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 88701,
+          "requests": 37
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 88701,
+      "mainThreadMs": 2.2,
+      "top": [
+        {
+          "entity": "11ty.dev",
+          "bytes": 83931,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 83931
+          },
+          "typedBytes": 83931
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4388,
+          "mainThreadMs": 2.2,
+          "byType": {
+            "script": 4388
+          },
+          "typedBytes": 4388
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2480.9,
+      "byGroup": {
+        "paintCompositeRender": 852,
+        "styleLayout": 709.1,
+        "other": 638,
+        "parseHTML": 201.2,
+        "scriptEvaluation": 65.4,
+        "garbageCollection": 12.1,
+        "scriptParseCompile": 3.2
+      },
+      "bootupMs": 57.3,
+      "longTasks": 11,
+      "longestTaskMs": 203
+    },
+    "dom": {
+      "elements": 19622,
+      "depth": 12,
+      "maxChildren": 231
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 121021.84999999999,
+      "poorlyCachedCount": 38
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 31,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2957,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T15:36:05.210Z",
+      "runtimeMs": 11861.8
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 690.3,
+    "elementRenderDelay": 0
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "aa8e27dacd9e2be6388fd4acc61600110fa9f85a",
+      "x-github-request-id": "EF04:114FCF:C5B66:119DBE:6B030BC4",
+      "x-served-by": "cache-bfi-krnt7300037-BFI"
+    },
+    "violations": 0,
+    "passes": 47653,
+    "incomplete": 2801,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6258a6d5455c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6b02d5fd-1d35a1\"",
+          "last-modified": "Sun, 22 Nov 2026 11:46:05 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "6258a6d5455c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "etag": "W/\"6b02d5fd-1d35a1\"",
+          "last-modified": "Sun, 22 Nov 2026 11:46:05 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "6258a6d5455c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6b02d5fd-1d35a1\"",
+          "last-modified": "Sun, 22 Nov 2026 11:46:05 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "6258a6d5455c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "etag": "W/\"6b02d5fd-1d35a1\"",
+          "last-modified": "Sun, 22 Nov 2026 11:46:05 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "6258a6d5455c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "32",
+          "etag": "W/\"6b02d5fd-1d35a1\"",
+          "last-modified": "Sun, 22 Nov 2026 11:46:05 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

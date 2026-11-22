@@ -1,0 +1,371 @@
+{
+  "url": "https://neocities.org/",
+  "name": "Neocities",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795361923797,
+  "date": "2026-11-22T15:38:43.797Z",
+  "runId": "2026-11-22T15-21-27-241Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 63942,
+  "error": null,
+  "variance": {
+    "min": 73,
+    "max": 74,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://neocities.org/",
+    "finalUrl": "https://neocities.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 74,
+      "accessibility": 89,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 1966,
+      "lcp": 8926,
+      "si": 2456,
+      "tbt": 58,
+      "tti": 9065,
+      "cls": 0,
+      "ttfb": 605,
+      "maxPotentialFid": 94,
+      "serverResponseTime": 69,
+      "networkRtt": 5.3,
+      "networkServerLatency": 40
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 71,
+      "resourceLoadDelay": 41.2,
+      "resourceLoadDuration": 217.7,
+      "elementRenderDelay": 26.7
+    },
+    "weight": {
+      "total": 3409141,
+      "requests": 52,
+      "mainDocument": 6969,
+      "byType": {
+        "total": {
+          "bytes": 3409141,
+          "requests": 48
+        },
+        "image": {
+          "bytes": 1586666,
+          "requests": 24
+        },
+        "script": {
+          "bytes": 1178912,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 335410,
+          "requests": 3
+        },
+        "font": {
+          "bytes": 196442,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 94486,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 17225,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1256732,
+          "requests": 7
+        }
+      },
+      "scripts": 8,
+      "stylesheets": 5,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 226416,
+      "mainThreadMs": 38.9,
+      "top": [
+        {
+          "entity": "hcaptcha.com",
+          "bytes": 226416,
+          "mainThreadMs": 38.9,
+          "byType": {
+            "script": 223089,
+            "other": 3327
+          },
+          "typedBytes": 226416
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 940.1,
+      "byGroup": {
+        "other": 329.4,
+        "scriptEvaluation": 238,
+        "styleLayout": 125.9,
+        "scriptParseCompile": 98.6,
+        "paintCompositeRender": 95.7,
+        "parseHTML": 34.2,
+        "garbageCollection": 18.3
+      },
+      "bootupMs": 317.4,
+      "longTasks": 4,
+      "longestTaskMs": 94
+    },
+    "dom": {
+      "elements": 268,
+      "depth": 13,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 36014,
+      "unusedCssBytes": 81032,
+      "legacyJsBytes": 15417,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 12034,
+      "unminifiedCssBytes": 14238,
+      "renderBlockingMs": 2730,
+      "renderBlockingCount": 6,
+      "poorlyCachedBytes": 2266289.9166666665,
+      "poorlyCachedCount": 40
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 31,
+      "failingNodes": 13,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 9
+        },
+        {
+          "id": "label",
+          "title": "Form elements do not have associated labels",
+          "weight": 10,
+          "nodes": 2
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "http/1.1",
+      "legacyHttpRequests": 41,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 40
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3010,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T15:38:53.471Z",
+      "runtimeMs": 8424
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.8,
+    "resourceLoadDelay": 1507.9,
+    "resourceLoadDuration": 3800.3,
+    "elementRenderDelay": 14.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "neocities",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "neocities"
+    },
+    "violations": 15,
+    "passes": 625,
+    "incomplete": 44,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 9,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".text.col-50.col > p:nth-child(2) > a[href$=\"browse\"]",
+            "snippet": "<a href=\"/browse\">website gallery</a>"
+          },
+          {
+            "selector": ".f-Col-1 > .delta",
+            "snippet": "<h2 class=\"delta\">Support Us</h2>"
+          },
+          {
+            "selector": ".tiny > a[href$=\"supporter\"]",
+            "snippet": "<a href=\"/supporter\">supporters</a>"
+          },
+          {
+            "selector": ".tiny > a[href$=\"donate\"]",
+            "snippet": "<a href=\"/donate\">donations</a>"
+          },
+          {
+            "selector": "a[title=\"Donate to Neocities\"]",
+            "snippet": "<a href=\"/donate\" title=\"Donate to Neocities\" class=\"action-Link\">Donate</a>"
+          }
+        ]
+      },
+      {
+        "id": "label",
+        "impact": "critical",
+        "nodes": 2,
+        "help": "Form elements must have labels",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#prevent_autofill_username",
+            "snippet": "<input type=\"text\" name=\"prevent_autofill_username\" id=\"prevent_autofill_username\" value=\"\" class=\"prevent-autofill\">"
+          },
+          {
+            "selector": "#prevent_autofill_password",
+            "snippet": "<input type=\"password\" name=\"prevent_autofill_password\" id=\"prevent_autofill_password\" value=\"\" class=\"prevent-autofill\">"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".tiny > a[href$=\"supporter\"]",
+            "snippet": "<a href=\"/supporter\">supporters</a>"
+          },
+          {
+            "selector": ".tiny > a[href$=\"donate\"]",
+            "snippet": "<a href=\"/donate\">donations</a>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-contentinfo-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Contentinfo landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-contentinfo-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "footer",
+            "snippet": "<footer class=\"footer-Base\" role=\"contentinfo\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".header-Nav",
+            "snippet": "<nav class=\"header-Nav clearfix\" role=\"navigation\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d16d2e9a0f6d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "016c514cc0d0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "162a3738736e",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "44bdbbd12fbe",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "2c75ee536e8a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
