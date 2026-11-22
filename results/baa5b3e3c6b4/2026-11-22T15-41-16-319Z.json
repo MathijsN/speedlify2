@@ -1,0 +1,347 @@
+{
+  "url": "https://www.wix.com/",
+  "name": "Wix",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1795362076319,
+  "date": "2026-11-22T15:41:16.319Z",
+  "runId": "2026-11-22T15-21-19-631Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 126418,
+  "error": null,
+  "variance": {
+    "min": 66,
+    "max": 68,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.wix.com/",
+    "finalUrl": "https://www.wix.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 67,
+      "accessibility": 100,
+      "best-practices": 73,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2312,
+      "lcp": 2312,
+      "si": 2312,
+      "tbt": 2440,
+      "tti": 24280,
+      "cls": 0.029,
+      "ttfb": 683,
+      "maxPotentialFid": 327,
+      "serverResponseTime": 30,
+      "networkRtt": 3.2,
+      "networkServerLatency": 107.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31.4,
+      "elementRenderDelay": 145.2
+    },
+    "weight": {
+      "total": 4037614,
+      "requests": 358,
+      "mainDocument": 283729,
+      "byType": {
+        "total": {
+          "bytes": 4034698,
+          "requests": 356
+        },
+        "script": {
+          "bytes": 2686434,
+          "requests": 126
+        },
+        "other": {
+          "bytes": 756885,
+          "requests": 156
+        },
+        "document": {
+          "bytes": 284985,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 175488,
+          "requests": 61
+        },
+        "font": {
+          "bytes": 121439,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 9467,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 4034698,
+          "requests": 356
+        }
+      },
+      "scripts": 127,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 14,
+      "bytes": 1937598,
+      "mainThreadMs": 720.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 1368153,
+          "mainThreadMs": 527.7,
+          "byType": {
+            "script": 1368153
+          },
+          "typedBytes": 1368153
+        },
+        {
+          "entity": "Facebook",
+          "bytes": 298897,
+          "mainThreadMs": 130.5,
+          "byType": {
+            "script": 298897
+          },
+          "typedBytes": 298897
+        },
+        {
+          "entity": "Other Google APIs/SDKs",
+          "bytes": 104383,
+          "mainThreadMs": 10.3,
+          "byType": {
+            "script": 103243,
+            "other": 499,
+            "stylesheet": 385,
+            "image": 256
+          },
+          "typedBytes": 104383
+        },
+        {
+          "entity": "Sentry",
+          "bytes": 42363,
+          "mainThreadMs": 6.2,
+          "byType": {
+            "script": 42363
+          },
+          "typedBytes": 42363
+        },
+        {
+          "entity": "openai.com",
+          "bytes": 39111,
+          "mainThreadMs": 14,
+          "byType": {
+            "script": 36879,
+            "other": 2232
+          },
+          "typedBytes": 39111
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 10284.4,
+      "byGroup": {
+        "scriptEvaluation": 5153.8,
+        "other": 2788.3,
+        "styleLayout": 966.7,
+        "scriptParseCompile": 612.5,
+        "paintCompositeRender": 299,
+        "garbageCollection": 235.2,
+        "parseHTML": 228.9
+      },
+      "bootupMs": 4940.3,
+      "longTasks": 20,
+      "longestTaskMs": 327
+    },
+    "dom": {
+      "elements": 4430,
+      "depth": 33,
+      "maxChildren": 68
+    },
+    "waste": {
+      "unusedJsBytes": 874242,
+      "unusedCssBytes": 17739,
+      "legacyJsBytes": 36529,
+      "duplicatedJsBytes": 30927,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 306761.0633333333,
+      "poorlyCachedCount": 17
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 34,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 3,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 22
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": null,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 65
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4086.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T15:41:38.222Z",
+      "runtimeMs": 19644.6
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.8,
+    "elementRenderDelay": 437.8
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "wix",
+      "name": "Wix",
+      "icon": "Wix",
+      "version": null,
+      "source": "meta",
+      "raw": "Wix.com Website Builder"
+    },
+    "probe": {
+      "metas": [
+        "Wix.com Website Builder"
+      ],
+      "marks": [
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Pepyaka",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Pepyaka",
+      "via": "1.1 google",
+      "x-served-by": "cache-iad-kcgs7200177-IAD"
+    },
+    "violations": 0,
+    "passes": 4347,
+    "incomplete": 103,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "972664eb0515",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "280696",
+          "etag": "W/\"591fcc0dc28563395bec41fb6e41b13f\"",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "972664eb0515",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "280717",
+          "etag": "W/\"591fcc0dc28563395bec41fb6e41b13f\"",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "972664eb0515",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "280737",
+          "etag": "W/\"591fcc0dc28563395bec41fb6e41b13f\"",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "972664eb0515",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "280758",
+          "etag": "W/\"591fcc0dc28563395bec41fb6e41b13f\"",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "e19322f1b896",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "280817",
+          "etag": "W/\"84f01e745f5722474dfd551a324f05fb\"",
+          "x-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

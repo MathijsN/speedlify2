@@ -1,0 +1,298 @@
+{
+  "url": "https://davidrhoden.com/",
+  "name": "davidrhoden.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795360915468,
+  "date": "2026-11-22T15:21:55.468Z",
+  "runId": "2026-11-22T15-21-19-631Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 2,
+  "durationMs": 36153,
+  "error": null,
+  "partialErrors": [
+    "ERRORED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Status code: 403)"
+  ],
+  "variance": {
+    "min": 63,
+    "max": 73,
+    "spread": 10,
+    "runs": 2
+  },
+  "lab": {
+    "requestedUrl": "https://davidrhoden.com/",
+    "finalUrl": "https://davidrhoden.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 63,
+      "accessibility": 93,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 4857,
+      "lcp": 4857,
+      "si": 5859,
+      "tbt": 280,
+      "tti": 6139,
+      "cls": 0,
+      "ttfb": 681,
+      "maxPotentialFid": 453,
+      "serverResponseTime": 276,
+      "networkRtt": 29.3,
+      "networkServerLatency": 366.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 328.2,
+      "elementRenderDelay": 2164.2
+    },
+    "weight": {
+      "total": 1193326,
+      "requests": 47,
+      "mainDocument": 33612,
+      "byType": {
+        "total": {
+          "bytes": 1184819,
+          "requests": 46
+        },
+        "script": {
+          "bytes": 779837,
+          "requests": 15
+        },
+        "image": {
+          "bytes": 244655,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 71215,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 43386,
+          "requests": 9
+        },
+        "document": {
+          "bytes": 41119,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 4607,
+          "requests": 8
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 889557,
+          "requests": 33
+        }
+      },
+      "scripts": 15,
+      "stylesheets": 9,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 7,
+      "bytes": 282194,
+      "mainThreadMs": 79.8,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 189665,
+          "mainThreadMs": 66.5,
+          "byType": {
+            "script": 189665
+          },
+          "typedBytes": 189665
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 73297,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "stylesheet": 2082,
+            "font": 71215
+          },
+          "typedBytes": 73297
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 5.8,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 6349,
+          "mainThreadMs": 7.2,
+          "byType": {
+            "script": 5400,
+            "other": 949
+          },
+          "typedBytes": 6349
+        },
+        {
+          "entity": "cdnfonts.com",
+          "bytes": 1290,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 1290
+          },
+          "typedBytes": 1290
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1933.5,
+      "byGroup": {
+        "scriptEvaluation": 1214.6,
+        "other": 378.7,
+        "styleLayout": 172.5,
+        "parseHTML": 79.9,
+        "scriptParseCompile": 59.3,
+        "garbageCollection": 22.2,
+        "paintCompositeRender": 6.3
+      },
+      "bootupMs": 1221.4,
+      "longTasks": 5,
+      "longestTaskMs": 453
+    },
+    "dom": {
+      "elements": 461,
+      "depth": 13,
+      "maxChildren": 19
+    },
+    "waste": {
+      "unusedJsBytes": 79059,
+      "unusedCssBytes": 13530,
+      "legacyJsBytes": 10483,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 3653,
+      "renderBlockingMs": 2640,
+      "renderBlockingCount": 7,
+      "poorlyCachedBytes": 4250.2,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 26,
+      "failingNodes": 30,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 29
+        },
+        {
+          "id": "frame-title",
+          "title": "`<frame>` or `<iframe>` elements do not have a title",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "deprecations",
+          "title": "Uses deprecated APIs",
+          "weight": 5,
+          "nodes": 2
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3900,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T15:21:56.656Z",
+      "runtimeMs": 15208.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": null,
+    "interstitial": "Just a moment...",
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e8ee0298d50640-MSP",
+      "server": "cloudflare"
+    },
+    "violations": null,
+    "passes": null,
+    "incomplete": null,
+    "violationRules": null,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5f0abe4e9d1c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "74fcddfed975",
+        "nonce": "c663d9a7324d",
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
