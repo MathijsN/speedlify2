@@ -1,0 +1,294 @@
+{
+  "url": "https://webhint.io/",
+  "name": "webhint",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795385655180,
+  "date": "2026-11-22T22:14:15.180Z",
+  "runId": "2026-11-22T21-48-08-162Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 39219,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 99,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://webhint.io/",
+    "finalUrl": "https://webhint.io/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1610,
+      "lcp": 2103,
+      "si": 2560,
+      "tbt": 0,
+      "tti": 2103,
+      "cls": 0,
+      "ttfb": 707,
+      "maxPotentialFid": 43,
+      "serverResponseTime": 105,
+      "networkRtt": 7.3,
+      "networkServerLatency": 106.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 170.6,
+      "resourceLoadDelay": 7.7,
+      "resourceLoadDuration": 139.4,
+      "elementRenderDelay": 1041
+    },
+    "weight": {
+      "total": 172358,
+      "requests": 21,
+      "mainDocument": 6519,
+      "byType": {
+        "total": {
+          "bytes": 172358,
+          "requests": 21
+        },
+        "font": {
+          "bytes": 72734,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 42912,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 35425,
+          "requests": 9
+        },
+        "stylesheet": {
+          "bytes": 13450,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 6519,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1318,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 46264,
+          "requests": 2
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 46264,
+      "mainThreadMs": 6.7,
+      "top": [
+        {
+          "entity": "JSDelivr CDN",
+          "bytes": 46264,
+          "mainThreadMs": 6.7,
+          "byType": {
+            "script": 41101,
+            "stylesheet": 5163
+          },
+          "typedBytes": 46264
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 263.4,
+      "byGroup": {
+        "other": 137.3,
+        "scriptEvaluation": 52.9,
+        "styleLayout": 39,
+        "paintCompositeRender": 11.7,
+        "parseHTML": 11.5,
+        "scriptParseCompile": 11
+      },
+      "bootupMs": 31.8,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 191,
+      "depth": 10,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 22768,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 6516,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 904,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 113028.65,
+      "poorlyCachedCount": 18
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 26,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 8
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3379,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T22:14:16.387Z",
+      "runtimeMs": 7429.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 598.1,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1411.7,
+    "elementRenderDelay": 16.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "a1079436f12eb722baa4356bbaadfadb34ac9d3b",
+      "x-github-request-id": "0B50:24ACF:E0E9A:141128:6B0360C6",
+      "x-served-by": "cache-bfi-krnt7300028-BFI"
+    },
+    "violations": 0,
+    "passes": 403,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1877bfe1cbd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"66d0f0ca-4bc5\"",
+          "last-modified": "Thu, 29 Aug 2024 22:06:02 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "1877bfe1cbd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "7",
+          "etag": "W/\"66d0f0ca-4bc5\"",
+          "last-modified": "Thu, 29 Aug 2024 22:06:02 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "1877bfe1cbd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "etag": "W/\"66d0f0ca-4bc5\"",
+          "last-modified": "Thu, 29 Aug 2024 22:06:02 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "1877bfe1cbd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19",
+          "etag": "W/\"66d0f0ca-4bc5\"",
+          "last-modified": "Thu, 29 Aug 2024 22:06:02 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "1877bfe1cbd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "34",
+          "etag": "W/\"66d0f0ca-4bc5\"",
+          "last-modified": "Thu, 29 Aug 2024 22:06:02 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

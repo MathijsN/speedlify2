@@ -1,0 +1,327 @@
+{
+  "url": "https://remix.run/",
+  "name": "Remix",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795384349362,
+  "date": "2026-11-22T21:52:29.362Z",
+  "runId": "2026-11-22T21-48-08-162Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 259936,
+  "error": null,
+  "variance": {
+    "min": 62,
+    "max": 64,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://remix.run/",
+    "finalUrl": "https://remix.run/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 63,
+      "accessibility": 99,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1012,
+      "lcp": 1012,
+      "si": 6956,
+      "tbt": 156527,
+      "tti": 176465,
+      "cls": 0,
+      "ttfb": 626,
+      "maxPotentialFid": 1301,
+      "serverResponseTime": 15,
+      "networkRtt": 9.1,
+      "networkServerLatency": 56.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 60.3,
+      "elementRenderDelay": 154.8
+    },
+    "weight": {
+      "total": 1760123,
+      "requests": 144,
+      "mainDocument": 29299,
+      "byType": {
+        "total": {
+          "bytes": 1760123,
+          "requests": 143
+        },
+        "other": {
+          "bytes": 1202135,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 366465,
+          "requests": 122
+        },
+        "font": {
+          "bytes": 125462,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 31531,
+          "requests": 12
+        },
+        "document": {
+          "bytes": 29299,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 5231,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 3212,
+          "requests": 2
+        }
+      },
+      "scripts": 123,
+      "stylesheets": 3,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 3212,
+      "mainThreadMs": 1.6,
+      "top": [
+        {
+          "entity": "Fathom Analytics",
+          "bytes": 3212,
+          "mainThreadMs": 1.6,
+          "byType": {
+            "script": 2778,
+            "image": 434
+          },
+          "typedBytes": 3212
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 171887.5,
+      "byGroup": {
+        "other": 166273.1,
+        "styleLayout": 2551.4,
+        "scriptEvaluation": 2040.4,
+        "paintCompositeRender": 838.3,
+        "garbageCollection": 124.9,
+        "parseHTML": 48.8,
+        "scriptParseCompile": 10.5
+      },
+      "bootupMs": 1932.3,
+      "longTasks": 20,
+      "longestTaskMs": 1301
+    },
+    "dom": {
+      "elements": 360,
+      "depth": 15,
+      "maxChildren": 20
+    },
+    "waste": {
+      "unusedJsBytes": 82535,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 24877.600000000002,
+      "poorlyCachedCount": 11
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 31,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 57
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3477,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T21:52:30.573Z",
+      "runtimeMs": 62076.3
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.6,
+    "elementRenderDelay": 261.4
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "fly",
+      "name": "Fly.io",
+      "icon": "Flydotio",
+      "source": "fly-request-id"
+    },
+    "headers": {
+      "fly-request-id": "01M82M02PTCKKYFADWXS35PH4S-sjc",
+      "server": "Fly/a0014a77a (2026-11-20)",
+      "via": "1.1 fly.io, 1.1 fly.io, 1.1 varnish",
+      "x-served-by": "cache-bfi-kbfi7400044-BFI"
+    },
+    "violations": 3,
+    "passes": 623,
+    "incomplete": 73,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".rmxc-68k2ttmt3qpe",
+            "snippet": "<h3 class=\"rmxc-68k2ttmt3qpe\">Build a complete server with Web APIs</h3>"
+          }
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".rmxc-npybbeksvokt",
+            "snippet": "<button type=\"button\" aria-label=\"Choose a package runner\" class=\"rmxc-npybbeksvokt\" aria-haspopup=\"listbox\" aria-expanded=\"false\" aria-controls=\"c7-list\" aria-describedby=\"m59\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "pre",
+            "snippet": "<pre class=\"rmxc-9ntdr14rvohk\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4b763cc52f6d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4b763cc52f6d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "8bc4e0e47783",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "8bc4e0e47783",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-cache": "HIT"
+        }
+      },
+      {
+        "hash": "8bc4e0e47783",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "x-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

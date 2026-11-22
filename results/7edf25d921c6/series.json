@@ -1,4 +1,4 @@
-{"version":1,"url":"https://martyn.thecooks.net.nz/","updated":"2026-11-21T02:20:21.140Z","points":[
+{"version":1,"url":"https://martyn.thecooks.net.nz/","updated":"2026-11-22T22:22:38.774Z","points":[
 {"t":1787287314781,"error":"The \"start lh:driver:navigate\" performance mark has not been set","fails":1,"runs":0,"reqRuns":3,"ms":145617},
 {"t":1787330772286,"error":"INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID","fails":2,"runs":0,"reqRuns":3,"ms":22452},
 {"t":1787355173694,"error":"INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID","fails":3,"runs":0,"reqRuns":3,"ms":22032},
@@ -58,5 +58,6 @@
 {"t":1794741520124,"error":"INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID","fails":57,"runs":0,"reqRuns":3,"ms":21575},
 {"t":1794830320281,"error":"INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID","fails":58,"runs":0,"reqRuns":3,"ms":22000},
 {"t":1795124657091,"error":"INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID","fails":59,"runs":0,"reqRuns":3,"ms":14721},
-{"t":1795227605782,"error":"INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID","fails":60,"runs":0,"reqRuns":3,"ms":15358}
+{"t":1795227605782,"error":"INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID","fails":60,"runs":0,"reqRuns":3,"ms":15358},
+{"t":1795386137651,"error":"INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID","fails":61,"runs":0,"reqRuns":3,"ms":21123}
 ]}
