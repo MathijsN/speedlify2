@@ -1,0 +1,360 @@
+{
+  "url": "https://cjlm.ca/",
+  "name": "cjlm.ca",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795330433002,
+  "date": "2026-11-22T06:53:53.002Z",
+  "runId": "2026-11-22T06-52-59-344Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 43157,
+  "error": null,
+  "variance": {
+    "min": 84,
+    "max": 96,
+    "spread": 12,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://cjlm.ca/",
+    "finalUrl": "https://cjlm.ca/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 90,
+      "accessibility": 93,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2078,
+      "lcp": 2078,
+      "si": 2078,
+      "tbt": 310,
+      "tti": 3192,
+      "cls": 0.002,
+      "ttfb": 471,
+      "maxPotentialFid": 358,
+      "serverResponseTime": 80,
+      "networkRtt": 0.2,
+      "networkServerLatency": 196.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 81.9,
+      "elementRenderDelay": 258.6
+    },
+    "weight": {
+      "total": 1835866,
+      "requests": 36,
+      "mainDocument": 173774,
+      "byType": {
+        "total": {
+          "bytes": 1832149,
+          "requests": 35
+        },
+        "image": {
+          "bytes": 1533968,
+          "requests": 21
+        },
+        "document": {
+          "bytes": 173774,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 93354,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 18113,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 11310,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 1630,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 322488,
+          "requests": 4
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 322488,
+      "mainThreadMs": 1.4,
+      "top": [
+        {
+          "entity": "cjlm.dev",
+          "bytes": 319423,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 319423
+          },
+          "typedBytes": 319423
+        },
+        {
+          "entity": "workers.dev",
+          "bytes": 3065,
+          "mainThreadMs": 1.4,
+          "byType": {
+            "script": 2088,
+            "other": 977
+          },
+          "typedBytes": 3065
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2531.8,
+      "byGroup": {
+        "styleLayout": 1182.4,
+        "scriptEvaluation": 677.6,
+        "other": 361.1,
+        "parseHTML": 151.9,
+        "paintCompositeRender": 132.9,
+        "garbageCollection": 23.4,
+        "scriptParseCompile": 2.5
+      },
+      "bootupMs": 104.8,
+      "longTasks": 8,
+      "longestTaskMs": 358
+    },
+    "dom": {
+      "elements": 10113,
+      "depth": 9,
+      "maxChildren": 503
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 217502.54682638886,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 3,
+      "applicableCount": 25,
+      "failingNodes": 7,
+      "failing": [
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 5
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 43
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3552.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T06:54:19.860Z",
+      "runtimeMs": 10415.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.2",
+      "source": "meta",
+      "raw": "Eleventy v3.1.2"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.2"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e605e928789200-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 510,
+    "passes": 22384,
+    "incomplete": 861,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 507,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article:nth-child(1)",
+            "snippet": "<article class=\"posts-block start-1 span-9 measure-xl\">"
+          },
+          {
+            "selector": "article:nth-child(2)",
+            "snippet": "<article class=\"posts-block start-1 span-9 measure-xl\">"
+          },
+          {
+            "selector": "article:nth-child(3)",
+            "snippet": "<article class=\"posts-block start-1 span-9 measure-xl\">"
+          },
+          {
+            "selector": "article:nth-child(4)",
+            "snippet": "<article class=\"posts-block start-1 span-9 measure-xl\">"
+          },
+          {
+            "selector": "article:nth-child(5)",
+            "snippet": "<article class=\"posts-block start-1 span-9 measure-xl\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#example-questions",
+            "snippet": "<h4 id=\"example-questions\">Example Questions</h4>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"js\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "article:nth-child(331) > pre",
+            "snippet": "<pre class=\"language-js\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "42c0f643c5c4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "42c0f643c5c4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "42c0f643c5c4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "42c0f643c5c4",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

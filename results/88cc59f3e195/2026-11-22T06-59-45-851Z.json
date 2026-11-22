@@ -1,0 +1,310 @@
+{
+  "url": "https://coralseacablecompany.com/",
+  "name": "coralseacablecompany.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795330785851,
+  "date": "2026-11-22T06:59:45.851Z",
+  "runId": "2026-11-22T06-52-59-344Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 25630,
+  "error": null,
+  "variance": {
+    "min": 68,
+    "max": 75,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://coralseacablecompany.com/",
+    "finalUrl": "https://coralseacablecompany.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 72,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2632,
+      "lcp": 5793,
+      "si": 2977,
+      "tbt": 161,
+      "tti": 10023,
+      "cls": 0.001,
+      "ttfb": 673,
+      "maxPotentialFid": 265,
+      "serverResponseTime": 25,
+      "networkRtt": 0.2,
+      "networkServerLatency": 72.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 26.9,
+      "elementRenderDelay": 107.9
+    },
+    "weight": {
+      "total": 1676353,
+      "requests": 59,
+      "mainDocument": 36819,
+      "byType": {
+        "total": {
+          "bytes": 1676353,
+          "requests": 59
+        },
+        "script": {
+          "bytes": 975679,
+          "requests": 34
+        },
+        "image": {
+          "bytes": 307094,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 188054,
+          "requests": 7
+        },
+        "stylesheet": {
+          "bytes": 161530,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 36819,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 7177,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 1639443,
+          "requests": 57
+        }
+      },
+      "scripts": 34,
+      "stylesheets": 7,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 4,
+      "bytes": 1639443,
+      "mainThreadMs": 186.4,
+      "top": [
+        {
+          "entity": "Squarespace",
+          "bytes": 1059277,
+          "mainThreadMs": 180.8,
+          "byType": {
+            "script": 898818,
+            "stylesheet": 160459
+          },
+          "typedBytes": 1059277
+        },
+        {
+          "entity": "squarespace-cdn.com",
+          "bytes": 336822,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 306889,
+            "font": 22847,
+            "other": 7086
+          },
+          "typedBytes": 336822
+        },
+        {
+          "entity": "Adobe TypeKit",
+          "bytes": 172395,
+          "mainThreadMs": 1.7,
+          "byType": {
+            "script": 6983,
+            "font": 165207,
+            "image": 205
+          },
+          "typedBytes": 172395
+        },
+        {
+          "entity": "sqspcdn.com",
+          "bytes": 70949,
+          "mainThreadMs": 3.9,
+          "byType": {
+            "script": 69878,
+            "stylesheet": 1071
+          },
+          "typedBytes": 70949
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1434.2,
+      "byGroup": {
+        "scriptEvaluation": 588,
+        "other": 290.2,
+        "scriptParseCompile": 247.6,
+        "styleLayout": 197.6,
+        "parseHTML": 66.3,
+        "garbageCollection": 24.8,
+        "paintCompositeRender": 19.6
+      },
+      "bootupMs": 639.4,
+      "longTasks": 4,
+      "longestTaskMs": 265
+    },
+    "dom": {
+      "elements": 379,
+      "depth": 17,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 447563,
+      "unusedCssBytes": 140349,
+      "legacyJsBytes": 92997,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 2445,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 692119.6,
+      "poorlyCachedCount": 22
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 20,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 40
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3372,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T07:00:03.962Z",
+      "runtimeMs": 7011.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": null,
+      "name": "Squarespace",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "Squarespace"
+    },
+    "violations": 1,
+    "passes": 248,
+    "incomplete": 6,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#block-641cbd6f3775d7624b303cf0 > .sqs-block-content > .sqs-text-block-container > .sqs-html-content[data-sqsp-text-block-content=\"\"] > h4",
+            "snippet": "<h4 style=\"text-align:center;white-space:pre-wrap;\">The Coral Sea Cable Company Pty Limited is an Australian registered company, with equal shareholding by The Commonwealth of Australia, PNG DataCo a…"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "d4eb6a8c3eb2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1239",
+          "etag": "W/\"2ae95f8411eeb4a9059a6a60b2c2db38--gzip\""
+        }
+      },
+      {
+        "hash": "d4eb6a8c3eb2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1247",
+          "etag": "W/\"2ae95f8411eeb4a9059a6a60b2c2db38--gzip\""
+        }
+      },
+      {
+        "hash": "d4eb6a8c3eb2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1254",
+          "etag": "W/\"2ae95f8411eeb4a9059a6a60b2c2db38--gzip\""
+        }
+      },
+      {
+        "hash": "d4eb6a8c3eb2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1260",
+          "etag": "W/\"2ae95f8411eeb4a9059a6a60b2c2db38--gzip\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
