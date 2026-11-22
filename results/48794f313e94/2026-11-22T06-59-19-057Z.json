@@ -1,0 +1,293 @@
+{
+  "url": "https://deephouse.uk/",
+  "name": "deephouse.uk",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795330759057,
+  "date": "2026-11-22T06:59:19.057Z",
+  "runId": "2026-11-22T06-53-04-576Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22122,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 99,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://deephouse.uk/",
+    "finalUrl": "https://deephouse.uk/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1537,
+      "lcp": 2278,
+      "si": 1537,
+      "tbt": 0,
+      "tti": 2278,
+      "cls": 0,
+      "ttfb": 621,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 40,
+      "networkRtt": 0.4,
+      "networkServerLatency": 20.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 41.4,
+      "resourceLoadDelay": 8.3,
+      "resourceLoadDuration": 16.5,
+      "elementRenderDelay": 40
+    },
+    "weight": {
+      "total": 213142,
+      "requests": 35,
+      "mainDocument": 5337,
+      "byType": {
+        "total": {
+          "bytes": 213142,
+          "requests": 35
+        },
+        "image": {
+          "bytes": 188194,
+          "requests": 28
+        },
+        "script": {
+          "bytes": 10351,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 5337,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3755,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 3228,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 2277,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 198545,
+          "requests": 29
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 198545,
+      "mainThreadMs": 5.6,
+      "top": [
+        {
+          "entity": "pixel.plumbing",
+          "bytes": 188194,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 188194
+          },
+          "typedBytes": 188194
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 5.6,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 207.8,
+      "byGroup": {
+        "other": 122,
+        "scriptEvaluation": 36.3,
+        "styleLayout": 27,
+        "parseHTML": 11.2,
+        "paintCompositeRender": 10.5,
+        "scriptParseCompile": 0.7
+      },
+      "bootupMs": 22.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 563,
+      "depth": 10,
+      "maxChildren": 61
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 7619.562290502793,
+      "poorlyCachedCount": 7
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 20
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3469.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T06:59:27.993Z",
+      "runtimeMs": 6429.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5e60d719ec71853-IAD",
+      "server": "cloudflare",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "67a602d03077b719570309618ea7217f4ab498f7",
+      "x-github-request-id": "89F8:29B41F:244778A:289A5D0:6B0292C8",
+      "x-served-by": "cache-iad-kiad7000144-IAD"
+    },
+    "violations": 0,
+    "passes": 1254,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "ad2af488cb34",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 01 Oct 2026 07:12:07 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "ad2af488cb34",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 01 Oct 2026 07:12:07 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "ad2af488cb34",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 01 Oct 2026 07:12:07 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "ad2af488cb34",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Thu, 01 Oct 2026 07:12:07 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
