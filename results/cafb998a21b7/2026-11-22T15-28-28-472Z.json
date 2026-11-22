@@ -1,0 +1,339 @@
+{
+  "url": "https://extensionworkshop.com/",
+  "name": "extensionworkshop.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795361308472,
+  "date": "2026-11-22T15:28:28.472Z",
+  "runId": "2026-11-22T15-21-26-889Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 30829,
+  "error": null,
+  "variance": {
+    "min": 72,
+    "max": 85,
+    "spread": 13,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://extensionworkshop.com/",
+    "finalUrl": "https://extensionworkshop.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 80,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 92,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1222,
+      "lcp": 5048,
+      "si": 1899,
+      "tbt": 146,
+      "tti": 5048,
+      "cls": 0.002,
+      "ttfb": 772,
+      "maxPotentialFid": 123,
+      "serverResponseTime": 98,
+      "networkRtt": 0.3,
+      "networkServerLatency": 172.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 99.9,
+      "resourceLoadDelay": 134.9,
+      "resourceLoadDuration": 360.3,
+      "elementRenderDelay": 28.6
+    },
+    "weight": {
+      "total": 791745,
+      "requests": 41,
+      "mainDocument": 28397,
+      "byType": {
+        "total": {
+          "bytes": 791745,
+          "requests": 41
+        },
+        "script": {
+          "bytes": 275890,
+          "requests": 5
+        },
+        "font": {
+          "bytes": 248363,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 184543,
+          "requests": 29
+        },
+        "stylesheet": {
+          "bytes": 38679,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 28397,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 15873,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 199142,
+          "requests": 4
+        }
+      },
+      "scripts": 5,
+      "stylesheets": 1,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 199142,
+      "mainThreadMs": 62.2,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 166815,
+          "mainThreadMs": 58.9,
+          "byType": {
+            "script": 166815
+          },
+          "typedBytes": 166815
+        },
+        {
+          "entity": "YouTube",
+          "bytes": 20789,
+          "mainThreadMs": 3.2,
+          "byType": {
+            "script": 20789
+          },
+          "typedBytes": 20789
+        },
+        {
+          "entity": "Mozilla",
+          "bytes": 11538,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 11538
+          },
+          "typedBytes": 11538
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1335.4,
+      "byGroup": {
+        "scriptEvaluation": 457.6,
+        "other": 416.8,
+        "styleLayout": 225.8,
+        "paintCompositeRender": 112.4,
+        "scriptParseCompile": 65.6,
+        "parseHTML": 46.6,
+        "garbageCollection": 10.6
+      },
+      "bootupMs": 507.6,
+      "longTasks": 4,
+      "longestTaskMs": 123
+    },
+    "dom": {
+      "elements": 1505,
+      "depth": 16,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 106463,
+      "unusedCssBytes": 33992,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 80928.83333333333,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 33,
+      "failingNodes": 6,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 4
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2438.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T15:28:49.557Z",
+      "runtimeMs": 8914.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "OpenResty",
+      "detailIcon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "openresty",
+      "via": "1.1 google"
+    },
+    "violations": 5,
+    "passes": 854,
+    "incomplete": 39,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 4,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".medium-12 > .block-link > h4",
+            "snippet": "<h4>Brand new to extensions development?</h4>"
+          },
+          {
+            "selector": ".tile-compact.medium-6.tile-block-link:nth-child(1) > .block-link > h4",
+            "snippet": "<h4>Community Forums</h4>"
+          },
+          {
+            "selector": "#slick-slide10 > div > .no-img.illustrated-tile.large-4 > .block-link > h4",
+            "snippet": "<h4>Developer Spotlight: WebBrain</h4>"
+          },
+          {
+            "selector": ".large-3.small-12.cell > h4",
+            "snippet": "<h4>Twitter</h4>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".mzp-c-footer-primary",
+            "snippet": "<nav class=\"grid-container grid-x grid-padding-x mzp-c-footer-primary\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4f41df554700",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"0975b7e928c148bee86a6ed33c9480da\"",
+          "last-modified": "Mon, 09 Nov 2026 17:03:20 GMT"
+        }
+      },
+      {
+        "hash": "4f41df554700",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"0975b7e928c148bee86a6ed33c9480da\"",
+          "last-modified": "Mon, 09 Nov 2026 17:03:20 GMT"
+        }
+      },
+      {
+        "hash": "4f41df554700",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"0975b7e928c148bee86a6ed33c9480da\"",
+          "last-modified": "Mon, 09 Nov 2026 17:03:20 GMT"
+        }
+      },
+      {
+        "hash": "4f41df554700",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "W/\"0975b7e928c148bee86a6ed33c9480da\"",
+          "last-modified": "Mon, 09 Nov 2026 17:03:20 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

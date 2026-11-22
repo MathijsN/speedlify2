@@ -1,0 +1,350 @@
+{
+  "url": "https://eleventy-test-bed-dollplayer2501.netlify.app/",
+  "name": "eleventy-test-bed-dollplayer2501.netlify.app",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795361044450,
+  "date": "2026-11-22T15:24:04.450Z",
+  "runId": "2026-11-22T15-21-26-889Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22460,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://eleventy-test-bed-dollplayer2501.netlify.app/",
+    "finalUrl": "https://eleventy-test-bed-dollplayer2501.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 90,
+      "best-practices": 100,
+      "seo": 80,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1055,
+      "lcp": 1055,
+      "si": 1055,
+      "tbt": 78,
+      "tti": 2739,
+      "cls": 0,
+      "ttfb": 605,
+      "maxPotentialFid": 127,
+      "serverResponseTime": 5,
+      "networkRtt": 0,
+      "networkServerLatency": 23
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 6.9,
+      "elementRenderDelay": 64.9
+    },
+    "weight": {
+      "total": 278984,
+      "requests": 11,
+      "mainDocument": 2378,
+      "byType": {
+        "total": {
+          "bytes": 230694,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 206096,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 11816,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 10404,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 2378,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 172773,
+          "requests": 1
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 172773,
+      "mainThreadMs": 59.3,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 172773,
+          "mainThreadMs": 59.3,
+          "byType": {
+            "script": 172773
+          },
+          "typedBytes": 172773
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 496.2,
+      "byGroup": {
+        "scriptEvaluation": 263,
+        "other": 111.9,
+        "styleLayout": 51.5,
+        "scriptParseCompile": 51.2,
+        "parseHTML": 11.9,
+        "paintCompositeRender": 6.6
+      },
+      "bootupMs": 312.2,
+      "longTasks": 2,
+      "longestTaskMs": 127
+    },
+    "dom": {
+      "elements": 92,
+      "depth": 7,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 96570,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 19,
+      "failingNodes": 18,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 17
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 7,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are not crawlable",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 15
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2402,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T15:24:20.048Z",
+      "runtimeMs": 6061.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M81XQJ5ESSYMQ3TAP4T58X72"
+    },
+    "violations": 19,
+    "passes": 152,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 17,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "h2 > strong",
+            "snippet": "<strong>Home</strong>"
+          },
+          {
+            "selector": "h2 > small",
+            "snippet": "<small>(August 21, 2022 01:01:01)</small>"
+          },
+          {
+            "selector": "li:nth-child(1) > a[href$=\"test01/\"]",
+            "snippet": "<a href=\"/test01/\">Test 01 page</a>"
+          },
+          {
+            "selector": "div:nth-child(1) > ul > li:nth-child(2) > a[href$=\"test02/\"]",
+            "snippet": "<a href=\"/test02/\">Test 02 page, using lightbox2</a>"
+          },
+          {
+            "selector": "li:nth-child(3) > a[href$=\"test03/\"]",
+            "snippet": "<a href=\"/test03/\">Test 03 page, using eleventy-plugin-toc</a>"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a:nth-child(5)",
+            "snippet": "<a href=\"https://github.com/dollplayer2501/Eleventy-test-bed/commit/9b21111\">9b21111</a>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".github-corner",
+            "snippet": "<a href=\"https://github.com/dollplayer2501/Eleventy-test-bed\" class=\"github-corner\" aria-label=\"View source on GitHub\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "14399c7c4f9d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"6f55ec1772dd7e0c1193f7af54bac2fb-ssl\""
+        }
+      },
+      {
+        "hash": "14399c7c4f9d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535993",
+          "etag": "W/\"6f55ec1772dd7e0c1193f7af54bac2fb-ssl\""
+        }
+      },
+      {
+        "hash": "14399c7c4f9d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"6f55ec1772dd7e0c1193f7af54bac2fb-ssl\""
+        }
+      },
+      {
+        "hash": "14399c7c4f9d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535981",
+          "etag": "W/\"6f55ec1772dd7e0c1193f7af54bac2fb-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

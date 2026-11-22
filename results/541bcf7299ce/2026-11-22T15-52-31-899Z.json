@@ -1,0 +1,290 @@
+{
+  "url": "https://npmx.dev/",
+  "name": "npmx",
+  "group": "dev-tooling",
+  "groupName": "Developer Tooling",
+  "timestamp": 1795362751899,
+  "date": "2026-11-22T15:52:31.899Z",
+  "runId": "2026-11-22T15-21-26-889Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 50082,
+  "error": null,
+  "variance": {
+    "min": 78,
+    "max": 79,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://npmx.dev/",
+    "finalUrl": "https://npmx.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 79,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1062,
+      "lcp": 4212,
+      "si": 1062,
+      "tbt": 333,
+      "tti": 4227,
+      "cls": 0,
+      "ttfb": 612,
+      "maxPotentialFid": 361,
+      "serverResponseTime": 2,
+      "networkRtt": 0,
+      "networkServerLatency": 12.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.2,
+      "elementRenderDelay": 362.9
+    },
+    "weight": {
+      "total": 746994,
+      "requests": 65,
+      "mainDocument": 14417,
+      "byType": {
+        "total": {
+          "bytes": 746994,
+          "requests": 57
+        },
+        "script": {
+          "bytes": 256025,
+          "requests": 33
+        },
+        "other": {
+          "bytes": 212620,
+          "requests": 15
+        },
+        "font": {
+          "bytes": 153663,
+          "requests": 4
+        },
+        "image": {
+          "bytes": 57107,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 53162,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 14417,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 33,
+      "stylesheets": 3,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 1383,
+      "byGroup": {
+        "scriptEvaluation": 595.1,
+        "other": 488.6,
+        "styleLayout": 184.2,
+        "parseHTML": 73.9,
+        "paintCompositeRender": 26.8,
+        "scriptParseCompile": 14.5
+      },
+      "bootupMs": 576.3,
+      "longTasks": 5,
+      "longestTaskMs": 361
+    },
+    "dom": {
+      "elements": 387,
+      "depth": 14,
+      "maxChildren": 21
+    },
+    "waste": {
+      "unusedJsBytes": 42159,
+      "unusedCssBytes": 47986,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 21791,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 300,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 25,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 0,
+      "bfCacheFailures": 1,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 61
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2406,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T15:52:49.522Z",
+      "runtimeMs": 8162
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1126.9,
+    "elementRenderDelay": 3461.3
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "icon": "Nuxt",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "nuxt",
+        "vue"
+      ],
+      "markVersions": {
+        "vue": "3.5.42"
+      }
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1::drdbd-1795362799739-cc7ddf684240"
+    },
+    "violations": 0,
+    "passes": 345,
+    "incomplete": 1,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "db42d2571f14",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "nuxt-prerendered"
+        ],
+        "headers": {
+          "age": "343280",
+          "etag": "W/\"ada15358280acebb1601756a6a096010\"",
+          "last-modified": "Wed, 18 Nov 2026 16:31:12 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "db42d2571f14",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "nuxt-prerendered"
+        ],
+        "headers": {
+          "age": "343289",
+          "etag": "W/\"ada15358280acebb1601756a6a096010\"",
+          "last-modified": "Wed, 18 Nov 2026 16:31:12 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "db42d2571f14",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "nuxt-prerendered"
+        ],
+        "headers": {
+          "age": "343297",
+          "etag": "W/\"ada15358280acebb1601756a6a096010\"",
+          "last-modified": "Wed, 18 Nov 2026 16:31:12 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "db42d2571f14",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "nuxt-prerendered"
+        ],
+        "headers": {
+          "age": "343305",
+          "etag": "W/\"ada15358280acebb1601756a6a096010\"",
+          "last-modified": "Wed, 18 Nov 2026 16:31:12 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "db42d2571f14",
+        "nonce": null,
+        "stamp": null,
+        "marks": [
+          "nuxt-prerendered"
+        ],
+        "headers": {
+          "etag": "\"ada15358280acebb1601756a6a096010\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
