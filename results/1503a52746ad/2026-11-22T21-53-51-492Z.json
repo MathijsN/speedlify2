@@ -1,0 +1,367 @@
+{
+  "url": "https://nordcraft.com/",
+  "name": "Nordcraft",
+  "group": "builders",
+  "groupName": "Website Builders",
+  "timestamp": 1795384431492,
+  "date": "2026-11-22T21:53:51.492Z",
+  "runId": "2026-11-22T21-48-05-237Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 157755,
+  "error": null,
+  "variance": {
+    "min": 40,
+    "max": 49,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://nordcraft.com/",
+    "finalUrl": "https://nordcraft.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 46,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2564,
+      "lcp": 5864,
+      "si": 5418,
+      "tbt": 1300,
+      "tti": 20755,
+      "cls": 0,
+      "ttfb": 614,
+      "maxPotentialFid": 904,
+      "serverResponseTime": 466,
+      "networkRtt": 0.3,
+      "networkServerLatency": 175.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 468.1,
+      "resourceLoadDelay": 25.9,
+      "resourceLoadDuration": 38,
+      "elementRenderDelay": 227.1
+    },
+    "weight": {
+      "total": 7361615,
+      "requests": 93,
+      "mainDocument": 281805,
+      "byType": {
+        "total": {
+          "bytes": 7361615,
+          "requests": 88
+        },
+        "media": {
+          "bytes": 4495252,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 1358793,
+          "requests": 10
+        },
+        "image": {
+          "bytes": 715412,
+          "requests": 29
+        },
+        "script": {
+          "bytes": 428491,
+          "requests": 7
+        },
+        "document": {
+          "bytes": 281805,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 73873,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 7989,
+          "requests": 24
+        },
+        "third-party": {
+          "bytes": 46105,
+          "requests": 1
+        }
+      },
+      "scripts": 7,
+      "stylesheets": 4,
+      "fonts": 10
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 46105,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "Cloudinary",
+          "bytes": 46105,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 46105
+          },
+          "typedBytes": 46105
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 7331.1,
+      "byGroup": {
+        "other": 2738.7,
+        "scriptEvaluation": 2009.9,
+        "styleLayout": 1708.9,
+        "paintCompositeRender": 462.1,
+        "garbageCollection": 213.1,
+        "parseHTML": 190.3,
+        "scriptParseCompile": 8.1
+      },
+      "bootupMs": 2001,
+      "longTasks": 20,
+      "longestTaskMs": 904
+    },
+    "dom": {
+      "elements": 8021,
+      "depth": 24,
+      "maxChildren": 112
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 81430,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 9213,
+      "unminifiedCssBytes": 25093,
+      "renderBlockingMs": 450,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 4790738.508333334,
+      "poorlyCachedCount": 44
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 31,
+      "failingNodes": 7,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 7
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        },
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": null,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 50
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2553,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T21:54:53.547Z",
+      "runtimeMs": 27120.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1602.8,
+    "resourceLoadDelay": 12285.9,
+    "resourceLoadDuration": 2031.5,
+    "elementRenderDelay": 3230.2
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5eb2eec19bb86ab-ATL",
+      "server": "cloudflare",
+      "x-powered-by": "Nordcraft"
+    },
+    "violations": 12,
+    "passes": 4630,
+    "incomplete": 194,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "nodes": 7,
+        "help": "Elements must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".exPCoa",
+            "snippet": "<a href=\"/mcp\" aria-label=\"Connect your AI tool to Nordcraft\" data-id=\"0.2.0.3.1.0\" data-node-id=\"root\" class=\"exPCoa nc-apple:ujOUe64FfSmQ9N11xkR3n dHSEef\">"
+          },
+          {
+            "selector": ".eUQUJx",
+            "snippet": "<button type=\"button\" aria-label=\"Editorial theme preview\" data-id=\"0.2.5.1.2.2.0.0.0\" data-node-id=\"root\" class=\"cpWlYF nc-apple-theme-wall:themePreview eUQUJx\">"
+          },
+          {
+            "selector": ".eAsUxx",
+            "snippet": "<button type=\"button\" aria-label=\"Nordcraft theme preview\" aria-pressed=\"true\" data-id=\"0.2.5.1.2.2.0.0.0(1)\" data-node-id=\"root\" class=\"cpWlYF selected nc-apple-theme-wall:themePreview eAsUxx\">"
+          },
+          {
+            "selector": ".dcnrDS",
+            "snippet": "<button type=\"button\" aria-label=\"Studio theme preview\" data-id=\"0.2.5.1.2.2.0.0.0(2)\" data-node-id=\"root\" class=\"cpWlYF nc-apple-theme-wall:themePreview dcnrDS\">"
+          },
+          {
+            "selector": ".LqJVJ",
+            "snippet": "<button type=\"button\" aria-label=\"Botanical theme preview\" data-id=\"0.2.5.1.2.2.0.0.0(3)\" data-node-id=\"root\" class=\"cpWlYF nc-apple-theme-wall:themePreview LqJVJ\">"
+          }
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Scrollable region must have keyboard access",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".dYirtx",
+            "snippet": "<div data-id=\"0.2.9.2.1.2\" data-node-id=\"BHVNO8SQw1dHy60MVvQNW\" class=\"dYirtx\">"
+          },
+          {
+            "selector": ".dMenZZ",
+            "snippet": "<div data-id=\"0.2.9.2.1.4.1\" data-node-id=\"k_CIeHo5qNia-v1lQpIk8\" class=\"dMenZZ\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-main-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Main landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-main-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#timeline-0Gr7LUesJM5Q0XcN4hd-N",
+            "snippet": "<main id=\"timeline-0Gr7LUesJM5Q0XcN4hd-N\" data-id=\"0.2.7.0[default].1.10.1.1.0\" data-node-id=\"root\" class=\"czjetq website-css-animation-ball:q5SfgtQAHRDUY7Ogz8mBs cqeCJx\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "main[data-id=\"0.2\"]",
+            "snippet": "<main data-id=\"0.2\" data-node-id=\"mainContent\" class=\"bCOrlZ\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "main[data-id=\"0.2\"]",
+            "snippet": "<main data-id=\"0.2\" data-node-id=\"mainContent\" class=\"bCOrlZ\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "a6db8960e3bf",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "a1a5a4da80d6",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "b243d1eb228d",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "fda275b60831",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      },
+      {
+        "hash": "b71152de34c0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {}
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
