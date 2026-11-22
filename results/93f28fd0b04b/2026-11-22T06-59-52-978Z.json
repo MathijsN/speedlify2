@@ -1,0 +1,270 @@
+{
+  "url": "https://eastford.news/",
+  "name": "eastford.news",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795330792978,
+  "date": "2026-11-22T06:59:52.978Z",
+  "runId": "2026-11-22T06-53-11-431Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22256,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://eastford.news/",
+    "finalUrl": "https://eastford.news/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 819,
+      "lcp": 1575,
+      "si": 824,
+      "tbt": 0,
+      "tti": 1575,
+      "cls": 0,
+      "ttfb": 491,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 78,
+      "networkRtt": 15.6,
+      "networkServerLatency": 252.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 139.5,
+      "elementRenderDelay": 103.4
+    },
+    "weight": {
+      "total": 50904,
+      "requests": 14,
+      "mainDocument": 5864,
+      "byType": {
+        "total": {
+          "bytes": 46536,
+          "requests": 12
+        },
+        "image": {
+          "bytes": 14600,
+          "requests": 2
+        },
+        "script": {
+          "bytes": 13469,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 10105,
+          "requests": 5
+        },
+        "document": {
+          "bytes": 5864,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 2498,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 11428,
+          "requests": 3
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 11428,
+      "mainThreadMs": 6.2,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10479,
+          "mainThreadMs": 6.2,
+          "byType": {
+            "script": 10479
+          },
+          "typedBytes": 10479
+        },
+        {
+          "entity": "umami.is",
+          "bytes": 949,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 949
+          },
+          "typedBytes": 949
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 201.6,
+      "byGroup": {
+        "other": 108.6,
+        "scriptEvaluation": 46.1,
+        "styleLayout": 27.9,
+        "paintCompositeRender": 10.7,
+        "parseHTML": 6.5,
+        "scriptParseCompile": 1.8
+      },
+      "bootupMs": 8.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 259,
+      "depth": 11,
+      "maxChildren": 23
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10484,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4487.403423611111,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 14
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3086.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-22T06:59:54.164Z",
+      "runtimeMs": 6715.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5e60e4d6ac33d5b-SEA",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 560,
+    "incomplete": 8,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "311702db23a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "311702db23a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "311702db23a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "311702db23a0",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
