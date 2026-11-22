@@ -1,0 +1,22 @@
+{
+  "url": "https://franconcapital.com/",
+  "name": "franconcapital.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795385904571,
+  "date": "2026-11-22T22:18:24.571Z",
+  "runId": "2026-11-22T21-47-59-889Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 360070,
+  "error": "lighthouse timed out after 120000ms",
+  "errors": [
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 23
+}
