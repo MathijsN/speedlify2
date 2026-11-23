@@ -1,0 +1,289 @@
+{
+  "url": "https://florian.ec/",
+  "name": "florian.ec",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795438834100,
+  "date": "2026-11-23T13:00:34.100Z",
+  "runId": "2026-11-23T12-50-33-423Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 27575,
+  "error": null,
+  "variance": {
+    "min": 99,
+    "max": 100,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://florian.ec/",
+    "finalUrl": "https://florian.ec/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 813,
+      "lcp": 813,
+      "si": 1036,
+      "tbt": 0,
+      "tti": 813,
+      "cls": 0.031,
+      "ttfb": 480,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 287,
+      "networkRtt": 0,
+      "networkServerLatency": 135.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 289.1,
+      "elementRenderDelay": 106.4
+    },
+    "weight": {
+      "total": 154917,
+      "requests": 12,
+      "mainDocument": 4263,
+      "byType": {
+        "total": {
+          "bytes": 154917,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 125325,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 14720,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 6886,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 4263,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 3723,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 15102,
+          "requests": 3
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 15102,
+      "mainThreadMs": 9.8,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10330,
+          "mainThreadMs": 7.8,
+          "byType": {
+            "script": 10330
+          },
+          "typedBytes": 10330
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4390,
+          "mainThreadMs": 2,
+          "byType": {
+            "script": 4390
+          },
+          "typedBytes": 4390
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 269.4,
+      "byGroup": {
+        "other": 107.4,
+        "styleLayout": 75.3,
+        "scriptEvaluation": 54.3,
+        "paintCompositeRender": 19.5,
+        "parseHTML": 9.3,
+        "scriptParseCompile": 3.6
+      },
+      "bootupMs": 24.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 174,
+      "depth": 9,
+      "maxChildren": 20
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10335,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 4132,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 18
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2445,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T13:00:53.646Z",
+      "runtimeMs": 6937.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5f05c18c951acee-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 1,
+    "passes": 411,
+    "incomplete": 1,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".mobile-nav",
+            "snippet": "<nav class=\"mobile-nav\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c215566ff085",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 16 Nov 2026 20:33:55 GMT"
+        }
+      },
+      {
+        "hash": "c215566ff085",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 16 Nov 2026 20:33:55 GMT"
+        }
+      },
+      {
+        "hash": "c215566ff085",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 16 Nov 2026 20:33:55 GMT"
+        }
+      },
+      {
+        "hash": "c215566ff085",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cf-cache-status": "DYNAMIC",
+          "last-modified": "Mon, 16 Nov 2026 20:33:55 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

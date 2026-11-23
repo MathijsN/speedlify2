@@ -1,0 +1,311 @@
+{
+  "url": "https://eleventy-chirpy-blog-template.netlify.app/",
+  "name": "eleventy-chirpy-blog-template.netlify.app",
+  "group": "11ty-starters",
+  "groupName": "Build Awesome Starters",
+  "timestamp": 1795438291089,
+  "date": "2026-11-23T12:51:31.089Z",
+  "runId": "2026-11-23T12-50-33-423Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 22064,
+  "error": null,
+  "variance": {
+    "min": 96,
+    "max": 100,
+    "spread": 4,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://eleventy-chirpy-blog-template.netlify.app/",
+    "finalUrl": "https://eleventy-chirpy-blog-template.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 69,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 927,
+      "lcp": 927,
+      "si": 927,
+      "tbt": 2,
+      "tti": 1563,
+      "cls": 0,
+      "ttfb": 627,
+      "maxPotentialFid": 54,
+      "serverResponseTime": 28,
+      "networkRtt": 0.1,
+      "networkServerLatency": 53
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 29.3,
+      "elementRenderDelay": 89.4
+    },
+    "weight": {
+      "total": 137472,
+      "requests": 9,
+      "mainDocument": 8539,
+      "byType": {
+        "total": {
+          "bytes": 137472,
+          "requests": 9
+        },
+        "script": {
+          "bytes": 105878,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 11603,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 8539,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 7236,
+          "requests": 2
+        },
+        "image": {
+          "bytes": 4216,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 90320,
+          "requests": 1
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 2,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 90320,
+      "mainThreadMs": 16.9,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 90320,
+          "mainThreadMs": 16.9,
+          "byType": {
+            "script": 90320
+          },
+          "typedBytes": 90320
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 242.7,
+      "byGroup": {
+        "other": 91.1,
+        "scriptEvaluation": 83.9,
+        "scriptParseCompile": 25.8,
+        "styleLayout": 25.3,
+        "parseHTML": 12.9,
+        "paintCompositeRender": 3.6
+      },
+      "bootupMs": 83,
+      "longTasks": 1,
+      "longestTaskMs": 54
+    },
+    "dom": {
+      "elements": 155,
+      "depth": 11,
+      "maxChildren": 9
+    },
+    "waste": {
+      "unusedJsBytes": 58614,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "weight": 4.043478260869565,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 7
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2460.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T12:51:40.260Z",
+      "runtimeMs": 5909.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M847CVYV568PYPVJK748T8NJ"
+    },
+    "violations": 9,
+    "passes": 212,
+    "incomplete": 0,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 8,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#sidebar-contents > div:nth-child(1)",
+            "snippet": "<div>"
+          },
+          {
+            "selector": ".menu",
+            "snippet": "<div class=\"menu\">"
+          },
+          {
+            "selector": "a[aria-label=\"Open LinkedIn profile\"]",
+            "snippet": "<a href=\"https://linkedin.com/in/muenzpraeger\" aria-label=\"Open LinkedIn profile\" target=\"_blank\" class=\"w-5 h-5\" rel=\"noopener\">"
+          },
+          {
+            "selector": "a[aria-label=\"Open GitHub profile\"]",
+            "snippet": "<a href=\"https://github.com/muenzpraeger\" aria-label=\"Open GitHub profile\" target=\"_blank\" class=\"w-5 h-5\" rel=\"noopener\">"
+          },
+          {
+            "selector": "a[aria-label=\"Open Twitter profile\"]",
+            "snippet": "<a href=\"https://twitter.com/muenzpraeger\" aria-label=\"Open Twitter profile\" target=\"_blank\" class=\"w-5 h-5\" rel=\"noopener\">"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\" class=\"light\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "6f45b63e8c56",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"8ceaa75c21333c0f7636b0568b0380e5-ssl\""
+        }
+      },
+      {
+        "hash": "6f45b63e8c56",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"8ceaa75c21333c0f7636b0568b0380e5-ssl\""
+        }
+      },
+      {
+        "hash": "6f45b63e8c56",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"8ceaa75c21333c0f7636b0568b0380e5-ssl\""
+        }
+      },
+      {
+        "hash": "6f45b63e8c56",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "17",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535983",
+          "etag": "W/\"8ceaa75c21333c0f7636b0568b0380e5-ssl\""
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

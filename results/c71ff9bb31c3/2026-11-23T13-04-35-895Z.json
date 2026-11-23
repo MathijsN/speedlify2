@@ -1,0 +1,309 @@
+{
+  "url": "https://gerencialeite.com.br/",
+  "name": "gerencialeite.com.br",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795439075895,
+  "date": "2026-11-23T13:04:35.895Z",
+  "runId": "2026-11-23T12-50-33-423Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 24819,
+  "error": null,
+  "variance": {
+    "min": 72,
+    "max": 81,
+    "spread": 9,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gerencialeite.com.br/",
+    "finalUrl": "https://gerencialeite.com.br/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 81,
+      "accessibility": 95,
+      "best-practices": 77,
+      "seo": 100,
+      "agentic-browsing": 75
+    },
+    "timings": {
+      "fcp": 813,
+      "lcp": 2134,
+      "si": 813,
+      "tbt": 250,
+      "tti": 4422,
+      "cls": 0.248,
+      "ttfb": 627,
+      "maxPotentialFid": 210,
+      "serverResponseTime": 26,
+      "networkRtt": 0.1,
+      "networkServerLatency": 38.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 27.4,
+      "resourceLoadDelay": 9.3,
+      "resourceLoadDuration": 51.2,
+      "elementRenderDelay": 39.7
+    },
+    "weight": {
+      "total": 652056,
+      "requests": 23,
+      "mainDocument": 4763,
+      "byType": {
+        "total": {
+          "bytes": 651587,
+          "requests": 21
+        },
+        "script": {
+          "bytes": 390349,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 251655,
+          "requests": 15
+        },
+        "document": {
+          "bytes": 4763,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 4091,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 729,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 390366,
+          "requests": 4
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 390366,
+      "mainThreadMs": 153.9,
+      "top": [
+        {
+          "entity": "Facebook",
+          "bytes": 218400,
+          "mainThreadMs": 87.8,
+          "byType": {
+            "script": 218383,
+            "image": 17
+          },
+          "typedBytes": 218400
+        },
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 171966,
+          "mainThreadMs": 66.1,
+          "byType": {
+            "script": 171966
+          },
+          "typedBytes": 171966
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 942.3,
+      "byGroup": {
+        "scriptEvaluation": 508.8,
+        "other": 185.7,
+        "scriptParseCompile": 141.6,
+        "styleLayout": 66.9,
+        "paintCompositeRender": 27.8,
+        "parseHTML": 11.5
+      },
+      "bootupMs": 645,
+      "longTasks": 4,
+      "longestTaskMs": 210
+    },
+    "dom": {
+      "elements": 183,
+      "depth": 9,
+      "maxChildren": 12
+    },
+    "waste": {
+      "unusedJsBytes": 160504,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10865,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 192921.98333333334,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 20,
+      "failing": [
+        {
+          "id": "third-party-cookies",
+          "title": "Uses third-party cookies",
+          "weight": 5,
+          "nodes": 1
+        },
+        {
+          "id": "inspector-issues",
+          "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 10
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2483,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T13:04:45.963Z",
+      "runtimeMs": 6937
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8484Z8GSJMYV4KCNZ10Q3KS"
+    },
+    "violations": 2,
+    "passes": 300,
+    "incomplete": 70,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "p:nth-child(3) > a[href$=\"produto/\"]",
+            "snippet": "<a href=\"/produto/\">Conheça o Gerencia leite</a>"
+          },
+          {
+            "selector": "p:nth-child(3) > a[href$=\"planos/\"]",
+            "snippet": "<a href=\"/planos/\">Temos um plano feito para você</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "63e2dbc4af67",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"e2d3b1ad7a8371456f227c46f5300cf7-ssl\""
+        }
+      },
+      {
+        "hash": "63e2dbc4af67",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"e2d3b1ad7a8371456f227c46f5300cf7-ssl\""
+        }
+      },
+      {
+        "hash": "63e2dbc4af67",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "16",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535984",
+          "etag": "W/\"e2d3b1ad7a8371456f227c46f5300cf7-ssl\""
+        }
+      },
+      {
+        "hash": "63e2dbc4af67",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535978",
+          "etag": "W/\"e2d3b1ad7a8371456f227c46f5300cf7-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

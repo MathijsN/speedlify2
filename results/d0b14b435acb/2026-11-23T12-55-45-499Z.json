@@ -1,0 +1,275 @@
+{
+  "url": "https://engaged.ca.gov/",
+  "name": "engaged.ca.gov",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795438545499,
+  "date": "2026-11-23T12:55:45.499Z",
+  "runId": "2026-11-23T12-50-33-423Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 29214,
+  "error": null,
+  "variance": {
+    "min": 89,
+    "max": 94,
+    "spread": 5,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://engaged.ca.gov/",
+    "finalUrl": "https://engaged.ca.gov/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1814,
+      "lcp": 1814,
+      "si": 1814,
+      "tbt": 266,
+      "tti": 6716,
+      "cls": 0.005,
+      "ttfb": 614,
+      "maxPotentialFid": 286,
+      "serverResponseTime": 12,
+      "networkRtt": 0.3,
+      "networkServerLatency": 39.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 14.1,
+      "elementRenderDelay": 104.5
+    },
+    "weight": {
+      "total": 1461237,
+      "requests": 40,
+      "mainDocument": 9079,
+      "byType": {
+        "total": {
+          "bytes": 1461237,
+          "requests": 39
+        },
+        "image": {
+          "bytes": 673379,
+          "requests": 23
+        },
+        "script": {
+          "bytes": 523776,
+          "requests": 6
+        },
+        "font": {
+          "bytes": 186487,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 66731,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 9079,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1785,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 588656,
+          "requests": 7
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 4,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 588656,
+      "mainThreadMs": 169.5,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 489837,
+          "mainThreadMs": 169.2,
+          "byType": {
+            "script": 489837
+          },
+          "typedBytes": 489837
+        },
+        {
+          "entity": "Google Fonts",
+          "bytes": 98819,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "stylesheet": 1374,
+            "font": 97445
+          },
+          "typedBytes": 98819
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1330.1,
+      "byGroup": {
+        "scriptEvaluation": 601.3,
+        "other": 341,
+        "styleLayout": 166.6,
+        "scriptParseCompile": 132.1,
+        "paintCompositeRender": 49.8,
+        "parseHTML": 39.4
+      },
+      "bootupMs": 699,
+      "longTasks": 5,
+      "longestTaskMs": 286
+    },
+    "dom": {
+      "elements": 220,
+      "depth": 11,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 248678,
+      "unusedCssBytes": 54613,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 1830,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 27,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2470,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T12:56:05.402Z",
+      "runtimeMs": 8553.1
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "amazons3",
+      "name": "Amazon S3",
+      "icon": "Amazon",
+      "source": "server"
+    },
+    "headers": {
+      "server": "AmazonS3",
+      "via": "1.1 f235ff5e05e22774012a9cfbb6b38c40.cloudfront.net (CloudFront)",
+      "x-amz-cf-id": "FeS1Z26lNdLXn8Nb0biGhvG9uxlSnhsgKKrjAx6XQhRLtZ6gaCm9SQ=="
+    },
+    "violations": 0,
+    "passes": 456,
+    "incomplete": 7,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "55093605e11c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1845",
+          "etag": "W/\"e646ba359a304a834b17754c764898d5\"",
+          "last-modified": "Wed, 18 Nov 2026 18:13:02 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "55093605e11c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1855",
+          "etag": "W/\"e646ba359a304a834b17754c764898d5\"",
+          "last-modified": "Wed, 18 Nov 2026 18:13:02 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "55093605e11c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1864",
+          "etag": "W/\"e646ba359a304a834b17754c764898d5\"",
+          "last-modified": "Wed, 18 Nov 2026 18:13:02 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      },
+      {
+        "hash": "55093605e11c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1871",
+          "etag": "W/\"e646ba359a304a834b17754c764898d5\"",
+          "last-modified": "Wed, 18 Nov 2026 18:13:02 GMT",
+          "x-cache": "Hit from cloudfront"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
