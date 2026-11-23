@@ -1,0 +1,22 @@
+{
+  "url": "https://timseverien.com/",
+  "name": "timseverien.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795403896866,
+  "date": "2026-11-23T03:18:16.866Z",
+  "runId": "2026-11-23T02-48-27-509Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 21290,
+  "error": "INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID",
+  "errors": [
+    "INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID",
+    "INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID",
+    "INSECURE_DOCUMENT_REQUEST: The URL you have provided does not have a valid security certificate. net::ERR_CERT_COMMON_NAME_INVALID"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 56
+}

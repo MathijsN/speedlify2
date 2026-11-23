@@ -1,0 +1,22 @@
+{
+  "url": "https://mont-fort.com/",
+  "name": "mont-fort.com",
+  "group": "astro-showcase",
+  "groupName": "Astro Showcase",
+  "timestamp": 1795403492993,
+  "date": "2026-11-23T03:11:32.993Z",
+  "runId": "2026-11-23T02-48-27-509Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 0,
+  "durationMs": 360012,
+  "error": "lighthouse timed out after 120000ms",
+  "errors": [
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms",
+    "lighthouse timed out after 120000ms"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 27
+}
