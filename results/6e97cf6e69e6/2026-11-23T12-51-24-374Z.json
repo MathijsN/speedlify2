@@ -1,0 +1,260 @@
+{
+  "url": "https://frontendweekly.tokyo/",
+  "name": "frontendweekly.tokyo",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795438284374,
+  "date": "2026-11-23T12:51:24.374Z",
+  "runId": "2026-11-23T12-50-43-274Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19006,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://frontendweekly.tokyo/",
+    "finalUrl": "https://frontendweekly.tokyo/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 815,
+      "lcp": 815,
+      "si": 815,
+      "tbt": 0,
+      "tti": 815,
+      "cls": 0,
+      "ttfb": 620,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 20,
+      "networkRtt": 0,
+      "networkServerLatency": 20.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 21.8,
+      "elementRenderDelay": 31.8
+    },
+    "weight": {
+      "total": 9740,
+      "requests": 2,
+      "mainDocument": 7672,
+      "byType": {
+        "document": {
+          "bytes": 7672,
+          "requests": 1
+        },
+        "total": {
+          "bytes": 7672,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 123.8,
+      "byGroup": {
+        "styleLayout": 55.2,
+        "other": 46.4,
+        "scriptEvaluation": 9.8,
+        "parseHTML": 6.8,
+        "paintCompositeRender": 4.5,
+        "scriptParseCompile": 1.1
+      },
+      "bootupMs": 5.6,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 131,
+      "depth": 9,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 24,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 7
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3518.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T12:51:37.331Z",
+      "runtimeMs": 5540.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": null,
+      "source": "meta",
+      "raw": "Eleventy"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M847CGB2JX1VZWP4DXGZ9B1N"
+    },
+    "violations": 0,
+    "passes": 222,
+    "incomplete": 46,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "1348ac6c6a68",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13894",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31522106",
+          "etag": "W/\"665a2f656ac4218dfbca996709dcc350-ssl\""
+        }
+      },
+      {
+        "hash": "1348ac6c6a68",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13900",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31522100",
+          "etag": "W/\"665a2f656ac4218dfbca996709dcc350-ssl\""
+        }
+      },
+      {
+        "hash": "1348ac6c6a68",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13906",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31522094",
+          "etag": "W/\"665a2f656ac4218dfbca996709dcc350-ssl\""
+        }
+      },
+      {
+        "hash": "1348ac6c6a68",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13906",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31522094",
+          "etag": "W/\"665a2f656ac4218dfbca996709dcc350-ssl\""
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

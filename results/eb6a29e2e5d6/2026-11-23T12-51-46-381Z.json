@@ -1,0 +1,311 @@
+{
+  "url": "https://gabriellew.ee/",
+  "name": "gabriellew.ee",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795438306381,
+  "date": "2026-11-23T12:51:46.381Z",
+  "runId": "2026-11-23T12-50-43-274Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 28436,
+  "error": null,
+  "variance": {
+    "min": 41,
+    "max": 41,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://gabriellew.ee/",
+    "finalUrl": "https://gabriellew.ee/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 41,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 51
+    },
+    "timings": {
+      "fcp": 921,
+      "lcp": 28702,
+      "si": 9985,
+      "tbt": 5,
+      "tti": 28827,
+      "cls": 1.187,
+      "ttfb": 621,
+      "maxPotentialFid": 58,
+      "serverResponseTime": 21,
+      "networkRtt": 0,
+      "networkServerLatency": 20.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 22.1,
+      "resourceLoadDelay": 160.5,
+      "resourceLoadDuration": 45.7,
+      "elementRenderDelay": 39.9
+    },
+    "weight": {
+      "total": 7127454,
+      "requests": 82,
+      "mainDocument": 10318,
+      "byType": {
+        "total": {
+          "bytes": 7082883,
+          "requests": 75
+        },
+        "image": {
+          "bytes": 6242554,
+          "requests": 49
+        },
+        "font": {
+          "bytes": 583131,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 108452,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 102766,
+          "requests": 17
+        },
+        "other": {
+          "bytes": 35662,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 10318,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 17,
+      "stylesheets": 3,
+      "fonts": 7
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 3188.6,
+      "byGroup": {
+        "styleLayout": 1984.5,
+        "other": 710.7,
+        "scriptEvaluation": 253.6,
+        "paintCompositeRender": 138.1,
+        "parseHTML": 62.1,
+        "garbageCollection": 20.2,
+        "scriptParseCompile": 19.4
+      },
+      "bootupMs": 244.9,
+      "longTasks": 3,
+      "longestTaskMs": 68
+    },
+    "dom": {
+      "elements": 1038,
+      "depth": 17,
+      "maxChildren": 30
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 95822,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 600,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 26,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 20,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 42
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3539.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T12:51:57.887Z",
+      "runtimeMs": 7946.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "3.1.6",
+      "source": "meta",
+      "raw": "Eleventy v3.1.6"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v3.1.6"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M847DK1X37ET6S5P4S9Z5BVV"
+    },
+    "violations": 11,
+    "passes": 921,
+    "incomplete": 3,
+    "violationRules": 2,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "summary-name",
+        "impact": "serious",
+        "nodes": 10,
+        "help": "Summary elements must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/summary-name?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "#\\32 025-11-30-otagi-nenbutsu-ji-info > summary",
+            "snippet": "<summary class=\"media-summary\" data-focus=\"\"><span class=\"media-view-hover\"><span class=\"button\"><span aria-label=\"Information about this photo\">View info</span> </span></span><span class=\"media-view…"
+          },
+          {
+            "selector": "#\\32 025-11-29-bamboo-info > summary",
+            "snippet": "<summary class=\"media-summary\" data-focus=\"\"><span class=\"media-view-hover\"><span class=\"button\"><span aria-label=\"Information about this photo\">View info</span> </span></span><span class=\"media-view…"
+          },
+          {
+            "selector": "#\\32 025-11-27-kurama-dera-info > summary",
+            "snippet": "<summary class=\"media-summary\" data-focus=\"\"><span class=\"media-view-hover\"><span class=\"button\"><span aria-label=\"Information about this photo\">View info</span> </span></span><span class=\"media-view…"
+          },
+          {
+            "selector": "#\\32 025-11-27-yasaka-info > summary",
+            "snippet": "<summary class=\"media-summary\" data-focus=\"\"><span class=\"media-view-hover\"><span class=\"button\"><span aria-label=\"Information about this photo\">View info</span> </span></span><span class=\"media-view…"
+          },
+          {
+            "selector": "#\\32 025-11-26-altars-info > summary",
+            "snippet": "<summary class=\"media-summary\" data-focus=\"\"><span class=\"media-view-hover\"><span class=\"button\"><span aria-label=\"Information about this photo\">View info</span> </span></span><span class=\"media-view…"
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".message > span:nth-child(1)",
+            "snippet": "<span>Scroll to skip animation</span>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "476ca1d2b798",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"a92a6177466327505f86e138a82e63a6-ssl\""
+        }
+      },
+      {
+        "hash": "476ca1d2b798",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "10",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535991",
+          "etag": "W/\"a92a6177466327505f86e138a82e63a6-ssl\""
+        }
+      },
+      {
+        "hash": "476ca1d2b798",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "19",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535982",
+          "etag": "W/\"a92a6177466327505f86e138a82e63a6-ssl\""
+        }
+      },
+      {
+        "hash": "476ca1d2b798",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535976",
+          "etag": "W/\"a92a6177466327505f86e138a82e63a6-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
