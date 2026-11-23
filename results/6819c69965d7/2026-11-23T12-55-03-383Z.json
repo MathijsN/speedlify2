@@ -1,0 +1,239 @@
+{
+  "url": "https://inclusivedesign24.org/2025",
+  "name": "inclusivedesign24.org",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795438503383,
+  "date": "2026-11-23T12:55:03.383Z",
+  "runId": "2026-11-23T12-50-28-579Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 19444,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://inclusivedesign24.org/2025",
+    "finalUrl": "https://inclusivedesign24.org/2025/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 780,
+      "lcp": 1204,
+      "si": 780,
+      "tbt": 0,
+      "tti": 1204,
+      "cls": 0.03,
+      "ttfb": 604,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 2,
+      "networkRtt": 0,
+      "networkServerLatency": 3.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 35,
+      "elementRenderDelay": 61.6
+    },
+    "weight": {
+      "total": 98360,
+      "requests": 20,
+      "mainDocument": 6237,
+      "byType": {
+        "total": {
+          "bytes": 95377,
+          "requests": 19
+        },
+        "font": {
+          "bytes": 62453,
+          "requests": 3
+        },
+        "image": {
+          "bytes": 20006,
+          "requests": 8
+        },
+        "document": {
+          "bytes": 6237,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 3653,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 2194,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 834,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 2,
+      "stylesheets": 2,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 193.3,
+      "byGroup": {
+        "other": 123.3,
+        "styleLayout": 40.2,
+        "scriptEvaluation": 12.2,
+        "parseHTML": 8.1,
+        "paintCompositeRender": 7.9,
+        "scriptParseCompile": 1.6
+      },
+      "bootupMs": 9.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 125,
+      "depth": 8,
+      "maxChildren": 13
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 23,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 753.5,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 7
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3538.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T12:55:10.801Z",
+      "runtimeMs": 5616.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M847K6CDSCH971QQE40C5HMA"
+    },
+    "violations": 0,
+    "passes": 289,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "b0fbe8651568",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11146",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31524854",
+          "etag": "W/\"9aa8203026a17165773f941e9f79f628-ssl\""
+        }
+      },
+      {
+        "hash": "b0fbe8651568",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11152",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31524848",
+          "etag": "W/\"9aa8203026a17165773f941e9f79f628-ssl\""
+        }
+      },
+      {
+        "hash": "b0fbe8651568",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11158",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31524842",
+          "etag": "W/\"9aa8203026a17165773f941e9f79f628-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
