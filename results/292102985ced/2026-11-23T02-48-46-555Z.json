@@ -1,0 +1,272 @@
+{
+  "url": "https://dxsrc.org/",
+  "name": "frontenddogma.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795402126555,
+  "date": "2026-11-23T02:48:46.555Z",
+  "runId": "2026-11-23T02-48-37-398Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 39789,
+  "error": null,
+  "variance": {
+    "min": 94,
+    "max": 95,
+    "spread": 1,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://dxsrc.org/",
+    "finalUrl": "https://dxsrc.org/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 85,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 2445,
+      "lcp": 2445,
+      "si": 2445,
+      "tbt": 0,
+      "tti": 2445,
+      "cls": 0,
+      "ttfb": 700,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 348,
+      "networkRtt": 174.4,
+      "networkServerLatency": 88
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 699.7,
+      "elementRenderDelay": 90.9
+    },
+    "weight": {
+      "total": 55515,
+      "requests": 7,
+      "mainDocument": 42681,
+      "byType": {
+        "total": {
+          "bytes": 49105,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 42681,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3511,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 2913,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 6424,
+          "requests": 5
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 6424,
+      "mainThreadMs": 0.3,
+      "top": [
+        {
+          "entity": "cloudfront.net",
+          "bytes": 6424,
+          "mainThreadMs": 0.3,
+          "byType": {
+            "image": 3511,
+            "stylesheet": 2913
+          },
+          "typedBytes": 6424
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 614.4,
+      "byGroup": {
+        "other": 292.3,
+        "styleLayout": 233,
+        "paintCompositeRender": 42,
+        "parseHTML": 29.8,
+        "scriptEvaluation": 11.4,
+        "garbageCollection": 4.7,
+        "scriptParseCompile": 1.2
+      },
+      "bootupMs": 11.5,
+      "longTasks": 2,
+      "longestTaskMs": 112
+    },
+    "dom": {
+      "elements": 6866,
+      "depth": 9,
+      "maxChildren": 1000
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 759,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 621.8047486033519,
+      "poorlyCachedCount": 5
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 18,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 10,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        },
+        {
+          "id": "link-text",
+          "title": "Links do not have descriptive text",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 17
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3564.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T02:49:00.158Z",
+      "runtimeMs": 10926.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "self-hosted",
+      "name": "Self-hosted",
+      "icon": null,
+      "detail": "Apache",
+      "detailIcon": "Apache",
+      "source": "server"
+    },
+    "headers": {
+      "server": "Apache"
+    },
+    "violations": 0,
+    "passes": 13733,
+    "incomplete": 48,
+    "violationRules": 0,
+    "version": "4.14.0",
+    "top": [],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "c659be460f6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"40ea2b5-3a244-660e3660eebc7-br\"",
+          "last-modified": "Sun, 22 Nov 2026 20:34:06 GMT"
+        }
+      },
+      {
+        "hash": "c659be460f6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"40ea2b5-3a244-660e3660eebc7-br\"",
+          "last-modified": "Sun, 22 Nov 2026 20:34:06 GMT"
+        }
+      },
+      {
+        "hash": "c659be460f6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"40ea2b5-3a244-660e3660eebc7-br\"",
+          "last-modified": "Sun, 22 Nov 2026 20:34:06 GMT"
+        }
+      },
+      {
+        "hash": "c659be460f6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"40ea2b5-3a244-660e3660eebc7-br\"",
+          "last-modified": "Sun, 22 Nov 2026 20:34:06 GMT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
