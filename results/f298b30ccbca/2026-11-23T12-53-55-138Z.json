@@ -1,0 +1,318 @@
+{
+  "url": "https://jfranciscosousa.com/",
+  "name": "jfranciscosousa.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795438435138,
+  "date": "2026-11-23T12:53:55.138Z",
+  "runId": "2026-11-23T12-50-27-427Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 18997,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jfranciscosousa.com/",
+    "finalUrl": "https://jfranciscosousa.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 796,
+      "lcp": 796,
+      "si": 796,
+      "tbt": 0,
+      "tti": 796,
+      "cls": 0,
+      "ttfb": 620,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 35,
+      "networkRtt": 0.1,
+      "networkServerLatency": 162
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 36.4,
+      "elementRenderDelay": 45.2
+    },
+    "weight": {
+      "total": 36254,
+      "requests": 8,
+      "mainDocument": 12345,
+      "byType": {
+        "total": {
+          "bytes": 36254,
+          "requests": 8
+        },
+        "script": {
+          "bytes": 21494,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 12345,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2415,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "image": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 15289,
+          "requests": 3
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 15289,
+      "mainThreadMs": 5.7,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 4.6,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4556,
+          "mainThreadMs": 1.1,
+          "byType": {
+            "script": 4556
+          },
+          "typedBytes": 4556
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 218,
+      "byGroup": {
+        "other": 116.5,
+        "scriptEvaluation": 40.6,
+        "styleLayout": 39.2,
+        "parseHTML": 9.8,
+        "paintCompositeRender": 9.8,
+        "scriptParseCompile": 2
+      },
+      "bootupMs": 16.7,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 91,
+      "depth": 10,
+      "maxChildren": 5
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 10452.941666666668,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 36
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4233,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T12:54:08.362Z",
+      "runtimeMs": 5572.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "astro",
+      "name": "Astro",
+      "icon": "Astro",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "astro"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "cf-ray": "a5f0522fc9030d81-LAX",
+      "server": "cloudflare",
+      "x-vercel-id": "sfo1::nqgkj-1795292022584-24146f15ca09"
+    },
+    "violations": 2,
+    "passes": 205,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "a[href$=\"remote.com\"]",
+            "snippet": "<a class=\"text-accent\" href=\"https://remote.com\" target=\"_blank\" rel=\"noopener external\">Remote</a>"
+          },
+          {
+            "selector": ".text-accent[href$=\"projects\"]",
+            "snippet": "<a class=\"text-accent\" href=\"/projects\">my work</a>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "93f40c4d66a2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cf-cache-status": "REVALIDATED",
+          "last-modified": "Sat, 21 Nov 2026 20:13:42 GMT",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "93f40c4d66a2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 21 Nov 2026 20:13:42 GMT",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "93f40c4d66a2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "11",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 21 Nov 2026 20:13:42 GMT",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "93f40c4d66a2",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cf-cache-status": "HIT",
+          "last-modified": "Sat, 21 Nov 2026 20:13:42 GMT",
+          "x-vercel-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

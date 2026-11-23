@@ -1,0 +1,338 @@
+{
+  "url": "https://jules.poulain.dev/",
+  "name": "jules.poulain.dev",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795438572766,
+  "date": "2026-11-23T12:56:12.766Z",
+  "runId": "2026-11-23T12-50-27-427Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 23036,
+  "error": null,
+  "variance": {
+    "min": 97,
+    "max": 99,
+    "spread": 2,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://jules.poulain.dev/",
+    "finalUrl": "https://jules.poulain.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 89,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 99
+    },
+    "timings": {
+      "fcp": 1551,
+      "lcp": 1551,
+      "si": 1551,
+      "tbt": 0,
+      "tti": 1551,
+      "cls": 0.065,
+      "ttfb": 614,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 19,
+      "networkRtt": 0,
+      "networkServerLatency": 37.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 20.6,
+      "elementRenderDelay": 135.5
+    },
+    "weight": {
+      "total": 599617,
+      "requests": 17,
+      "mainDocument": 4007,
+      "byType": {
+        "total": {
+          "bytes": 598820,
+          "requests": 16
+        },
+        "image": {
+          "bytes": 555451,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 35587,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 4007,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 3775,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 36401,
+          "requests": 2
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 36401,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 36401,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "stylesheet": 814,
+            "font": 35587
+          },
+          "typedBytes": 36401
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 155.5,
+      "byGroup": {
+        "other": 89.6,
+        "styleLayout": 38.9,
+        "paintCompositeRender": 12.4,
+        "scriptEvaluation": 8.1,
+        "parseHTML": 5.3,
+        "scriptParseCompile": 1.2
+      },
+      "bootupMs": 8.5,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 191,
+      "depth": 10,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 787,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 13,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "html-has-lang",
+          "title": "`<html>` element does not have a `[lang]` attribute",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 4
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4203,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T12:56:22.607Z",
+      "runtimeMs": 6484.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "eleventy",
+      "name": "Eleventy",
+      "icon": "Eleventy",
+      "version": "2.0.1",
+      "source": "meta",
+      "raw": "Eleventy v2.0.1"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy v2.0.1"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "bunny",
+      "name": "Bunny CDN",
+      "icon": null,
+      "source": "server"
+    },
+    "headers": {
+      "server": "BunnyCDN-LA1-999"
+    },
+    "violations": 10,
+    "passes": 331,
+    "incomplete": 0,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 8,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".avatar-dessin",
+            "snippet": "<img src=\"/img/avatar.jpg\" alt=\"avatar\" class=\"avatar avatar-dessin\">"
+          },
+          {
+            "selector": "h1",
+            "snippet": "<h1>Jules Poulain</h1>"
+          },
+          {
+            "selector": ".contact-info",
+            "snippet": "<p class=\"contact-info\"> <a class=\"hidden-email \" href=\"mailto:jules@poulain.dev\">jules@poulain.dev</a> </p>"
+          },
+          {
+            "selector": ".subtitle",
+            "snippet": "<p class=\"subtitle\"> Junior Tools Programmer </p>"
+          },
+          {
+            "selector": ".portefolio",
+            "snippet": "<p class=\"portefolio\"> Portefolio: <a href=\"https://poulain.dev/projects\">poulain.dev/projects</a> </p>"
+          }
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-one-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should have one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "3cb9ce1ee4d8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sun, 08 Feb 2026 14:35:26 GMT"
+        }
+      },
+      {
+        "hash": "3cb9ce1ee4d8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sun, 08 Feb 2026 14:35:26 GMT"
+        }
+      },
+      {
+        "hash": "3cb9ce1ee4d8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sun, 08 Feb 2026 14:35:26 GMT"
+        }
+      },
+      {
+        "hash": "3cb9ce1ee4d8",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "last-modified": "Sun, 08 Feb 2026 14:35:26 GMT"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}

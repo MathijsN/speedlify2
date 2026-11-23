@@ -1,0 +1,365 @@
+{
+  "url": "https://journal.thenewpolis.com/",
+  "name": "journal.thenewpolis.com",
+  "group": "11ty-community",
+  "groupName": "Built Awesome",
+  "timestamp": 1795438548963,
+  "date": "2026-11-23T12:55:48.963Z",
+  "runId": "2026-11-23T12-50-27-427Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 20804,
+  "error": null,
+  "variance": {
+    "min": 91,
+    "max": 94,
+    "spread": 3,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://journal.thenewpolis.com/",
+    "finalUrl": "https://journal.thenewpolis.com/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 95,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 939,
+      "lcp": 3039,
+      "si": 939,
+      "tbt": 0,
+      "tti": 3039,
+      "cls": 0.003,
+      "ttfb": 639,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 38,
+      "networkRtt": 0,
+      "networkServerLatency": 38.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 39.5,
+      "resourceLoadDelay": 61.7,
+      "resourceLoadDuration": 34.5,
+      "elementRenderDelay": 11.8
+    },
+    "weight": {
+      "total": 411866,
+      "requests": 21,
+      "mainDocument": 5377,
+      "byType": {
+        "total": {
+          "bytes": 411866,
+          "requests": 20
+        },
+        "image": {
+          "bytes": 137377,
+          "requests": 5
+        },
+        "other": {
+          "bytes": 83985,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 74264,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 72701,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 38162,
+          "requests": 3
+        },
+        "document": {
+          "bytes": 5377,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 84615,
+          "requests": 4
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 3,
+      "fonts": 3
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 84615,
+      "mainThreadMs": 4.7,
+      "top": [
+        {
+          "entity": "Google Fonts",
+          "bytes": 74264,
+          "mainThreadMs": 0,
+          "byType": {
+            "font": 74264
+          },
+          "typedBytes": 74264
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10351,
+          "mainThreadMs": 4.7,
+          "byType": {
+            "script": 10351
+          },
+          "typedBytes": 10351
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 305.4,
+      "byGroup": {
+        "other": 168.4,
+        "scriptEvaluation": 62.1,
+        "styleLayout": 46.8,
+        "parseHTML": 16.6,
+        "paintCompositeRender": 7.3,
+        "scriptParseCompile": 4.3
+      },
+      "bootupMs": 6.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 111,
+      "depth": 10,
+      "maxChildren": 11
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 25942,
+      "legacyJsBytes": 10356,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 3,
+      "poorlyCachedBytes": 4140.400000000001,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 27
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 4237,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T12:55:58.090Z",
+      "runtimeMs": 5758.9
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5f0550e7b492ad7-LAX",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M847MS8VAMRSCMS04JF8THYG"
+    },
+    "violations": 6,
+    "passes": 183,
+    "incomplete": 2,
+    "violationRules": 5,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".border-secondary > span",
+            "snippet": "<span style=\"font-size: 0.8rem;\">"
+          },
+          {
+            "selector": "small",
+            "snippet": "<small>"
+          }
+        ]
+      },
+      {
+        "id": "landmark-main-is-top-level",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Main landmark should not be contained in another landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-main-is-top-level?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".my-5",
+            "snippet": "<main class=\"container my-5\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-no-duplicate-main",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Document should not have more than one main landmark",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-main?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".h-entry",
+            "snippet": "<main class=\"h-entry\" data-pagefind-body=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "landmark-unique",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".h-entry",
+            "snippet": "<main class=\"h-entry\" data-pagefind-body=\"\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".h-card",
+            "snippet": "<p class=\"h-card visually-hidden mb-0\"> <a class=\"p-name u-url\" href=\"https://thewhitestonefoundation.org/\">Whitestone Publications</a> <span class=\"p-org\">The Whitestone Foundation</span> </p>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7123bb179fd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "7123bb179fd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "8",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "7123bb179fd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "13",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535987",
+          "cf-cache-status": "DYNAMIC"
+        }
+      },
+      {
+        "hash": "7123bb179fd3",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "14",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "cf-cache-status": "DYNAMIC"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
