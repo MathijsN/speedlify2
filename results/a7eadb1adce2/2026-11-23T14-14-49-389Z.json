@@ -1,0 +1,294 @@
+{
+  "url": "https://mathijsn.github.io/choices-choices-the-tech-stack",
+  "name": "Eleventy",
+  "group": "example",
+  "groupName": "Example",
+  "timestamp": 1795443289389,
+  "date": "2026-11-23T14:14:49.389Z",
+  "runId": "2026-11-23T14-14-03-675Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 36812,
+  "error": null,
+  "variance": {
+    "min": 93,
+    "max": 100,
+    "spread": 7,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://mathijsn.github.io/choices-choices-the-tech-stack",
+    "finalUrl": "https://mathijsn.github.io/choices-choices-the-tech-stack/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 807,
+      "lcp": 807,
+      "si": 807,
+      "tbt": 0,
+      "tti": 807,
+      "cls": 0.001,
+      "ttfb": 620,
+      "maxPotentialFid": 26,
+      "serverResponseTime": 31,
+      "networkRtt": 0,
+      "networkServerLatency": 20.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 52.7,
+      "resourceLoadDelay": 5.7,
+      "resourceLoadDuration": 18.6,
+      "elementRenderDelay": 31.9
+    },
+    "weight": {
+      "total": 15111,
+      "requests": 9,
+      "mainDocument": 1661,
+      "byType": {
+        "total": {
+          "bytes": 9756,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 3959,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 3600,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 1661,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 344,
+          "requests": 2
+        },
+        "other": {
+          "bytes": 192,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "script": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 9756,
+          "requests": 6
+        }
+      },
+      "scripts": 0,
+      "stylesheets": 1,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 227.9,
+      "byGroup": {
+        "styleLayout": 109.4,
+        "other": 76.5,
+        "scriptEvaluation": 25.3,
+        "paintCompositeRender": 8.9,
+        "scriptParseCompile": 4.1,
+        "parseHTML": 3.7
+      },
+      "bootupMs": 25.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 47,
+      "depth": 8,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 6929.083333333333,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 16,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 3
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 770.3,
+      "consoleErrors": 3,
+      "baselineLimitedFeatures": 13
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3080.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-23T14:14:58.076Z",
+      "runtimeMs": 5573.9
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 1162,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 607.5,
+    "elementRenderDelay": 75.5
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "6b3a30a56a64c2f533ba4fa797e2ab5652bbe105",
+      "x-github-request-id": "39C0:2F569E:7FD5861:80B8E77:6B044A5B",
+      "x-served-by": "cache-rtm-ehrd2290025-RTM"
+    },
+    "violations": 2,
+    "passes": 99,
+    "incomplete": 0,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "empty-heading",
+        "impact": "minor",
+        "nodes": 2,
+        "help": "Headings should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "li:nth-child(1) > article > h3",
+            "snippet": "<h3></h3>"
+          },
+          {
+            "selector": "li:nth-child(2) > article > h3",
+            "snippet": "<h3></h3>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "7e073e00fa6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6b0418dc-e15\"",
+          "last-modified": "Mon, 23 Nov 2026 10:43:40 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7e073e00fa6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "6",
+          "etag": "W/\"6b0418dc-e15\"",
+          "last-modified": "Mon, 23 Nov 2026 10:43:40 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7e073e00fa6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "12",
+          "etag": "W/\"6b0418dc-e15\"",
+          "last-modified": "Mon, 23 Nov 2026 10:43:40 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "7e073e00fa6c",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "18",
+          "etag": "W/\"6b0418dc-e15\"",
+          "last-modified": "Mon, 23 Nov 2026 10:43:40 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
