@@ -55,7 +55,7 @@ export default {
 			description: "Replace these with the sites you want to measure.",
 			sites: [
 				{ name: "Eleventy", url: "https://mathijsn.github.io/choices-choices-the-tech-stack/" },
-				{ name: "SvelteKit", url: "https://prologglaw.netlify.app/" },
+				{ name: "SvelteKit", url: "https://prologgpartialinsvelte.netlify.app/" },
 				{ name: "Next (React)", url: "https://prologginreact.netlify.app/" },
 			],
 		},
