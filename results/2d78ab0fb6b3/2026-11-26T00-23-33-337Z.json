@@ -1,0 +1,319 @@
+{
+  "url": "https://prologgpartialinsvelte.netlify.app/",
+  "name": "SvelteKit",
+  "group": "example",
+  "groupName": "Example",
+  "timestamp": 1795652613337,
+  "date": "2026-11-26T00:23:33.337Z",
+  "runId": "2026-11-26T00-23-23-167Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 44117,
+  "error": null,
+  "variance": {
+    "min": 76,
+    "max": 100,
+    "spread": 24,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://prologgpartialinsvelte.netlify.app/",
+    "finalUrl": "https://prologgpartialinsvelte.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 93,
+      "accessibility": 95,
+      "best-practices": 96,
+      "seo": 83,
+      "agentic-browsing": 35
+    },
+    "timings": {
+      "fcp": 783,
+      "lcp": 1208,
+      "si": 783,
+      "tbt": 0,
+      "tti": 1208,
+      "cls": 0.171,
+      "ttfb": 608,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 8,
+      "networkRtt": 0,
+      "networkServerLatency": 8.5
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 9.3,
+      "resourceLoadDelay": 8.3,
+      "resourceLoadDuration": 33.9,
+      "elementRenderDelay": 23.4
+    },
+    "weight": {
+      "total": 106113,
+      "requests": 22,
+      "mainDocument": 2127,
+      "byType": {
+        "total": {
+          "bytes": 90935,
+          "requests": 18
+        },
+        "script": {
+          "bytes": 80901,
+          "requests": 12
+        },
+        "image": {
+          "bytes": 3877,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 3847,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 2127,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 183,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 12,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 345.1,
+      "byGroup": {
+        "other": 154.1,
+        "scriptEvaluation": 111.5,
+        "styleLayout": 51.5,
+        "paintCompositeRender": 10.7,
+        "parseHTML": 9.9,
+        "scriptParseCompile": 7.3
+      },
+      "bootupMs": 55.1,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 50,
+      "depth": 9,
+      "maxChildren": 6
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 11113.608333333334,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "document-title",
+          "title": "Document doesn't have a `<title>` element",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "document-title",
+          "title": "Document doesn't have a `<title>` element",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2992,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T00:23:46.318Z",
+      "runtimeMs": 6219.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 596.8,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 1266.6,
+    "elementRenderDelay": 25.7
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "sveltekit",
+      "name": "SvelteKit",
+      "icon": "Svelte",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "sveltekit",
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8AKT6NQ85WRR13M1EPM0MKF"
+    },
+    "violations": 1,
+    "passes": 133,
+    "incomplete": 2,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "document-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Documents must have <title> element to aid in navigation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/document-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"en\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "5b85c38343b1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "1",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"92e1dc2ec9749030c416c99849e1d52b-ssl\""
+        }
+      },
+      {
+        "hash": "5b85c38343b1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "9",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535992",
+          "etag": "W/\"92e1dc2ec9749030c416c99849e1d52b-ssl\""
+        }
+      },
+      {
+        "hash": "5b85c38343b1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535986",
+          "etag": "W/\"92e1dc2ec9749030c416c99849e1d52b-ssl\""
+        }
+      },
+      {
+        "hash": "5b85c38343b1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "22",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535979",
+          "etag": "W/\"92e1dc2ec9749030c416c99849e1d52b-ssl\""
+        }
+      },
+      {
+        "hash": "5b85c38343b1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535963",
+          "etag": "W/\"92e1dc2ec9749030c416c99849e1d52b-ssl\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
