@@ -1,0 +1,323 @@
+{
+  "url": "https://prologginreact.netlify.app/",
+  "name": "Next (React)",
+  "group": "example",
+  "groupName": "Example",
+  "timestamp": 1795838110323,
+  "date": "2026-11-28T03:55:10.323Z",
+  "runId": "2026-11-28T03-55-09-279Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 46567,
+  "error": null,
+  "variance": {
+    "min": 88,
+    "max": 100,
+    "spread": 12,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://prologginreact.netlify.app/",
+    "finalUrl": "https://prologginreact.netlify.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96,
+      "best-practices": 96,
+      "seo": 82,
+      "agentic-browsing": 50
+    },
+    "timings": {
+      "fcp": 826,
+      "lcp": 953,
+      "si": 826,
+      "tbt": 65,
+      "tti": 1668,
+      "cls": 0.003,
+      "ttfb": 653,
+      "maxPotentialFid": 115,
+      "serverResponseTime": 29,
+      "networkRtt": 0,
+      "networkServerLatency": 53.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 31,
+      "resourceLoadDelay": 8.3,
+      "resourceLoadDuration": 29.1,
+      "elementRenderDelay": 53.2
+    },
+    "weight": {
+      "total": 154943,
+      "requests": 16,
+      "mainDocument": 3439,
+      "byType": {
+        "total": {
+          "bytes": 154943,
+          "requests": 13
+        },
+        "script": {
+          "bytes": 141077,
+          "requests": 6
+        },
+        "image": {
+          "bytes": 3888,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 3537,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 3439,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2622,
+          "requests": 1
+        },
+        "font": {
+          "bytes": 380,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 6,
+      "stylesheets": 2,
+      "fonts": 2
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 404,
+      "byGroup": {
+        "scriptEvaluation": 183.2,
+        "other": 114.2,
+        "styleLayout": 47.3,
+        "scriptParseCompile": 39.8,
+        "paintCompositeRender": 10.5,
+        "parseHTML": 9
+      },
+      "bootupMs": 179,
+      "longTasks": 1,
+      "longestTaskMs": 115
+    },
+    "dom": {
+      "elements": 62,
+      "depth": 8,
+      "maxChildren": 17
+    },
+    "waste": {
+      "unusedJsBytes": 54331,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 13299,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 11115.591666666667,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "document-title",
+          "title": "Document doesn't have a `<title>` element",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "document-title",
+          "title": "Document doesn't have a `<title>` element",
+          "weight": 1,
+          "nodes": 1
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 3062.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-28T03:55:30.511Z",
+      "runtimeMs": 6944.7
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 594.7,
+    "resourceLoadDelay": 0,
+    "resourceLoadDuration": 657.2,
+    "elementRenderDelay": 29
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "Nextdotjs",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "next",
+        "react"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "server": "Netlify",
+      "x-nf-request-id": "01M8G4Q69VNG9WHB0EPEDW1MYV"
+    },
+    "violations": 1,
+    "passes": 136,
+    "incomplete": 2,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "document-title",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Documents must have <title> element to aid in navigation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/document-title?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"nl\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "e896a7a5b990",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "398956",
+          "cache-status": "\"Netlify Durable\"; hit; ttl=31137043\n\"Next.js\"; hit\n\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "etag": "W/\"8zg9lbdkph8wp\"",
+          "x-nextjs-prerender": "1, 1"
+        }
+      },
+      {
+        "hash": "e896a7a5b990",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "398966",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31137034",
+          "etag": "W/\"8zg9lbdkph8wp\"",
+          "x-nextjs-prerender": "1, 1"
+        }
+      },
+      {
+        "hash": "e896a7a5b990",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "398974",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31137026",
+          "etag": "W/\"8zg9lbdkph8wp\"",
+          "x-nextjs-prerender": "1, 1"
+        }
+      },
+      {
+        "hash": "e896a7a5b990",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "398981",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31137019",
+          "etag": "W/\"8zg9lbdkph8wp\"",
+          "x-nextjs-prerender": "1, 1"
+        }
+      },
+      {
+        "hash": "e896a7a5b990",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31137001",
+          "etag": "W/\"8zg9lbdkph8wp\""
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
